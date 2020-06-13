@@ -17,8 +17,16 @@ None
 By the end of the course, you will be able to ...
 
 1. Write valid and semantic HTML
+  - Use Attributes 
+  - Use Semantic HTML
 1. Apply CSS styles to control the appearance of your web applications
+  - Use CSS Selectors
+  - Use Flex Box
+  - Use Grid
 1. Use JavaScript to create dynamic content and handle user interactions in your web applications
+  - Use Variables
+  - Use Functions 
+  - Use Event Listeners to handle user interaction
 
 ## Assignments/Projects 
 
