@@ -25,6 +25,13 @@ We construct our websites by first laying down the foundation (our HTML elements
 
 <!-- > -->
 
+### Why is this important?
+
+- Without a knowledge of how to properly use HTML, we can't build out our websites! If you want to build a custom website, or even do any customization on website builders like Squarespace or Wix, you need to know HTML
+- Knowing HTML is one thing, but using it properly is another. Knowing which elements to use for which scenario not only improves your website's structure, but also improves its SEO (Search Engine Optimization). By utilizing semantic HTML, you have a better chance of drawing users to your website by improving your appearance in search results!
+
+<!-- > -->
+
 ### How do we use it?
 
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
