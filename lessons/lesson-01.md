@@ -13,26 +13,15 @@
 
 <!-- > -->
 
-### What is HTML?
+### HTML and Homes
 
-The Language of the Web
+While HTML is just one piece of how websites are built, it is the _foundation_ upon which we build our websites. Without it, our websites would have no structure, or elements that we could style. Consider the following:
 
-HTML stands for "HyperText Markup Language", which refers to "hypertext" (i.e. links) in digital documents. The Web is, essentially, made up of lots of digital documents which link to each other.
+![html house](./images/html_house.gif)
 
-<!-- > -->
+<!-- v -->
 
-### A Short History
-
-In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed a system for researchers to share documents. 
-
-<!-- .element: class="fragment" -->
-
-The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents.
-
-<!-- .element: class="fragment" -->
-
-![asdf](images/hyperlinks.gif)
-<!-- .element: class="fragment" -->
+We construct our websites by first laying down the foundation (our HTML elements) and then providing it with aesthetics and style (CSS). You can't style a house before you have the foundation and outline of it, so let's get started on learning how to build out our HTML elements!
 
 <!-- > -->
 
