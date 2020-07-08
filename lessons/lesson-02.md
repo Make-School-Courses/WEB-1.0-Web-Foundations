@@ -23,8 +23,13 @@ The ability to generate well written and valid HTML is a requirement for any fro
 
 Code review is a process of reviewing code before it is released. This is an important step used on the job. 
 
-https://smartbear.com/learn/code-review/what-is-code-review/
-https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+### Activity: Read and Discuss
+
+Read the following article on [What Is Code Review](https://smartbear.com/learn/code-review/what-is-code-review/)
+
+With a partner, discuss the 4 code review approaches, and write out the pros/cons to each. Which one is your favorite, and why?
+
+**Further Discussion** read up on these [10 best practices for code reviews](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/), and discuss why you think these are best practices? Why should we follow these?
 
 ### Pair up and review
 
