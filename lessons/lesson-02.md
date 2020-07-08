@@ -42,7 +42,7 @@ As review you should look closely for semantic use of HTML elements. Especially 
 - semantic organization, and communication
     - h1-6, p, strong, em, etc.
 
-Add your review comments to GitHub with issues. 
+With a partner, define how you would use each of these above HTML elements. What other elements could you use, and how would you use them?
 
 ### Address issues
 
