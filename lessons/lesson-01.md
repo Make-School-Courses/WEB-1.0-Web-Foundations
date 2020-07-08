@@ -77,6 +77,32 @@ Bad:
 
 <!-- > -->
 
+### Combining Tags Activity
+
+Translate the following tag combinations from english into HTML. When you're done, check your answers with a partner:
+
+1. Within a `div`, put an `h2` with the text "Hello World" and a `p` that says "Nice To Meet You"
+1. Within a `p`, put an `abbr` with the text `ACE`, then within the rest of the `p`, put the text "is a hardware store"
+1. Within an `article`, put a `p` with the text "do not forget the " followed by a `mark` that says "flowers ", and ending with "tonight" before closing out the `p`
+
+<!--
+Question 1:
+<div>
+    <h2>Hello World</h2>
+    <p>Nice To Meet You</p>
+</div>
+
+Question 2:
+<p><abbr>ACE</abbr> is a hardware store</p>
+
+Question 3:
+<article>
+    <p>do not forget the <mark>flowers</mark> tonight </p>
+</article>
+ -->
+
+<!-- > -->
+
 ## Semantic HTML
 
 <!-- > -->
