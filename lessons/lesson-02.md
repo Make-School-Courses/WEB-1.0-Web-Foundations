@@ -62,7 +62,9 @@ Try it out! Use one of your own HTML files, or go copy/paste HTML from your favo
 
 ### What are attributes?
 
-Tags can be modified/enhanced using **attributes**.
+Tags can be modified/enhanced using **attributes**. We use attributes to specify different properties of elements. This can be related to style, content, shape, and more!
+
+Without attributes, we would be left with the default styles of all elements, and the websites you know and use today would be bland, and everything left-aligned!
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
 
@@ -86,6 +88,14 @@ Values are quoted even if they are numbers.
 The order doesn't matter.
 
 Many tags have attributes specific to them. 
+
+<!-- > -->
+
+## Activity: Attribute Practice
+
+As we go through the rest of this section, utilize the trinkets below to get some extra practice with adding attributes yourself!
+
+[https://trinket.io/html/81a953369e](https://trinket.io/html/81a953369e)
 
 <!-- > -->
 
@@ -237,7 +247,11 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 
 <!-- > -->
 
-Form elements should have a label. The label needs to be associated with the element. 
+## Forms
+
+**Form** elements are how we collect information from users! We collect that information through the `input` elemetns that we've been building so far. Think of a `form` as a container that we will put all of our `input` elements in, and the form will also signal where to send the form data. But we'll revisit that later.
+
+Each input within a form should have a label:
 
 `<label>Medium</label>`
 
