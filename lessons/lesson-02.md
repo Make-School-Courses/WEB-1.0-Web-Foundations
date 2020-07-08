@@ -44,23 +44,15 @@ As review you should look closely for semantic use of HTML elements. Especially 
 
 With a partner, define how you would use each of these above HTML elements. What other elements could you use, and how would you use them?
 
-### Address issues
-
-Take a look at the issues and adress them. Make the changes needed and close the issues. 
-
-Save and commit. 
-
 <!-- > -->
 
 ## Validation
 
-Besides using humans to review your work software systems cna also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
+Besides using humans to review your work software systems can also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
 
-Use the https://validator.w3.org to validate your work. 
+Use the https://validator.w3.org to validate your work. You can upload a file, or type in the code directly, and it will return a list of syntax errors/warnings that it finds.
 
-Solve any problems with validation. 
-
-Save and commit. 
+Try it out! Use one of your own HTML files, or go copy/paste HTML from your favorite website and see what it says!
 
 <!-- > -->
 
