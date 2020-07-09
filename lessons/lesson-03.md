@@ -152,14 +152,22 @@ This is a selector. This rule applies to all `<p>` tags in a document.
 
 Selectors come in many different types. Selectors are almost a language to themselves!
 
-```CSS
-header { ... }   /* tag selector    <header>  */
-.title { ... }   /* class selector  <h3 class="title">  */
-#content { ... } /* id selector     <ul id="content">  */
+| Selector Type |          Use Case                                 |          Example CSS Selector       |          Example HTML               |
+|:-------------:|:-------------------------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| tag           | Use to apply rule to _all_ elements with that _tag_ | `header { ... }`                    |    `<header>`  |
+| class         | Use to apply rule to _all_ elements with that _class name_ | `.title { ... }`                    |    `<h3 class="title">`  |
+| id            | Use to apply rule to _the one_ element with that _id_ | `#content { ... }`                    |    `<ul id="content">`  |
+| descendant    | Use to apply rule to all elements that are descendants of a specified element. Descendants _can_ nest | `#content p { ... }`     |    `<div class="content"><p>hello</p></div>` <br /> **Also valid:** <br /> `<div class="content"><section><p>Paragraph 3 in the div.</p></section></div>` |
+| child    | Use to apply rule to all elements that are _direct descendants (children)_ of a specified element. | `#content > p { ... }`     |    `<div class="content"><p>hello</p></div>` <br /> **NOT valid:** <br /> `<div class="content"><section><p>Paragraph 3 in the div.</p></section></div>` |
 
-#content a { ... }          /* descendant selector */
-header > p { ... }          /* child selector */
-ul li:nth-child(2n) { ... } /* complex selector */
+These are just a small handful of the various selector types out there.
+
+<!-- v -->
+
+**Research with a partner to figure out what this selector is doing. Utilize google, w3schools, and any other online resource:**
+
+```CSS
+ul li:nth-child(2n) { ... }
 ```
 
 <!-- > -->
