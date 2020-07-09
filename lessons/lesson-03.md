@@ -53,6 +53,8 @@ CSS is part of the sepration of concerns that make up web development.
 
 We have a separate language that is specialized for each purpose. 
 
+![html css js](./images/html_css_js.gif)
+
 <!-- > -->
 
 ### An Analogy
@@ -62,6 +64,8 @@ Here is an analogy.
 - **HTML** - The bones
 - **CSS** - The Skin 
 - **JavaScript** - The Muscles
+
+![human analogy](./images/human_analogy.png)
 
 <!-- > -->
 
