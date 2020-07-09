@@ -172,9 +172,26 @@ ul li:nth-child(2n) { ... }
 
 <!-- > -->
 
-#### DOM Tree
+## The DOM
 
-The DOM is a tree structure. It's important to understand this when talking about CSS selectors. Many of them work based on the tree. 
+When a website is loaded, your browser creates a **D**ocument **O**bject **M**odel **(DOM)** of the page.
+
+The DOM contains all of the objects on the page. You can try this out yourself!
+
+1. Go to any website in Chrome or Firefox
+1. Right click on the page
+1. Press the Inspect button
+
+Look at all that HTML!
+
+
+### DOM Tree
+
+You can think of the DOM as a tree of HTML objects:
+
+![html tree](./images/dom_tree.png)
+
+It's important to understand this when talking about CSS selectors. Many of them work based on the tree. 
 
 ```HTML
 <body>
