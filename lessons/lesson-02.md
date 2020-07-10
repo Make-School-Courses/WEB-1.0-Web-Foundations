@@ -4,7 +4,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(3 min)-->
 
 1. Describe Attributes 
 1. Use HTML tags and their attributes
@@ -19,7 +19,7 @@ The ability to generate well written and valid HTML is a requirement for any fro
 
 <!-- > -->
 
-## Code Review 
+## Code Review <!--(30 min)-->
 
 Code review is a process of reviewing code before it is released. This is an important step used on the job. 
 
@@ -46,7 +46,7 @@ With a partner, define how you would use each of these above HTML elements. What
 
 <!-- > -->
 
-## Validation
+## Validation <!--(10 min)-->
 
 Besides using humans to review your work software systems can also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
 
@@ -56,7 +56,7 @@ Try it out! Use one of your own HTML files, or go copy/paste HTML from your favo
 
 <!-- > -->
 
-## Attributes
+## Attributes <!--(10 min)-->
 
 <!-- > -->
 
@@ -91,7 +91,7 @@ Many tags have attributes specific to them.
 
 <!-- > -->
 
-## Activity: Attribute Practice
+## Activity: Attribute Practice <!--(15 min)-->
 
 As we go through the rest of this section, utilize the trinkets below to get some extra practice with adding attributes yourself!
 
@@ -99,7 +99,7 @@ As we go through the rest of this section, utilize the trinkets below to get som
 
 <!-- > -->
 
-## Images
+## Images <!--(5 min)-->
 
 <!-- > -->
 
@@ -125,7 +125,7 @@ The `<img>` has a few attributes:
 
 <!-- > -->
 
-## the input tag
+## the input tag <!--(10 min)-->
 
 <!-- > -->
 
@@ -247,7 +247,7 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 
 <!-- > -->
 
-## Forms
+## Forms <!--(10 min)-->
 
 **Form** elements are how we collect information from users! We collect that information through the `input` elemetns that we've been building so far. Think of a `form` as a container that we will put all of our `input` elements in, and the form will also signal where to send the form data. But we'll revisit that later.
 
@@ -404,7 +404,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 <!-- > -->
 
-## Anchors
+## Anchors <!--(5 min)-->
 
 <!-- > -->
 
@@ -431,7 +431,8 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 <!-- > -->
 
 <!-- .slide: data-background="#087CB8" -->
-### BREAK [10 min]
+
+## BREAK <!--[10 min]-->
 
 <!-- > -->
 

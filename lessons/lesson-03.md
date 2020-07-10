@@ -9,7 +9,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(5 min)-->
 
 1. Describe CSS it's use and syntax
 1. Use CSS styles to define the appearance of text on the screen
@@ -31,7 +31,7 @@ Take a look at the Android Phones & Tablets page.
 
 https://www.android.com/phones-tablets/
 
-Download the source code from our example here: https://github.com/soggybag/learn-markup-level-2
+**Download the source code from our example here:** [https://github.com/soggybag/learn-markup-level-2](https://github.com/soggybag/learn-markup-level-2)
 
 <!-- > -->
 
@@ -39,7 +39,7 @@ Open the example file: **challenge-01-solution.html** in your browser and your c
 
 <!-- > -->
 
-# CSS Intro
+## CSS Intro <!--(20 min)-->
 
 <!-- > -->
 
@@ -172,7 +172,7 @@ ul li:nth-child(2n) { ... }
 
 <!-- > -->
 
-## The DOM
+## The DOM <!--(5 min)-->
 
 When a website is loaded, your browser creates a **D**ocument **O**bject **M**odel **(DOM)** of the page.
 
@@ -210,19 +210,19 @@ It's important to understand this when talking about CSS selectors. Many of them
 
 <!-- > -->
 
-### Selector Practice
+## Selector Practice <!--(30 min)-->
 
 CSS Diner - https://flukeout.github.io
 
 <!-- > -->
 
-### Break
+## Break <!--(10 min)-->
 
 Take a 10 minute break
 
 <!-- > -->
 
-### Properties and Values
+## Properties and Values <!--(10 min)-->
 
 These are properties and values. 
 
@@ -284,7 +284,7 @@ p {
 
 <!-- > -->
 
-# Putting CSS into Practice
+## Putting CSS into Practice <!--(10 min)-->
 
 <!-- > -->
 
@@ -341,7 +341,7 @@ h1 {
 
 <!-- > -->
 
-### Activity
+## Activity <!--(30 min)-->
 
 Take a look at this:  https://www.android.com/phones-tablets/
 
@@ -378,10 +378,6 @@ h3 { font-size: 4.5em; }
 ```
 
 Changing the font size on the body will change the size of the fonts relatively on the other elements.
-
-<!-- > -->
-
-
 
 <!-- > -->
 

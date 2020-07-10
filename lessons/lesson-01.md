@@ -4,7 +4,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(2 min)-->
 
 - Describe semantic HTML
 - Use Semantic HTML
@@ -13,7 +13,7 @@
 
 <!-- > -->
 
-### HTML and Homes
+## HTML and Homes <!--(5 min)-->
 
 While HTML is just one piece of how websites are built, it is the _foundation_ upon which we build our websites. Without it, our websites would have no structure, or elements that we could style. Consider the following:
 
@@ -32,7 +32,7 @@ We construct our websites by first laying down the foundation (our HTML elements
 
 <!-- > -->
 
-### How do we use it?
+## How do we use HTML? <!--(5 min)-->
 
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
 
@@ -77,7 +77,7 @@ Bad:
 
 <!-- > -->
 
-### Combining Tags Activity
+## Combining Tags Activity <!--(15 min)-->
 
 Translate the following tag combinations from english into HTML. When you're done, check your answers with a partner:
 
@@ -103,7 +103,7 @@ Question 3:
 
 <!-- > -->
 
-## Semantic HTML
+## Semantic HTML <!--(15 min)-->
 
 <!-- > -->
 
@@ -211,7 +211,7 @@ What tags would find useful for communication? Discuss...
 
 <!-- > -->
 
-### Activity
+## Activity <!--(20 min)-->
 
 Pair up and research tags. 
 
@@ -254,13 +254,13 @@ Choose **one tag from each category** to present to your classmates. Include an 
 
 <!-- > -->
 
-### BREAK 
+## BREAK <!--(10 min)-->
 
 Take a ten minute break and wrap a tag around everything you see. 
 
 <!-- > -->
 
-### Lab
+## Lab
 
 Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
 
@@ -318,7 +318,7 @@ Test your knowledge by explaining the concept to someone else.
 
 Some learning objects you will implement in code. 
 
-Others learnign objects are ideas that exist in the world at larger or are overaching ideas. 
+Others learning objects are ideas that exist in the world at larger or are overaching ideas. 
 
 <!-- > -->
 
