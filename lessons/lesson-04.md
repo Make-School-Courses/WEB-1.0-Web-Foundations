@@ -26,11 +26,107 @@ The box model is at the **foundation of understanding layout with CSS**. It also
 
 ## What is the Box Model? 
 
-<div>It's the formula used to determine the size of a box in the browser.</div>
+It's the formula used to determine the size of a box in the browser. But what goes into determining the size of the box?
 
-https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/
+[The CSS Box Model Explained by Living in a Boring Suburban Neighborhood](https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/)
 
-Read and Discuss
+**Read the above article and then answer the following questions:**
+
+1. What are the 5 important properties that allow you to size and distribute your HTML elements?
+1. What is the difference between padding and margin?
+1. How would you write the CSS for the red house with a blue lawn example towards the end of the article? Try writing it assuming it's for the `#red-house` ID
+1. How would you write the CSS for the yellow house with a green lawn example towards the end of the article? Try writing it assuming it's for the `#yellow-house` ID
+
+Answer the questions on your own, and then we will discuss as a group! 
+
+<!-- > -->
+
+### How is the box model calculated?
+
+- **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
+- **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+
+<!-- > -->
+
+```css
+div {
+    border: 4px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+```
+
+<!-- > -->
+
+<div style="background-color:#ccc; padding: 10px">
+  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: lightblue; text-align: left">Content</div>
+</div>
+
+<small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
+
+<!-- > -->
+
+### Inline vs block
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
+    <span>A span tag</span> <strong>A strong tag</strong> <em>an em tag</em>. Inline elements wrap when they reach the width of the available space.
+  </div>
+</div>
+
+**Inline tags line up left to right** like you would write text on a page. They wrap at the end of a line like these words. 
+
+Blocks contain inline elements. 
+
+<!-- > -->
+
+### Inline vs block
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
+  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">More content</div>
+</div>
+
+**Blocks** are boxes that normally **stack each below the previous**. 
+
+<!-- > -->
+
+**The background color fills a box to the border.**
+
+**Margins push the box away from its neighbors.**
+
+```CSS
+div {
+  padding:10px;
+  border:4px solid #000;
+  margin:10px;
+  background-color: red;
+}
+```
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
+</div>
+
+<!-- > -->
+
+### Borders
+
+<!-- > -->
+
+**A border only shows after you set both the width and the style: **
+
+```CSS 
+div {
+  border-width: 4px;
+  border-style: solid;
+}
+```
+<!-- > -->
+
+## Break
+
+Take a ten minute break. 
 
 <!-- > -->
 
@@ -75,91 +171,6 @@ Using the Android HTML mock up try these challenges:
 Take these ideas and apply them to your personal web page. 
 
 <!-- > -->
-
-### Break
-
-Take a ten minute break. 
-
-<!-- > -->
-
-### How is the box model calculated?
-
-margin + border + padding + width + padding + border + margin
-
-```css
-div {
-    border: 4px solid black;
-    margin: 20px;
-    padding: 10px;
-}
-```
-
-<!-- > -->
-
-<div style="background-color:#ccc; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: lightblue; text-align: left">Content</div>
-</div>
-
-<small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
-
-<!-- > -->
-
-Inline vs block
-
-<div style="background-color:yellow; padding: 10px">
-  <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
-    <span>A span tag</span> <strong>A strong tag</strong> <em>an em tag</em>. Inline elements wrap when they reach the width of the available space.
-  </div>
-</div>
-
-Inline tags line up left to right like you would write text on a page. They wrap at the end of a line like these words. 
-
-Blocks contain inline elements. 
-
-<!-- > -->
-
-Inline vs block
-
-<div style="background-color:yellow; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">More content</div>
-</div>
-
-Blocks are boxes that normally stack each below the previous. 
-
-<!-- > -->
-
-The background color fills a box to the border.
-
-Margin push the box away from its neighbors.
-
-```CSS
-div {
-  padding:10px;
-  border:4px solid #000;
-  margin:10px;
-  background-color: red;
-}
-```
-
-<div style="background-color:yellow; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
-</div>
-
-<!-- > -->
-
-## Borders
-
-<!-- > -->
-
-A border only shows after you set both the width and the style: 
-
-```CSS 
-div {
-  border-width: 4px;
-  border-style: solid;
-}
-```
 
 ## After Class 
 
