@@ -7,12 +7,12 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives
 
 1. Describe the Box Model
 1. Use the box model to create a box of any size
 1. Identify the properties that make up the box model
-1. Use Flex Box to arrange elements along an axis
+1. Use Flexbox to arrange elements along an axis
 
 <!-- > -->
 
@@ -24,7 +24,7 @@ The box model is at the **foundation of understanding layout with CSS**. It also
 
 <!-- > -->
 
-### What is the Box Model? 
+## What is the Box Model? 
 
 <div>It's the formula used to determine the size of a box in the browser.</div>
 
@@ -34,11 +34,11 @@ Read and Discuss
 
 <!-- > -->
 
-### Flex Box
+## Flexbox
 
-Flex Box is a group of CSS properties that arrange elements on an axis. 
+Flexbox is a group of CSS properties that arrange elements on an axis. 
 
-https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
+https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/
 
 Read and Discuss
 
@@ -46,14 +46,14 @@ Read and Discuss
 
 ## Lab
 
-Look at the Android Web page and Layout the elements with FlexBox and the box model.
+Look at the Android Web page and Layout the elements with Flexbox and the box model.
 
 **Challenges 1**
 
 Using the Android HTML mock up try these challenges:
 
 - Arrange the page title in the header on the left and the nav on the right.
-    - Strategy: You can use flex box on the parent. h1 and nav are both children of header but there are other header tags on the page you'll want to target only this header so give it a class name. Then give it `display: flex`. To move the h1 to the left and nav to the right use `justify-content: space-between`
+    - Strategy: You can use Flexbox on the parent. h1 and nav are both children of header but there are other header tags on the page you'll want to target only this header so give it a class name. Then give it `display: flex`. To move the h1 to the left and nav to the right use `justify-content: space-between`
 - Arrange the links in the nav in a row with flex. 
     - Strategy: All of the links are in li tags and the li tags have a common parent: ul. This ul is inside of a nav you can select it with: `nav > ul`. Now use flex: `display: flex`. The list still shows bullet points style these away: `list-style: none`. 
 - Arrange the images using Flex
@@ -170,4 +170,4 @@ Complete your personal web site.
 ### Resources 
 
 - https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/
-- https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
+- https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/
