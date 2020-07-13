@@ -34,14 +34,19 @@ It's the formula used to determine the size of a box in the browser. But what go
 
 1. What are the 5 important properties that allow you to size and distribute your HTML elements?
 1. What is the difference between padding and margin?
-1. How would you write the CSS for the red house with a blue lawn example towards the end of the article? Try writing it assuming it's for the `#red-house` ID
-1. How would you write the CSS for the yellow house with a green lawn example towards the end of the article? Try writing it assuming it's for the `#yellow-house` ID
+1. Label the different parts of the box model as it applies to the following image:
+![tea cups](./images/tea.jpeg)
 
 Answer the questions on your own, and then we will discuss as a group! 
 
+**Stretch Questions - answer if you want extra practice**
+
+1. How would you write the CSS for the red house with a blue lawn example towards the end of the article? Try writing it assuming it's for the `#red-house` ID
+1. How would you write the CSS for the yellow house with a green lawn example towards the end of the article? Try writing it assuming it's for the `#yellow-house` ID
+
 <!-- > -->
 
-### How is the box model calculated?
+## How is the box model calculated?
 
 - **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
 - **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
@@ -59,14 +64,14 @@ div {
 <!-- > -->
 
 <div style="background-color:#ccc; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: lightblue; text-align: left">Content</div>
+  <div style="width:auto;padding:10px;border:4px solid black;margin:20px;background-color: lightblue; text-align: left">Content</div>
 </div>
 
-<small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
+<small style="color: red">268px = left margin + left border + left padding + width + right padding + right border + right margin = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
 
 <!-- > -->
 
-### Inline vs block
+### Inline vs block - Inline
 
 <div style="background-color:yellow; padding: 10px">
   <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
@@ -74,13 +79,11 @@ div {
   </div>
 </div>
 
-**Inline tags line up left to right** like you would write text on a page. They wrap at the end of a line like these words. 
-
-Blocks contain inline elements. 
+**Inline tags line up left to right** like you would write text on a page. They wrap at the end of a line like these words. Inline elements do not start on a new line, and only takes up as much width as its content. If you try to set any width and height, it will have _no_ effect on the content.
 
 <!-- > -->
 
-### Inline vs block
+### Inline vs block - Block
 
 <div style="background-color:yellow; padding: 10px">
   <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
@@ -88,6 +91,8 @@ Blocks contain inline elements.
 </div>
 
 **Blocks** are boxes that normally **stack each below the previous**. 
+
+Blocks start on a _new_ line and takes up the full width available. Block elements will occupy the _entire width_ of its parent element.
 
 <!-- > -->
 
@@ -136,15 +141,28 @@ Flexbox is a group of CSS properties that arrange elements on an axis.
 
 https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/
 
-Read and Discuss
+**Read the above article and then answer the following questions:**
+
+1. What is the underlying principle of Flexbox?
+1. What are the differences between the main axis and the cross axis?
+
+Answer the questions on your own, and then we will discuss as a group! 
+
+<!-- > -->
+
+## Flexbox Game
+
+Let's get some practice with Flexbox by getting these frogs to land on their appropriate lilly pads!
+
+**Try to get through all 24 levels in the tutorial:** [Flexbox Froggy](https://flexboxfroggy.com/)
 
 <!-- > -->
 
 ## Lab
 
-Look at the Android Web page and Layout the elements with Flexbox and the box model.
+Look at the [Android Web page (Challenge 1)](https://github.com/soggybag/learn-markup-level-2) and Layout the elements with Flexbox and the box model.
 
-**Challenges 1**
+**Challenge 1**
 
 Using the Android HTML mock up try these challenges:
 
@@ -166,7 +184,7 @@ Using the Android HTML mock up try these challenges:
 - Add a hover to the links. This really important for interactions. 
     - Strategy: 
 
-**Challenges 2**
+**Challenge 2**
 
 Take these ideas and apply them to your personal web page. 
 
