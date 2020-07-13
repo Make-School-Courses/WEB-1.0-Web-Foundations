@@ -7,7 +7,7 @@
 
 <!-- > -->
 
-## Learning Objectives
+## Learning Objectives <!--2 min-->
 
 1. Describe the Box Model
 1. Use the box model to create a box of any size
@@ -24,7 +24,7 @@ The box model is at the **foundation of understanding layout with CSS**. It also
 
 <!-- > -->
 
-## What is the Box Model? 
+## What is the Box Model? <!--20 min-->
 
 It's the formula used to determine the size of a box in the browser. But what goes into determining the size of the box?
 
@@ -46,7 +46,7 @@ Answer the questions on your own, and then we will discuss as a group!
 
 <!-- > -->
 
-## How is the box model calculated?
+## How is the box model calculated? <!--10 min-->
 
 - **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
 - **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
@@ -71,7 +71,7 @@ div {
 
 <!-- > -->
 
-### Inline vs block - Inline
+## Inline vs block - Inline <!--5 min-->
 
 <div style="background-color:yellow; padding: 10px">
   <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
@@ -83,7 +83,7 @@ div {
 
 <!-- > -->
 
-### Inline vs block - Block
+## Inline vs block - Block <!--5 min-->
 
 <div style="background-color:yellow; padding: 10px">
   <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
@@ -115,7 +115,7 @@ div {
 
 <!-- > -->
 
-### Borders
+## Borders <!--2 min-->
 
 <!-- > -->
 
@@ -129,13 +129,13 @@ div {
 ```
 <!-- > -->
 
-## Break
+## Break <!--10 min-->
 
 Take a ten minute break. 
 
 <!-- > -->
 
-## Flexbox
+## Flexbox <!--20 min-->
 
 Flexbox is a group of CSS properties that arrange elements on an axis. 
 
@@ -150,7 +150,7 @@ Answer the questions on your own, and then we will discuss as a group!
 
 <!-- > -->
 
-## Flexbox Game
+## Flexbox Game <!--30-45 min-->
 
 Let's get some practice with Flexbox by getting these frogs to land on their appropriate lilly pads!
 
@@ -158,7 +158,7 @@ Let's get some practice with Flexbox by getting these frogs to land on their app
 
 <!-- > -->
 
-## Lab
+## Lab <!--remainder of class-->
 
 Look at the [Android Web page (Challenge 1)](https://github.com/soggybag/learn-markup-level-2) and Layout the elements with Flexbox and the box model.
 
