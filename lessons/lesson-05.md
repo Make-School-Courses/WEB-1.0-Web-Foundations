@@ -11,19 +11,7 @@ Here are a couple strategies you can use to create a grid.
 
 <!-- > -->
 
-## Designing on a Grid
-
-Grids are used to arrange content. Originally used with print publications like books, newspapers and magazines. Grids are even more important on the web. 
-
-A grid is a design tool. Use grids create well designed good looking pages that present infromation well. 
-
-**Grids used for design are not the same as CSS Grid or Flexbox. Grid used for design is how you choose to arrange elements on a page.**
-
-CSS tools are used to arrange elements on a page. Your goal is to use these tools to arrange your content ont he grid you imagine. 
-
-<!-- > -->
-
-## Learning Objectives/Competencies
+## Learning Objectives <!--5 min-->
 
 1. Identify columns and rows
 1. Identify Grids in the wild
@@ -34,7 +22,35 @@ CSS tools are used to arrange elements on a page. Your goal is to use these tool
 
 <!-- > -->
 
-### Study Grids
+### Why Is This Important?
+
+Grids are used to arrange content. Originally used with print publications like books, newspapers and magazines. Grids are even more important on the web. 
+
+A grid is a design tool. Use grids to create well-designed, good looking pages that present information well. They help us create designs that seamlessly transition between platforms, so that you get a pleasant experience whether you're on your laptop, phone, tablet, or other device!
+
+![grid example 1](./images/grids_1.png)
+
+Once you learn about grids, it becomes easy to see how the majority of apps can be broken down into a grid of some kind:
+
+![grid example 2](./images/grids_2.png)
+
+**Open up your favorite app or website and see if you can find the grid that makes it!**
+
+**Grids used for design are not the same as CSS Grid or Flexbox. Grids used for design are a concept, CSS Grid and Flexbox are tools that help you realize that concept.**
+
+CSS tools are used to arrange elements on a page. Your goal is to use these tools to arrange your content on the grid you imagine. 
+
+<!-- > -->
+
+## Warmup <!--10 min-->
+
+Review the previous class's material by filling out the **first page** of [this worksheet](https://docs.google.com/document/d/1Ll_iJZmOePJfs7egUKpgDlwF2Wh7r_gZ63wQf4Ul1Ck/edit).
+
+Make a copy of the worksheet, and then fill it out on your own. We will review as a class!
+
+<!-- > -->
+
+## Study Grids <!--15 min-->
 
 - Read this article and discuss it with a partner
   - https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521
@@ -47,7 +63,15 @@ CSS tools are used to arrange elements on a page. Your goal is to use these tool
 
 <!-- > -->
 
-### Mock up with Grid
+### Grids Worksheet
+
+Check your knowledge by filling out the **second page** of [this worksheet](https://docs.google.com/document/d/1Ll_iJZmOePJfs7egUKpgDlwF2Wh7r_gZ63wQf4Ul1Ck/edit).
+
+Make a copy of the worksheet, and then fill it out on your own. We will review as a class!
+
+<!-- > -->
+
+## Mock up with Grid <!--5 min-->
 
 Use Sketch, Adobbe XD, or other tool to Mock up your personal page. This time use a grid. 
 
@@ -58,7 +82,7 @@ Show the grid overlay in your design tool.
 
 <!-- > -->
 
-## Identify Grids in the wild
+## Identify Grids in the wild <!--15 min-->
 
 - Work with a group and identify grids in the sites below
   - Your job is to identify
@@ -93,7 +117,7 @@ Show the grid overlay in your design tool.
 
 <!-- > -->
 
-### Lab 
+## Lab <!--30 min-->
 
 Using your design tool (Sketch, XD etc.) redesign your personal site with grid. 
 
@@ -105,13 +129,13 @@ Using your design tool (Sketch, XD etc.) redesign your personal site with grid.
 
 <!-- > -->
 
-## Break
+## Break <!--10 min-->
 
 Take a 10 minute break.
 
 <!-- > -->
 
-## CSS Grid
+## CSS Grid <!--10 min-->
 
 CSS Grid is a tool set of CSS properties that arrange content on a grid. Similar to Flexbox. The two differ with Flex being a one dimensional layout where Grid is a two dimensional layout. 
 
@@ -202,7 +226,15 @@ Creates 6 300px tall rows.
 
 <!-- > -->
 
-## Wrap Up (5 min)
+## CSS Garden <!--rest of class-->
+
+Get practice with CSS Grids through [this beautiful garden tutorial](https://cssgridgarden.com/)!
+
+**Complete as much of the tutorial as you can now, and do the rest for homework!**
+
+<!-- > -->
+
+## Wrap Up <!--5 min-->
 
 - 
 
@@ -211,18 +243,3 @@ Creates 6 300px tall rows.
 ## Additional Resources
 
 1. [CSS Grid video playlist](https://www.youtube.com/watch?v=Cxegg6ysdwc&list=PLoN_ejT35AEhwu7PJLHhKKzY7C4tMVHtp) 
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-

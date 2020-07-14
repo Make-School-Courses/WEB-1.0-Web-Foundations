@@ -145,6 +145,8 @@ https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/
 
 1. What is the underlying principle of Flexbox?
 1. What are the differences between the main axis and the cross axis?
+1. What types of apps would benefit most from flexbox?
+1. What apps likely don’t need a flexbox
 
 Answer the questions on your own, and then we will discuss as a group! 
 
