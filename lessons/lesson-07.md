@@ -7,21 +7,22 @@
 
 <!-- > -->
 
-## JavaScript
+## Warmup <!--5 min-->
 
-You need to learn some JavaScript! This class will be an introduction to the JavaScript langauge and programming for the web browser. 
+What part of the website in [this video](https://drive.google.com/file/d/16z0okT3A1XZpxHP2b6iZYpc5e1eqZKc6/view?usp=sharing) is HTML, CSS, and JS?
+
+List out all the aspects you can find for each, and we'll review as a class.
+
+Check out these websites:
+
+1. [Allbirds - NYT](https://www.nytimes.com/paidpost/allbirds/the-view-from-above.html)
+1. [Green Chameleon](https://2018.craftedbygc.com/#enter)
+
+Do you think you could do all this with just HTML and CSS alone?
 
 <!-- > -->
 
-### Why JavaScript?
-
-JavaScript is probably the most important language in use today. JavaScript has a wide range of uses from web pages, to mobile applications, is embeded in hardware devices, and web servers. **You could build entire application ecosystems with only JavaScript.** 
-
-It's a good time to learn JavaScript.
-
-<!-- > -->
-
-## Objectives 
+## Learning Objectives <!--3 min-->
 
 - Use JavaScript
   - variables 
@@ -32,11 +33,19 @@ It's a good time to learn JavaScript.
 
 <!-- > -->
 
-## JavaScript
+### Why learn JavaScript?
+
+JavaScript is probably the most important language in use today, and is a key part of providing action to our HTML and CSS. We can only get so far with those two languages, and we need JavaScript to take us from static to dynamic.
+
+![birds](./images/birds.jpg)
+
+JavaScript has a wide range of uses from web pages, to mobile applications, is embeded in hardware devices, and web servers. **You could build entire application ecosystems with only JavaScript.** 
+
+It's a good time to learn JavaScript.
 
 <!-- > -->
 
-## Where do you write JavaScript?
+## Where do you write JavaScript? <!--5 min-->
 
 Written in a tag
 
@@ -72,7 +81,7 @@ function countToFive() {
 
 <!-- > -->
 
-## The JavaScript Language
+## The JavaScript Language <!--40 min-->
 
 - variables 
 - functions 
@@ -112,13 +121,17 @@ What's the difference?
 ```JS
 function calculate() {
   let t = 0
-  for (let i = 1; i < 10; i += 1>) {
+  for (let i = 1; i < 10; i += 1) {
     t += i * i
   }
   console.log(t) // some number 285
   console.log(i) // ReferenceError: i is not defined
 }
 ```
+
+Here we see that `i` only exists within the _scope of the for loop_, or in other words, only within the scope of that specific _block of code!_. Since `t` was instantiated at the same scope as the `console.log` line, we can log its value.
+
+**Question:** What would happen if we try to log `t` outside of the function definition?
 
 <!-- > -->
 
@@ -127,7 +140,7 @@ function calculate() {
 ```JS
 function calculate() {
   var t = 0
-  for (var i = 1; i < 10; i += 1>) {
+  for (var i = 1; i < 10; i += 1) {
     t += i * i
   }
   console.log(t) // 285
@@ -135,9 +148,46 @@ function calculate() {
 }
 ```
 
-<!-- > -->
+Here we see that we _can_ log `i` because it was instantiated with `var`, which allows _anything_ within the function's definition (the function's scope) to access it. It is no longer limited to the block of code!
 
-Best practice: 
+
+<!-- v -->
+
+### Try It Out
+
+What do you expect the `console.log()` statements to print for the below functions? Write down your guesses, then test it out using [js console](https://jsconsole.com/)
+
+```JS
+function print_name_and_junk1(name) {
+  var looopy = 0
+  for (let i = 1; i < 10; i += 1) {
+    loopy *= i + i
+  }
+  console.log(name)
+  console.log(looopy)
+  console.log(i)
+}
+print_name_and_junk1("Ian")
+
+function print_name_and_junk2(name) {
+  var looopy = 0
+  while (var i = 1; i < 10; i += 1) {
+    loopy *= i + i
+  }
+  console.log(name)
+  console.log(looopy)
+  console.log(i)
+}
+print_name_and_junk2("Dan")
+
+function print_name(name) {
+  console.log(name)
+}
+print_name("Dan")
+console.log(name)
+```
+
+**Best practice: **
 
 Use `const` when a value won't change and `let` when it will. Don't use `var`. 
 
@@ -161,6 +211,15 @@ Execute a function:
 ```js 
 const area = calculateArea(10, 3) // 30
 ```
+
+<!-- v -->
+
+### Try It Out
+
+Write the following functions and test that they work in [js console](https://jsconsole.com/):
+
+1. Write a function that takes a number `n` as input and returns the sum of the numbers 1 to `n`
+1. Modify the previous function such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for `n=17`
 
 <!-- > -->
 
@@ -190,7 +249,17 @@ for (let i = 0; i < 10; i += 1) {
 }
 ```
 
+<!-- v -->
+
+### Try It Out
+
+Write the following functions and test that they work in [js console](https://jsconsole.com/):
+
+1. Write a function that takes a number `n` as input and returns "it is even" if the number is even, and "it is odd" if the number is odd
+1. Write a function that given a number `n` and a string `word` as inputs, returns the `word` repeated `n` number of times
+
 <!-- > -->
+
 
 ### types 
 
@@ -280,7 +349,11 @@ console.log( inputName.value ) // shows the value if input
 
 <!-- > -->
 
-## Events and Listeners 
+## 10 min Break
+
+<!-- > -->
+
+## Events and Listeners <!--10 min-->
 
 Events are things that happen in the program. They are things like: 
 
@@ -296,7 +369,10 @@ Add a listener to "listen" for an event type and define a handler to handle the 
 ```JS
 <button id="submit-button">Submit</button>
 ...
+// Grab the button using JS
 const button = document.getElementById('submit-button')
+// Add a listener to it that will call the buttonHandler function
+// whenever someone clicks on the submit-button
 button.addEventListener('click', buttonHandler)
 function buttonHandler(event) {
   ...
@@ -305,7 +381,7 @@ function buttonHandler(event) {
 
 <!-- > -->
 
-element.addEventListener() takes two parameters: an event type and an event handler. 
+`element.addEventListener()` takes two parameters: an event type and an event handler. 
 
 An event type is a string. Some event types are: 
 
@@ -323,14 +399,15 @@ In JavaScript functions are also values you could rewrite the code above like th
 <button id="submit-button">Submit</button>
 ...
 const button = document.getElementById('submit-button')
+// function is written inside the addEventListener function:
 button.addEventListener('click', function(e) { ... })
 ```
 
-Here we would way the function is anonymous since it doesn't have a name. 
+Here we would say the function is _anonymous_ since it doesn't have a name. 
 
 <!-- > -->
 
-## Lab - Tip calculator
+## Lab - Tip calculator <!--rest of class-->
 
 Start working on Assignment [Assignment 7](../assignments/assignment-07.md)
 
