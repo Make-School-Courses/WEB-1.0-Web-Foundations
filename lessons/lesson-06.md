@@ -7,17 +7,25 @@
 
 <!-- > -->
 
-## Responsive Design 
-
-Responsive design is design that responds to it's environment. Web sites are often viewed on mobile devices. Giving your sites the ability to adapt to the environement is like giving them a super power. 
-
-<!-- > -->
-
-## Objectives 
+## Learning Objectives 
 
 - Identify the differences between mobile and desktop
 - Design for Mobile and Desktop
 - Use Media queries to adapt your layouts for mobile
+
+<!-- > -->
+
+### Why Is This Important?
+
+Responsive design is design that responds to it's environment. Giving your sites the ability to adapt to the environement is like giving them a super power!
+
+Consider the following:
+
+1. How often do you view websites on your phone?
+1. What if a website wasn’t mobile-friendly? Would they look at it? Would an employer/recruiter?
+
+
+**Making your website responsive is a requirement if you want to be taken seriously as an engineer.**
 
 <!-- > -->
 
@@ -43,7 +51,21 @@ What did you find?
 
 ## Screen Sizes
 
-The number of mobile screens is bewildering. 
+The number of mobile screens is bewildering! Through responsive design, we can readjust grid and fields to the appropriate browser size
+
+![resize gif](./images/responsive.gif)
+
+<!-- v -->
+
+Responsive design also adjusts to the **direction** of screen on phones and tablets
+
+![rotate gif](./images/responsive2.gif)
+
+<!-- v -->
+
+Responsive design also adjusts **flushly**, instead of an ‘adaptive’ design that jumps
+
+![response vs adaptive gif](./images/responsive3.gif)
 
 <!-- > -->
 
@@ -94,21 +116,25 @@ There are a couple ways to test your sites on mobile.
 
 The next step is to apply styles based on the screen size. 
 
-CSS works with a set of media queries. These allow you to target styles based the environment. 
+CSS works with a set of **media queries**. These allow you to target styles based the platform or screen size. 
 
-Take a look at what the documentation says: 
+### Video + Discussion
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+[Watch this video](https://www.youtube.com/watch?v=2KL-z9A56SQ) on media queries to see how to apply them to your projects.
 
-<!-- > -->
+After that, answer these questions on your own, and then discuss your answers with a partner:
 
-What did you see here? make a list. 
+1. What are the benefits to using media queries?
+1. What are some downfalls to using media queries? 
+1. Apple decides to go in a new direction and release a new line of phones next year with non-standard screen sizes. How does this affect your use of media queries?
+
+For more information, take a look at what [the documentation says](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 <!-- > -->
 
 ## Using Media Queries
 
-In a broad sense you can target CSS styles to media: print, screen, or speech. 
+In a broad sense you can target CSS styles to specific media: print, screen, or speech. 
 
 Use one of two methods: 
 
