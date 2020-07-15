@@ -163,7 +163,7 @@ In a stylesheet target rules at media:
 
 <!-- > -->
 
-## Break points <!--20 min-->
+## Break points <!--40 min-->
 
 Targeting different media types like print or screen is easy and the difference is obvious. When targeting phones, tablets, and other computers the differences are harder to identify. 
 
