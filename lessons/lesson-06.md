@@ -7,7 +7,7 @@
 
 <!-- > -->
 
-## Learning Objectives 
+## Learning Objectives <!--3 min-->
 
 - Identify the differences between mobile and desktop
 - Design for Mobile and Desktop
@@ -29,7 +29,7 @@ Consider the following:
 
 <!-- > -->
 
-## What's the difference?
+## What's the difference? <!--5 min-->
 
 What are the differences between mobile and desktop? 
 
@@ -49,7 +49,7 @@ What did you find?
 
 <!-- > -->
 
-## Screen Sizes
+## Screen Sizes <!--5 min-->
 
 The number of mobile screens is bewildering! Through responsive design, we can readjust grid and fields to the appropriate browser size
 
@@ -69,7 +69,7 @@ Responsive design also adjusts **flushly**, instead of an ‘adaptive’ design 
 
 <!-- > -->
 
-## Viewport 
+## Viewport <!--5 min-->
 
 When making a mobile site you the developer can configure the viewport. 
 
@@ -100,7 +100,7 @@ Result: page renders to the size of the screen and it doesn't scale.
 
 <!-- > -->
 
-## Testing Mobile 
+## Testing Mobile <!--5 min-->
 
 There are a couple ways to test your sites on mobile. 
 
@@ -112,7 +112,7 @@ There are a couple ways to test your sites on mobile.
 
 <!-- > -->
 
-## Media Queries 
+## Media Queries <!--10 min-->
 
 The next step is to apply styles based on the screen size. 
 
@@ -159,7 +159,11 @@ In a stylesheet target rules at media:
 
 <!-- > -->
 
-## Break points 
+## 10 min Break
+
+<!-- > -->
+
+## Break points <!--20 min-->
 
 Targeting different media types like print or screen is easy and the difference is obvious. When targeting phones, tablets, and other computers the differences are harder to identify. 
 
@@ -292,21 +296,3 @@ After getting the layout figured out work yopur way through your document from t
 - https://30lines.com/website-design/responsible-responsive-design-an-overview/
 - https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 - https://flaviocopes.com/css-breakpoints/
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
-
-
-
