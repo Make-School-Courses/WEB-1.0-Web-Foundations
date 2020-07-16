@@ -7,21 +7,25 @@
 
 <!-- > -->
 
-## Learning Objectives
+## Learning Objectives <!--5 min-->
 
-- Creating design layout with flex box
+- Creating design layout with Flexbox
 - Using `parseInt()`, `parseFloat()`, and `isNaN()`
-- Describe NaN
+- Describe what `NaN` is
 
 <!-- > -->
 
-## Why learn this? 
+### Why learn this? 
 
-JavaScript is important events are an important part of programming front ent applications. 
+We're tying two big concepts we've learned so far together in this lesson: styling with Flexbox and utilizing JavaScript. We'll dive a bit deeper into how to deal with various input types using JavaScript, and also what `NaN` is, and how to properly deal with it!
+
+Why do this? We need to make sure our code is handling/expecting the right types, or else we will get errors and the data will get messy!
+
+**Question:** Why do we need to ensure variables are the same type?
 
 <!-- > -->
 
-## Solving problesm and the tip calculator
+## Solving problems and the tip calculator <!--3 min-->
 
 The tip calculator presents some programming problems. Think of this as a interview question. 
 
@@ -37,7 +41,7 @@ Assumptions: name and list the assumptions?
 
 <!-- > -->
 
-## Numbers, Strings, and NaN
+## Numbers, Strings, and NaN <!--40 min-->
 
 Any value from an `<input>` will be a string even if the value is a number, even if the type  of the input is number.
 
@@ -45,14 +49,14 @@ Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number.
 
 If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
-```JS 
+```javascript 
 const bill = parsFloat(inputBill.value)
 const people = parseInt(inputPeople.value)
 ```
 
 To test if a value is `NaN` use `isNaN(value)`.
 
-```JS
+```javascript
 const badNumber
 isNaN('123') // true - Not a number!
 isNaN(123)   // false - a Number!
@@ -62,11 +66,11 @@ isNaN(123)   // false - a Number!
 
 Let's put that all together into something useful: 
 
-```HTML
+```html
 <input id="input-bill">
 ```
 
-```JS 
+```javascript 
 const inputBill = document.getElementById('input-bill')
 
 let bill = 0
@@ -88,11 +92,46 @@ function handleBill(e) {
 
 ### Scope 
 
-It's important to understand that these variables have different scope. To be the best developer you can be you should always ask the question yourself what the scope is for any variable you happen to be looking at. 
+It's important to understand that these variables have different scope. As a reminder, Javascript has two scopes: **block** (only accessible within the code block it was declared in) and **function** (only accessible within the function it was declared)
 
-Read this article and 
+To be the best developer you can be you should always ask the question yourself what the scope is for any variable you happen to be looking at. 
 
-- https://javascript.info/closure
+Read [this article on scoping](https://dmitripavlutin.com/javascript-scope/) and answer the following question with a partner:
+
+In your own words, describe the following scopes, and how they all differ:
+
+- block scope
+- function scope
+- module scope
+- global scope
+- lexical scope
+
+
+<!-- v -->
+
+Recall the prior example code:
+
+```html
+<input id="input-bill">
+```
+
+```javascript 
+const inputBill = document.getElementById('input-bill')
+
+let bill = 0
+
+inputBill.addEventListener('input', handleBill)
+
+function handleBill(e) {
+  const newBill = parseFloat(e.target.value)
+
+  if (!isNaN(newBill)) {
+    bill = newBill
+  } else {
+    e.target.value = bill
+  }
+}
+```
 
 The sample code above uses the following variables: 
 
@@ -100,11 +139,11 @@ The sample code above uses the following variables:
 - bill 
 - newBill
 
-- Question: What is the scope of each variable in the list above? Discuss this with your group.
+- **Question:** What is the scope of each variable in the list above? Discuss this with your group.
 
 ### Calculating the total and tip
 
-```JS
+```javascript
 function calculateTip() {
   const tip = bill * tipPercent / 100
   const total = bill + tip
@@ -137,9 +176,13 @@ Why is the target useful? Allows for DRY code.
 
 <!-- > -->
 
-## Styling the Tip Calculator
+## 10 min Break
 
-Flex box is probably the best choice for making the tip calculator. 
+<!-- > -->
+
+## Styling the Tip Calculator <!--Rest of Class-->
+
+Flexbox is probably the best choice for making the tip calculator. 
 
 Using nested flex parent's allows different levels to be aligned in columns and rows creating a complex layout. 
 
@@ -228,107 +271,3 @@ In markup it might look like this:
   </div>
 </main>
 ```
-
-<!-- > --> 
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
-
-<!-- > -->
-
-## Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
-
-<!-- > -->
-
-## Initial Exercise (15 min)
-
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
-
-<!-- > -->
-
-# Topic 1
-
-<!-- v -->
-
-## Overview/TT I (20 min)
-
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
-
-<aside class="notes">
-Place more detailed information or speaker notes in "aside" elements - it will appear in GitHub Pages but not in the slides.
-</aside>
-
-<!-- v -->
-
-## In Class Activity I (30 min)
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-<!-- > -->
-
-<!-- .slide: data-background="#087CB8" -->
-## [**10m**] BREAK
-
-<!-- > -->
-
-# Topic 2
-
-<!-- v -->
-
-## Overview/TT II (optional) (20 min)
-
-<!-- v -->
-
-## In Class Activity II (optional) (30 min)
-
-<!-- > -->
-
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos
