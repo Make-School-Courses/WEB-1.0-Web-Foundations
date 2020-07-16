@@ -116,7 +116,7 @@ There are a couple ways to test your sites on mobile.
 
 The next step is to apply styles based on the screen size. 
 
-CSS works with a set of **media queries**. These allow you to target styles based the platform or screen size. 
+CSS works with a set of **media queries.** Media queries allow you to give specific styles based on the screen size of the device viewing the website.
 
 ### Video + Discussion
 

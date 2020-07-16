@@ -119,7 +119,7 @@ div {
 
 <!-- > -->
 
-**A border only shows after you set both the width and the style: **
+**A border only shows after you set both the width and the style:**
 
 ```CSS 
 div {

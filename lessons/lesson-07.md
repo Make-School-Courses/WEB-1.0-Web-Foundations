@@ -83,16 +83,20 @@ function countToFive() {
 
 ## The JavaScript Language <!--40 min-->
 
-- variables 
+There are many facets to the JavaScript (JS) language, many of which you have already seen in Python through CS 1.0! Just like Python, JS has a way to handle each of the following:
+
+- variables and scope
 - functions 
 - flow control 
 - objects 
 
+We'll go over each of these and see how to write them in JS!
+
 <!-- > -->
 
-### Variables
+### Variables + Scope
 
-Define a variable with:
+JS allows us to define a variable 3 different ways:
 
 - var 
 - const 
@@ -110,9 +114,11 @@ const pi = 3.14
 
 What's the difference? 
 
-- `var` is function scope
-- `let` is block scope
-- `const` is block scope and immutable
+- `var` is **function** scope: this variable can be referenced anywhere within the function that it is declared in.
+- `let` is **block** scope: this variable can only be referenced within the block of code that it is declared in.
+- `const` is block scope and **immutable**: same as `let`, except once it has been declared, the value cannot change.
+
+Let's look at some examples to get a better picture!
 
 <!-- > -->
 
@@ -187,7 +193,7 @@ print_name("Dan")
 console.log(name)
 ```
 
-**Best practice: **
+**Best practice:**
 
 Use `const` when a value won't change and `let` when it will. Don't use `var`. 
 
