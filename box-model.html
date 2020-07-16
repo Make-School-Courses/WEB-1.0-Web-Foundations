@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Box Model</title>
+		<style>
+
+			#box-zone {
+				border: 4px solid #999;
+				width: 600px;
+				height: 600px;
+			}
+			.box {
+				background-color: red;
+				width: 100px;
+				height: 100px;
+				border-style: solid;
+				border-width: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div id="box-zone">
+				<div class="box"></div>
+			</div>
+
+			<div>
+				<pre>
+.box {
+	background-color: <input id="backgroundColor" value="#f00">;
+	width: <input id="width" value="100">px;
+	height: <input id="height" value="100">px;
+	padding: <input id="padding" value="0">px;
+	margin: <input id="margin" value="0">px;
+	border-width: <input id="border" value="0">px;
+	border-style: <select id="borderStyle">
+		<option>solid</option>
+		<option>dotted</option>
+		<option>dashed</option>
+		<option>double</option>
+		<option>groove</option>
+		<option>ridge</option>
+		<option>inset</option>
+		<option>outset</option>
+		<option>none</option>
+		<option>hidden</option>
+	</select>;
+}
+				</pre>
+			</div>
+		</div>
+
+		<script>
+			const styleOutput = document.querySelector('#style-output')
+			const box = document.querySelector('.box')
+			document.querySelector('body').addEventListener('input', updateStyles)
+			// document.querySelector('body').addEventListener('change', updateStyles)
+
+			function updateStyles(e) {
+				
+				if (!e.target.matches('input') && !e.target.matches('select')) {
+					return
+				}
+
+				const value = e.target.value
+				console.log(value)
+
+				if (e.target.matches('#width')) {
+					box.style.width = `${value}px`
+				} else if (e.target.matches('#height')) {
+					box.style.height = `${value}px`
+				} else if (e.target.matches('#padding')) {
+					box.style.padding = `${value}px`
+				} else if (e.target.matches('#border')) {
+					box.style.borderWidth = `${value}px`
+				} else if (e.target.matches('#margin')) {
+					box.style.margin = `${value}px`
+				} else if (e.target.matches('#backgroundColor')) {
+					box.style.backgroundColor = value;
+				} else if (e.target.matches('#borderStyle')) {
+					box.style.borderStyle = value;
+				}
+			}
+		</script>
+
+	</body>
+</html>
