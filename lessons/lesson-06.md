@@ -7,13 +7,7 @@
 
 <!-- > -->
 
-## Responsive Design 
-
-Responsive design is design that responds to it's environment. Web sites are often viewed on mobile devices. Giving your sites the ability to adapt to the environement is like giving them a super power. 
-
-<!-- > -->
-
-## Objectives 
+## Learning Objectives <!--3 min-->
 
 - Identify the differences between mobile and desktop
 - Design for Mobile and Desktop
@@ -21,7 +15,21 @@ Responsive design is design that responds to it's environment. Web sites are oft
 
 <!-- > -->
 
-## What's the difference?
+### Why Is This Important?
+
+Responsive design is design that responds to it's environment. Giving your sites the ability to adapt to the environement is like giving them a super power!
+
+Consider the following:
+
+1. How often do you view websites on your phone?
+1. What if a website wasn’t mobile-friendly? Would they look at it? Would an employer/recruiter?
+
+
+**Making your website responsive is a requirement if you want to be taken seriously as an engineer.**
+
+<!-- > -->
+
+## What's the difference? <!--5 min-->
 
 What are the differences between mobile and desktop? 
 
@@ -41,13 +49,27 @@ What did you find?
 
 <!-- > -->
 
-## Screen Sizes
+## Screen Sizes <!--5 min-->
 
-The number of mobile screens is bewildering. 
+The number of mobile screens is bewildering! Through responsive design, we can readjust grid and fields to the appropriate browser size
+
+![resize gif](./images/responsive.gif)
+
+<!-- v -->
+
+Responsive design also adjusts to the **direction** of screen on phones and tablets
+
+![rotate gif](./images/responsive2.gif)
+
+<!-- v -->
+
+Responsive design also adjusts **flushly**, instead of an ‘adaptive’ design that jumps
+
+![response vs adaptive gif](./images/responsive3.gif)
 
 <!-- > -->
 
-## Viewport 
+## Viewport <!--5 min-->
 
 When making a mobile site you the developer can configure the viewport. 
 
@@ -78,7 +100,7 @@ Result: page renders to the size of the screen and it doesn't scale.
 
 <!-- > -->
 
-## Testing Mobile 
+## Testing Mobile <!--5 min-->
 
 There are a couple ways to test your sites on mobile. 
 
@@ -90,25 +112,29 @@ There are a couple ways to test your sites on mobile.
 
 <!-- > -->
 
-## Media Queries 
+## Media Queries <!--10 min-->
 
 The next step is to apply styles based on the screen size. 
 
-CSS works with a set of media queries. These allow you to target styles based the environment. 
+CSS works with a set of **media queries**. These allow you to target styles based the platform or screen size. 
 
-Take a look at what the documentation says: 
+### Video + Discussion
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+[Watch this video](https://www.youtube.com/watch?v=2KL-z9A56SQ) on media queries to see how to apply them to your projects.
 
-<!-- > -->
+After that, answer these questions on your own, and then discuss your answers with a partner:
 
-What did you see here? make a list. 
+1. What are the benefits to using media queries?
+1. What are some downfalls to using media queries? 
+1. Apple decides to go in a new direction and release a new line of phones next year with non-standard screen sizes. How does this affect your use of media queries?
+
+For more information, take a look at what [the documentation says](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 <!-- > -->
 
 ## Using Media Queries
 
-In a broad sense you can target CSS styles to media: print, screen, or speech. 
+In a broad sense you can target CSS styles to specific media: print, screen, or speech. 
 
 Use one of two methods: 
 
@@ -133,7 +159,11 @@ In a stylesheet target rules at media:
 
 <!-- > -->
 
-## Break points 
+## 10 min Break
+
+<!-- > -->
+
+## Break points <!--40 min-->
 
 Targeting different media types like print or screen is easy and the difference is obvious. When targeting phones, tablets, and other computers the differences are harder to identify. 
 
@@ -266,21 +296,3 @@ After getting the layout figured out work yopur way through your document from t
 - https://30lines.com/website-design/responsible-responsive-design-an-overview/
 - https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 - https://flaviocopes.com/css-breakpoints/
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
-
-
-

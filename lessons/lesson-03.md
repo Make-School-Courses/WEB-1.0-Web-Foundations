@@ -9,7 +9,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(5 min)-->
 
 1. Describe CSS it's use and syntax
 1. Use CSS styles to define the appearance of text on the screen
@@ -31,7 +31,7 @@ Take a look at the Android Phones & Tablets page.
 
 https://www.android.com/phones-tablets/
 
-Download the source code from our example here: https://github.com/soggybag/learn-markup-level-2
+**Download the source code from our example here:** [https://github.com/soggybag/learn-markup-level-2](https://github.com/soggybag/learn-markup-level-2)
 
 <!-- > -->
 
@@ -39,7 +39,7 @@ Open the example file: **challenge-01-solution.html** in your browser and your c
 
 <!-- > -->
 
-# CSS Intro
+## CSS Intro <!--(20 min)-->
 
 <!-- > -->
 
@@ -53,6 +53,8 @@ CSS is part of the sepration of concerns that make up web development.
 
 We have a separate language that is specialized for each purpose. 
 
+![html css js](./images/html_css_js.gif)
+
 <!-- > -->
 
 ### An Analogy
@@ -62,6 +64,8 @@ Here is an analogy.
 - **HTML** - The bones
 - **CSS** - The Skin 
 - **JavaScript** - The Muscles
+
+![human analogy](./images/human_analogy.png)
 
 <!-- > -->
 
@@ -148,21 +152,46 @@ This is a selector. This rule applies to all `<p>` tags in a document.
 
 Selectors come in many different types. Selectors are almost a language to themselves!
 
-```CSS
-header { ... }   /* tag selector    <header>  */
-.title { ... }   /* class selector  <h3 class="title">  */
-#content { ... } /* id selector     <ul id="content">  */
+| Selector Type |          Use Case                                 |          Example CSS Selector       |          Example HTML               |
+|:-------------:|:-------------------------------------------------:|:-----------------------------------:|:-----------------------------------:|
+| tag           | Use to apply rule to _all_ elements with that _tag_ | `header { ... }`                    |    `<header>`  |
+| class         | Use to apply rule to _all_ elements with that _class name_ | `.title { ... }`                    |    `<h3 class="title">`  |
+| id            | Use to apply rule to _the one_ element with that _id_ | `#content { ... }`                    |    `<ul id="content">`  |
+| descendant    | Use to apply rule to all elements that are descendants of a specified element. Descendants _can_ nest | `#content p { ... }`     |    `<div class="content"><p>hello</p></div>` <br /> **Also valid:** <br /> `<div class="content"><section><p>Paragraph 3 in the div.</p></section></div>` |
+| child    | Use to apply rule to all elements that are _direct descendants (children)_ of a specified element. | `#content > p { ... }`     |    `<div class="content"><p>hello</p></div>` <br /> **NOT valid:** <br /> `<div class="content"><section><p>Paragraph 3 in the div.</p></section></div>` |
 
-#content a { ... }          /* descendant selector */
-header > p { ... }          /* child selector */
-ul li:nth-child(2n) { ... } /* complex selector */
+These are just a small handful of the various selector types out there.
+
+<!-- v -->
+
+**Research with a partner to figure out what this selector is doing. Utilize google, w3schools, and any other online resource:**
+
+```CSS
+ul li:nth-child(2n) { ... }
 ```
 
 <!-- > -->
 
-#### DOM Tree
+## The DOM <!--(5 min)-->
 
-The DOM is a tree structure. It's important to understand this when talking about CSS selectors. Many of them work based on the tree. 
+When a website is loaded, your browser creates a **D**ocument **O**bject **M**odel **(DOM)** of the page.
+
+The DOM contains all of the objects on the page. You can try this out yourself!
+
+1. Go to any website in Chrome or Firefox
+1. Right click on the page
+1. Press the Inspect button
+
+Look at all that HTML!
+
+
+### DOM Tree
+
+You can think of the DOM as a tree of HTML objects:
+
+![html tree](./images/dom_tree.png)
+
+It's important to understand this when talking about CSS selectors. Many of them work based on the tree. 
 
 ```HTML
 <body>
@@ -181,19 +210,19 @@ The DOM is a tree structure. It's important to understand this when talking abou
 
 <!-- > -->
 
-### Selector Practice
+## Selector Practice <!--(30 min)-->
 
 CSS Diner - https://flukeout.github.io
 
 <!-- > -->
 
-### Break
+## Break <!--(10 min)-->
 
 Take a 10 minute break
 
 <!-- > -->
 
-### Properties and Values
+## Properties and Values <!--(10 min)-->
 
 These are properties and values. 
 
@@ -255,7 +284,7 @@ p {
 
 <!-- > -->
 
-# Putting CSS into Practice
+## Putting CSS into Practice <!--(10 min)-->
 
 <!-- > -->
 
@@ -312,7 +341,7 @@ h1 {
 
 <!-- > -->
 
-### Activity
+## Activity <!--(30 min)-->
 
 Take a look at this:  https://www.android.com/phones-tablets/
 
@@ -349,10 +378,6 @@ h3 { font-size: 4.5em; }
 ```
 
 Changing the font size on the body will change the size of the fonts relatively on the other elements.
-
-<!-- > -->
-
-
 
 <!-- > -->
 

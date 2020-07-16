@@ -4,7 +4,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(3 min)-->
 
 1. Describe Attributes 
 1. Use HTML tags and their attributes
@@ -19,12 +19,17 @@ The ability to generate well written and valid HTML is a requirement for any fro
 
 <!-- > -->
 
-## Code Review 
+## Code Review <!--(30 min)-->
 
 Code review is a process of reviewing code before it is released. This is an important step used on the job. 
 
-https://smartbear.com/learn/code-review/what-is-code-review/
-https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+### Activity: Read and Discuss
+
+Read the following article on [What Is Code Review](https://smartbear.com/learn/code-review/what-is-code-review/)
+
+With a partner, discuss the 4 code review approaches, and write out the pros/cons to each. Which one is your favorite, and why?
+
+**Further Discussion** read up on these [10 best practices for code reviews](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/), and discuss why you think these are best practices? Why should we follow these?
 
 ### Pair up and review
 
@@ -37,35 +42,29 @@ As review you should look closely for semantic use of HTML elements. Especially 
 - semantic organization, and communication
     - h1-6, p, strong, em, etc.
 
-Add your review comments to GitHub with issues. 
-
-### Address issues
-
-Take a look at the issues and adress them. Make the changes needed and close the issues. 
-
-Save and commit. 
+With a partner, define how you would use each of these above HTML elements. What other elements could you use, and how would you use them?
 
 <!-- > -->
 
-## Validation
+## Validation <!--(10 min)-->
 
-Besides using humans to review your work software systems cna also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
+Besides using humans to review your work software systems can also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
 
-Use the https://validator.w3.org to validate your work. 
+Use the https://validator.w3.org to validate your work. You can upload a file, or type in the code directly, and it will return a list of syntax errors/warnings that it finds.
 
-Solve any problems with validation. 
-
-Save and commit. 
+Try it out! Use one of your own HTML files, or go copy/paste HTML from your favorite website and see what it says!
 
 <!-- > -->
 
-## Attributes
+## Attributes <!--(10 min)-->
 
 <!-- > -->
 
 ### What are attributes?
 
-Tags can be modified/enhanced using **attributes**.
+Tags can be modified/enhanced using **attributes**. We use attributes to specify different properties of elements. This can be related to style, content, shape, and more!
+
+Without attributes, we would be left with the default styles of all elements, and the websites you know and use today would be bland, and everything left-aligned!
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
 
@@ -92,7 +91,15 @@ Many tags have attributes specific to them.
 
 <!-- > -->
 
-## Images
+## Activity: Attribute Practice <!--(15 min)-->
+
+As we go through the rest of this section, utilize the trinkets below to get some extra practice with adding attributes yourself!
+
+[https://trinket.io/html/81a953369e](https://trinket.io/html/81a953369e)
+
+<!-- > -->
+
+## Images <!--(5 min)-->
 
 <!-- > -->
 
@@ -118,7 +125,7 @@ The `<img>` has a few attributes:
 
 <!-- > -->
 
-## the input tag
+## the input tag <!--(10 min)-->
 
 <!-- > -->
 
@@ -240,7 +247,11 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 
 <!-- > -->
 
-Form elements should have a label. The label needs to be associated with the element. 
+## Forms <!--(10 min)-->
+
+**Form** elements are how we collect information from users! We collect that information through the `input` elemetns that we've been building so far. Think of a `form` as a container that we will put all of our `input` elements in, and the form will also signal where to send the form data. But we'll revisit that later.
+
+Each input within a form should have a label:
 
 `<label>Medium</label>`
 
@@ -393,7 +404,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 <!-- > -->
 
-## Anchors
+## Anchors <!--(5 min)-->
 
 <!-- > -->
 
@@ -420,7 +431,8 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 <!-- > -->
 
 <!-- .slide: data-background="#087CB8" -->
-### BREAK [10 min]
+
+## BREAK <!--[10 min]-->
 
 <!-- > -->
 

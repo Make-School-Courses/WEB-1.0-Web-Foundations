@@ -7,12 +7,12 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--2 min-->
 
 1. Describe the Box Model
 1. Use the box model to create a box of any size
 1. Identify the properties that make up the box model
-1. Use Flex Box to arrange elements along an axis
+1. Use Flexbox to arrange elements along an axis
 
 <!-- > -->
 
@@ -24,67 +24,34 @@ The box model is at the **foundation of understanding layout with CSS**. It also
 
 <!-- > -->
 
-### What is the Box Model? 
+## What is the Box Model? <!--20 min-->
 
-<div>It's the formula used to determine the size of a box in the browser.</div>
+It's the formula used to determine the size of a box in the browser. But what goes into determining the size of the box?
 
-https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/
+[The CSS Box Model Explained by Living in a Boring Suburban Neighborhood](https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/)
 
-Read and Discuss
+**Read the above article and then answer the following questions:**
 
-<!-- > -->
+1. What are the 5 important properties that allow you to size and distribute your HTML elements?
+1. What is the difference between padding and margin?
+1. Label the different parts of the box model as it applies to the following image:
+![tea cups](./images/tea.jpeg)
 
-### Flex Box
+Answer the questions on your own, and then we will discuss as a group! 
 
-Flex Box is a group of CSS properties that arrange elements on an axis. 
+**Stretch Questions - answer if you want extra practice**
 
-https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
-
-Read and Discuss
-
-<!-- > -->
-
-## Lab
-
-Look at the Android Web page and Layout the elements with FlexBox and the box model.
-
-**Challenges 1**
-
-Using the Android HTML mock up try these challenges:
-
-- Arrange the page title in the header on the left and the nav on the right.
-    - Strategy: You can use flex box on the parent. h1 and nav are both children of header but there are other header tags on the page you'll want to target only this header so give it a class name. Then give it `display: flex`. To move the h1 to the left and nav to the right use `justify-content: space-between`
-- Arrange the links in the nav in a row with flex. 
-    - Strategy: All of the links are in li tags and the li tags have a common parent: ul. This ul is inside of a nav you can select it with: `nav > ul`. Now use flex: `display: flex`. The list still shows bullet points style these away: `list-style: none`. 
-- Arrange the images using Flex
-    - Strategy: The images that appear in each section are arranged in li tags in a ul. You can arrange the li tags with flex setting `display: flex` **on their parent**. Then style away the bullets. Try these properties to see how they affect the images: 
-        - `justify-content: center`
-        - `justify-content: space-around`
-        - `justify-content: space-between`
-        - `justify-content: space-evenly`
-- Use the box model (margin, and padding) to add space around the links. 
-    - Strategy: The links are too close and would be easier to click if their clickable area was larger. Target the `a` inside the `li` in a `nav`, select these with: `nav > li > a`. That's pretty specific! Use these styles: 
-        - `display: block`
-        - `text-decoration: none`
-        - `padding: 1em`
-- Add a hover to the links. This really important for interactions. 
-    - Strategy: 
-
-**Challenges 2**
-
-Take these ideas and apply them to your personal web page. 
+1. How would you write the CSS for the red house with a blue lawn example towards the end of the article? Try writing it assuming it's for the `#red-house` ID
+1. How would you write the CSS for the yellow house with a green lawn example towards the end of the article? Try writing it assuming it's for the `#yellow-house` ID
 
 <!-- > -->
 
-### Break
+## How is the box model calculated? <!--10 min-->
 
-Take a ten minute break. 
+- **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
+- **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
 
 <!-- > -->
-
-### How is the box model calculated?
-
-margin + border + padding + width + padding + border + margin
 
 ```css
 div {
@@ -97,14 +64,14 @@ div {
 <!-- > -->
 
 <div style="background-color:#ccc; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: lightblue; text-align: left">Content</div>
+  <div style="width:auto;padding:10px;border:4px solid black;margin:20px;background-color: lightblue; text-align: left">Content</div>
 </div>
 
-<small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
+<small style="color: red">268px = left margin + left border + left padding + width + right padding + right border + right margin = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
 
 <!-- > -->
 
-Inline vs block
+## Inline vs block - Inline <!--5 min-->
 
 <div style="background-color:yellow; padding: 10px">
   <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
@@ -112,26 +79,26 @@ Inline vs block
   </div>
 </div>
 
-Inline tags line up left to right like you would write text on a page. They wrap at the end of a line like these words. 
-
-Blocks contain inline elements. 
+**Inline tags line up left to right** like you would write text on a page. They wrap at the end of a line like these words. Inline elements do not start on a new line, and only takes up as much width as its content. If you try to set any width and height, it will have _no_ effect on the content.
 
 <!-- > -->
 
-Inline vs block
+## Inline vs block - Block <!--5 min-->
 
 <div style="background-color:yellow; padding: 10px">
   <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Some content</div>
   <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">More content</div>
 </div>
 
-Blocks are boxes that normally stack each below the previous. 
+**Blocks** are boxes that normally **stack each below the previous**. 
+
+Blocks start on a _new_ line and takes up the full width available. Block elements will occupy the _entire width_ of its parent element.
 
 <!-- > -->
 
-The background color fills a box to the border.
+**The background color fills a box to the border.**
 
-Margin push the box away from its neighbors.
+**Margins push the box away from its neighbors.**
 
 ```CSS
 div {
@@ -148,11 +115,11 @@ div {
 
 <!-- > -->
 
-## Borders
+## Borders <!--2 min-->
 
 <!-- > -->
 
-A border only shows after you set both the width and the style: 
+**A border only shows after you set both the width and the style: **
 
 ```CSS 
 div {
@@ -160,6 +127,70 @@ div {
   border-style: solid;
 }
 ```
+<!-- > -->
+
+## Break <!--10 min-->
+
+Take a ten minute break. 
+
+<!-- > -->
+
+## Flexbox <!--20 min-->
+
+Flexbox is a group of CSS properties that arrange elements on an axis. 
+
+https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/
+
+**Read the above article and then answer the following questions:**
+
+1. What is the underlying principle of Flexbox?
+1. What are the differences between the main axis and the cross axis?
+1. What types of apps would benefit most from flexbox?
+1. What apps likely don’t need a flexbox
+
+Answer the questions on your own, and then we will discuss as a group! 
+
+<!-- > -->
+
+## Flexbox Game <!--30-45 min-->
+
+Let's get some practice with Flexbox by getting these frogs to land on their appropriate lilly pads!
+
+**Try to get through all 24 levels in the tutorial:** [Flexbox Froggy](https://flexboxfroggy.com/)
+
+<!-- > -->
+
+## Lab <!--remainder of class-->
+
+Look at the [Android Web page (Challenge 1)](https://github.com/soggybag/learn-markup-level-2) and Layout the elements with Flexbox and the box model.
+
+**Challenge 1**
+
+Using the Android HTML mock up try these challenges:
+
+- Arrange the page title in the header on the left and the nav on the right.
+    - Strategy: You can use Flexbox on the parent. h1 and nav are both children of header but there are other header tags on the page you'll want to target only this header so give it a class name. Then give it `display: flex`. To move the h1 to the left and nav to the right use `justify-content: space-between`
+- Arrange the links in the nav in a row with flex. 
+    - Strategy: All of the links are in li tags and the li tags have a common parent: ul. This ul is inside of a nav you can select it with: `nav > ul`. Now use flex: `display: flex`. The list still shows bullet points style these away: `list-style: none`. 
+- Arrange the images using Flex
+    - Strategy: The images that appear in each section are arranged in li tags in a ul. You can arrange the li tags with flex setting `display: flex` **on their parent**. Then style away the bullets. Try these properties to see how they affect the images: 
+        - `justify-content: center`
+        - `justify-content: space-around`
+        - `justify-content: space-between`
+        - `justify-content: space-evenly`
+- Use the box model (margin, and padding) to add space around the links. 
+    - Strategy: The links are too close and would be easier to click if their clickable area was larger. Target the `a` inside the `li` in a `nav`, select these with: `nav > li > a`. That's pretty specific! Use these styles: 
+        - `display: block`
+        - `text-decoration: none`
+        - `padding: 1em`
+- Add a hover to the links. This really important for interactions. 
+    - Strategy: 
+
+**Challenge 2**
+
+Take these ideas and apply them to your personal web page. 
+
+<!-- > -->
 
 ## After Class 
 
@@ -170,4 +201,4 @@ Complete your personal web site.
 ### Resources 
 
 - https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1/
-- https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
+- https://www.freecodecamp.org/news/an-animated-guide-to-Flexbox-d280cf6afc35/

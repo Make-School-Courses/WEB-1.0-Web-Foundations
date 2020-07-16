@@ -4,7 +4,7 @@
 
 <!-- > -->
 
-### Learning Objectives
+## Learning Objectives <!--(2 min)-->
 
 - Describe semantic HTML
 - Use Semantic HTML
@@ -13,30 +13,26 @@
 
 <!-- > -->
 
-### What is HTML?
+## HTML and Homes <!--(5 min)-->
 
-The Language of the Web
+While HTML is just one piece of how websites are built, it is the _foundation_ upon which we build our websites. Without it, our websites would have no structure, or elements that we could style. Consider the following:
 
-HTML stands for "HyperText Markup Language", which refers to "hypertext" (i.e. links) in digital documents. The Web is, essentially, made up of lots of digital documents which link to each other.
+![html house](./images/html_house.gif)
 
-<!-- > -->
+<!-- v -->
 
-### A Short History
-
-In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed a system for researchers to share documents. 
-
-<!-- .element: class="fragment" -->
-
-The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents.
-
-<!-- .element: class="fragment" -->
-
-![asdf](images/hyperlinks.gif)
-<!-- .element: class="fragment" -->
+We construct our websites by first laying down the foundation (our HTML elements) and then providing it with aesthetics and style (CSS). You can't style a house before you have the foundation and outline of it, so let's get started on learning how to build out our HTML elements!
 
 <!-- > -->
 
-### How do we use it?
+### Why is this important?
+
+- Without a knowledge of how to properly use HTML, we can't build out our websites! If you want to build a custom website, or even do any customization on website builders like Squarespace or Wix, you need to know HTML
+- Knowing HTML is one thing, but using it properly is another. Knowing which elements to use for which scenario not only improves your website's structure, but also improves its SEO (Search Engine Optimization). By utilizing semantic HTML, you have a better chance of drawing users to your website by improving your appearance in search results!
+
+<!-- > -->
+
+## How do we use HTML? <!--(5 min)-->
 
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
 
@@ -81,7 +77,33 @@ Bad:
 
 <!-- > -->
 
-## Semantic HTML
+## Combining Tags Activity <!--(15 min)-->
+
+Translate the following tag combinations from english into HTML. When you're done, check your answers with a partner:
+
+1. Within a `div`, put an `h2` with the text "Hello World" and a `p` that says "Nice To Meet You"
+1. Within a `p`, put an `abbr` with the text `ACE`, then within the rest of the `p`, put the text "is a hardware store"
+1. Within an `article`, put a `p` with the text "do not forget the " followed by a `mark` that says "flowers ", and ending with "tonight" before closing out the `p`
+
+<!--
+Question 1:
+<div>
+    <h2>Hello World</h2>
+    <p>Nice To Meet You</p>
+</div>
+
+Question 2:
+<p><abbr>ACE</abbr> is a hardware store</p>
+
+Question 3:
+<article>
+    <p>do not forget the <mark>flowers</mark> tonight </p>
+</article>
+ -->
+
+<!-- > -->
+
+## Semantic HTML <!--(15 min)-->
 
 <!-- > -->
 
@@ -189,7 +211,7 @@ What tags would find useful for communication? Discuss...
 
 <!-- > -->
 
-### Activity
+## Activity <!--(20 min)-->
 
 Pair up and research tags. 
 
@@ -232,13 +254,13 @@ Choose **one tag from each category** to present to your classmates. Include an 
 
 <!-- > -->
 
-### BREAK 
+## BREAK <!--(10 min)-->
 
 Take a ten minute break and wrap a tag around everything you see. 
 
 <!-- > -->
 
-### Lab
+## Lab
 
 Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
 
@@ -296,7 +318,7 @@ Test your knowledge by explaining the concept to someone else.
 
 Some learning objects you will implement in code. 
 
-Others learnign objects are ideas that exist in the world at larger or are overaching ideas. 
+Others learning objects are ideas that exist in the world at larger or are overaching ideas. 
 
 <!-- > -->
 
