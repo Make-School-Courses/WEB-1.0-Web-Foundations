@@ -1,45 +1,43 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 9 
+# FEW 1.1 - Leson 9 - Network actions with JS
 
 <!-- > -->
 
-Your final project. Network actions with JS. 
-
-## Learning Objectives 
+## Learning Objectives <!--3 min-->
 
 - Use JS Promise to handle async actions
 - Load data over the network with JS
-- Describe how JavaScript works
 
 <!-- > -->
 
-## Why learn this?
+### Why learn this?
 
-Network and asynchronous operations are a big part of front end development. You must understand how this works. 
+Network and asynchronous operations are a big part of front end development in terms of how to send/recieve data in a timely manner that doesn't frustrate your users.
 
-**Questions about asynchronous actions are some of the most common questions at interviews.*
+**Questions about asynchronous actions are some of the most common questions at interviews.**
 
 <!-- > -->
 
-## How does JavaScript work?
+## How does JavaScript work? <!--15 min-->
 
 Read this:
 
-https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
+[https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f](https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f)
 
 Look for these topics in the article:
 
-- Single-threaded
-- Runtime
-- Web API
-- Heap and Stack
-- Callback queue and event loop
+Pair and discuss the following questions:
 
-Pair and discuss
+1. What is a single threaded language?
+1. How does JavaScript's runtime stack work?
+1. What does it mean for a Web API to be asynchronous?
+1. Describe the callback queue and event loop, and how they differ
+
+**We'll go over as a group, so make sure you have answers for all in case you're called upon!**
 
 <!-- > -->
 
-## Loading data over the internet
+## Loading data over the internet <!--5 min-->
 
 In JS the tool used to load data over the internet is `fetch()`. 
 
@@ -51,7 +49,7 @@ A `Promise` is an object used to asynchronous actions.
 
 <!-- > -->
 
-## What is synchronous?
+### What is synchronous?
 
 > adjective: **synchronous**
 > 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
@@ -59,7 +57,7 @@ A `Promise` is an object used to asynchronous actions.
 
 <!-- > -->
 
-## What is asynchronous? 
+### What is asynchronous? 
 
 > adjective: asynchronous
 > 1. (of two or more objects or events) not existing or happening at the same time.
@@ -90,7 +88,7 @@ Asynchronous Not together in time.
 
 <!-- > -->
 
-## Fetch and Promise
+## Fetch and Promise <!--10 min-->
 
 `fetch()`
 
@@ -221,15 +219,15 @@ Draw a picture of how this works in JavaScript. Include:
 
 <!-- > -->
 
-## Challenge - Giphy
+## Challenge - Tenor <!--15 min-->
 
-This challenge will be to remake the Giphy web site with JavaScript. Following the steps below will create a web page that loads images from the Giphy service. 
+This challenge will be to remake the Tenor web site with JavaScript. Following the steps below will create a web page that loads images from the Tenor service. 
 
 Create a new index.html file. You'll need a script tag at the bottom of the body. 
 
 <!-- > -->
 
-## Handle a submit event
+### Handle a submit event
 
 Create a form at the top of the body to hold a search form. It will have an input and submit button.
 
@@ -282,34 +280,38 @@ function submitSearch(e) {
 
 <!-- > -->
 
-## Fetching data from Giphy
-
-The Giphy service provides gif images. Make a developer account and get an API key.
-
-https://developers.giphy.com/dashboard/
+## 10 min break
 
 <!-- > -->
 
-Make a function that will perform the search, add your API key and search term to the Giphy URL. 
+## Fetching data from Tenor <!--20 min-->
+
+The Tenor service provides gif images. Make a free developer account and get an API key.
+
+[https://tenor.com/developer/dashboard](https://tenor.com/developer/dashboard)
+
+<!-- > -->
+
+Make a function that will perform the search, add your API key and search term to the Tenor URL. 
 
 ```js
 function fetchData(search = 'cats') {
   const api = 'yourApiKeyHere'
-  const path = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${search}`
+  const path = `https://api.tenor.com/v1/search?q=${search}&key=${api}`
 
 } 
 ```
 
 <!-- > -->
 
-The code above creates a path string that points to the Giphy endpoint and contains the API key and search term. 
+The code above creates a path string that points to the Tenor endpoint and contains the API key and search term. 
 
 Write an outline of the nextworking code: 
 
 ```js
 function fetchData(search = 'cats') {
   const api = 'yourApiKeyHere'
-  const path = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${search}`
+  const path = `https://api.tenor.com/v1/search?q=${search}&key=${api}`
 
   fetch(path).then().then().catch()
 } 
@@ -330,7 +332,7 @@ fetch(path)
 
 <!-- > -->
 
-Now add a callback to the second `then()`. You're calling this on the second promise returned from `res.json()`. This callback will call the `handleData()` function which you'll implement below. This callback receives JSON data from Giphy. You'll pass the JSON data as an argument to the callback
+Now add a callback to the second `then()`. You're calling this on the second promise returned from `res.json()`. This callback will call the `handleData()` function which you'll implement below. This callback receives JSON data from Tenoir. You'll pass the JSON data as an argument to the callback
 
 ```JS
 fetch(path)
@@ -352,13 +354,13 @@ fetch(path)
 
 <!-- > -->
 
-## Handling the JSON response
+### Handling the JSON response
 
-In this step, you'll use the data returned from Giphy to display images in the browser. 
+In this step, you'll use the data returned from Tenor to display images in the browser. 
 
 <!-- > -->
 
-Write the `handleData()` function. This function takes a parameter that is JSON data loaded from the Giphy server. As a first step log it to the console and test your work.
+Write the `handleData()` function. This function takes a parameter that is JSON data loaded from the Tenor server. As a first step log it to the console and test your work.
 
 ```JS 
 function handleData(json) {
@@ -371,22 +373,22 @@ function handleData(json) {
 Test your work, type something in the form and click Submit. Check the console. You should see something like: 
 
 ```js
-[Log] {data: Array, pagination: {total_count: 92072, count: 25, offset: 0}, meta: {status: 200, msg: "OK", response_id: "e5bd0ef977016da21e99cbeaf28038a2c42dbd84"}} (index.html, line 44)
+[Log] { next: 19 results: (20) weburl: https://tenor.com/search/cats-gifs }
 ```
 
 <!-- > -->
 
-## Displaying Gifs
+## Displaying Gifs <!--rest of class-->
 
-The Giphy service provides a JSON object with an array of Objects. Each of these objects describes a gif image at several different sizes and proportions. To display the images you'll need to complete these steps: 
+The Tenor service provides a JSON object with an array of Objects. Each of these objects describes a gif image at several different sizes and proportions. To display the images you'll need to complete these steps: 
 
 - find the data array
 - define an empty Html str
 - loop over the data array 
-  - get the image data
-  - get the src URL for the image 
-  - get the width of the image 
-  - get the height of the image
+  - get the gif data
+  - get the src URL for the gif 
+  - get the width of the gif 
+  - get the height of the gif
   - append an `<img>` tag to the HTML str
 - Append the HTML str to the DOM
 
@@ -399,7 +401,7 @@ Get the data array from JSON. This an array of objects that each have a lot of p
 ```JS
 function handleData(json) {
   // get the data array
-  const data = json.data
+  const data = json.results
 
 }
 ```
@@ -412,7 +414,7 @@ You'll use this to build some HTML that will be appended to the DOM and display 
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   // Define a string to hold some html
   let htmlStr = ''
 
@@ -427,7 +429,7 @@ Create a for loop that counts to the length of the data.
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   // Loop over the array
   for (let i = 0; i < data.length; i += 1) {
@@ -440,15 +442,15 @@ function handleData(json) {
 
 **Get Image data**
 
-The data array holds data images in many sizes and formats. You will get the object for: 'fixed_height_small'. 
+The data array holds gif data in many sizes and formats. You will get the object for: 'gif'. 
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   for (let i = 0; i < data.length; i += 1) {
     // get the url to an image - we'll use the fixed_width_small
-    const image = data[i].images.fixed_height_small
+    const gif = data[i].media[0].gif
 
   }
 
@@ -459,23 +461,27 @@ function handleData(json) {
 
 **Get the src, width, and height**
 
-The image object holds lots of information about the image. You need the url, width and height to make an `<img>` tag to display the image. 
+**You will do this portion on your own:** The image object holds lots of information about the image. You need the url, width and height to make an `<img>` tag to display the image. 
 
+Work with a partner on this. If you get stuck, use `console.log(data)` after you declar the `data` const to see what the JSON structure looks like. From there you can figure out how to get the properties you need!
+
+<!--solution below-->
+<!--
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   for (let i = 0; i < data.length; i += 1) {
-    const image = data[i].images.fixed_height_small
-    // Get the src, width, and height 
-    const src = image.url
-    const width = image.width
-    const height = image.height
+    const gif = data[i].media[0].gif
+    // get the source, width, and height
+    const src = gif.url
+    const width = gif.dims[0]
+    const height = gif.dims[1]
 
   }
 
 }
-```
+```-->
 
 <!-- > -->
 
@@ -485,13 +491,13 @@ Append an img tag to the htmlStr. This needs to be valid HTML to display the ima
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   for (let i = 0; i < data.length; i += 1) {
-    const image = data[i].images.fixed_height_small
-    const src = image.url
-    const width = image.width
-    const height = image.height
+    const gif = data[i].media[0].gif
+    const src = gif.url
+    const width = gif.dims[0]
+    const height = gif.dims[1]
     // add img tags to the htmlStr
     htmlStr += `<img src="${src}" width="${width}" height="${height}">`
 
@@ -508,15 +514,14 @@ Looking through the images you've built a string of HTML. You can now display th
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   for (let i = 0; i < data.length; i += 1) {
-    const image = data[i].images.fixed_height_small
-    const src = image.url
-    const width = image.width
-    const height = image.height
+    const gif = data[i].media[0].gif
+    const src = gif.url
+    const width = gif.dims[0]
+    const height = gif.dims[1]
     htmlStr += `<img src="${src}" width="${width}" height="${height}">`
-
   }
 
 }
@@ -552,13 +557,13 @@ Make sure this step is after the loop.
 
 ```JS
 function handleData(json) {
-  const data = json.data
+  const data = json.results
   let htmlStr = ''
   for (let i = 0; i < data.length; i += 1) {
-    const image = data[i].images.fixed_height_small
-    const src = image.url
-    const width = image.width
-    const height = image.height
+    const gif = data[i].media[0].gif
+    const src = gif.url
+    const width = gif.dims[0]
+    const height = gif.dims[1]
     htmlStr += `<img src="${src}" width="${width}" height="${height}">`
   }
 
@@ -572,13 +577,6 @@ function handleData(json) {
 ## Stretch Challenges 
 
 Try these stretch challenges: 
-
-Displaying Data: 
-
-- Display more data along with the images. 
-  - Every image has a title property you can display this below the image. Be sure to look at the JSON object and figure out where this is on the object to get this property. 
-- There are several different image sizes and aspects of each image. Try out some of the different sizes. There are 23 different images you could display! 
-
 
 CSS Styles 
 
@@ -596,18 +594,3 @@ CSS Styles
 ## After Class 
 
 [Assignment 6](../assignments/assignment-06.md)
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time** | **Activity** |
-| ----------- | --------- | ------------------------- |
-| 0:00 | 0:05 | Objectives |
-| 0:05 | 0:15 | Overview |
-| 0:20 | 0:30 | In Class Activity I |
-| 0:50 | 0:10 | BREAK |
-| 1:00 | 0:45 | In Class Activity II |
-| 1:45 | 0:05 | Wrap up review objectives |
-| TOTAL | 1:50 | - |
-
