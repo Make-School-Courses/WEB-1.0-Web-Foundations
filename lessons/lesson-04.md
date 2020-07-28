@@ -46,7 +46,7 @@ Answer the questions on your own, and then we will discuss as a group!
 
 <!-- > -->
 
-## How is the box model calculated? <!--10 min-->
+## How is the box model calculated? <!--15 min-->
 
 - **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
 - **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
@@ -68,6 +68,35 @@ div {
 </div>
 
 <small style="color: red">268px = left margin + left border + left padding + width + right padding + right border + right margin = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
+
+<!-- > -->
+
+### Box Model Activity
+
+The best way to learn more about the box model is to practice with it!
+
+**Download [this HTML file](https://github.com/Make-School-Courses/WEB-1.0/blob/master/box-model.html), and open it in your browser**
+
+Take a few minutes to play around with it, and see how the box/content changes depending on how you change the inputs. You can always edit the text/content of the box by editing the `#content` element in the HTML file.
+
+**Next, take 10 min and try to fill in the blanks to match the following pictures using the box model tool:**
+
+**Challenge 1**
+
+![margin challenge](./images/margin.png)
+
+**Challenge 2**
+
+![padding challenge](./images/padding.png)
+
+**Challenge 3**
+
+![margin challenge](./images/margin_padding_1.png)
+
+**Challenge 4**
+
+![padding challenge](./images/margin_padding_2.png)
+
 
 <!-- > -->
 
