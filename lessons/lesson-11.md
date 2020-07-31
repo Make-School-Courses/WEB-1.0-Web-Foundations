@@ -7,7 +7,7 @@
 
 <!-- > --> 
 
-## Learning Objectives 
+## Learning Objectives <!--2 min-->
 
 - Use JS libraries 
   - Use SmoothScroll
@@ -21,25 +21,39 @@
 
 <!-- > -->
 
-## Using JS Libraries 
+## Using JS Libraries <!--5 min-->
 
-- Always import them before your code
-- Always import at the bottom of the body tag
-- Your code goes last at the bottom of the body tag
+**QUICK POLL:**
+
+**Q:** In your JS files, where do you import libraries?
+
+1. Before any of your code
+1. In the middle of your code
+1. After all of your code
+
+<!--Import before any your code-->
+
+**Q:** In your HTML files, where do you import JS?
+
+1. At the top of the body tag
+1. At the bottom of the body tag
+1. In the header
+
+<!--At the bottom of the body tag-->
 
 <!-- > -->
 
-## SmoothScroll
+## SmoothScroll <!--20 min-->
 
-Scrolling the content of the window is a feature built into the Web API. 
+Have you ever been on a website where when you navigated it was a sudden motion? Similar to how when you do header navigation on GitHub. This can feel off putting, and sudden to users. Using the `scrollIntoView` method, we can control how smoothly we scroll.
 
-https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+[Check out this example](https://codepen.io/askd/pen/jZZEeG) of using `scrollIntoView`. Click on the headers to see the smooth scrolling in action. If you remove the `{ behavior: 'smooth'}` line, then you can see how not smooth scrolling can be!
 
-Take a look at the docs and read the parameters. 
+For more info on how to use `scrollIntoView`, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView)! 
 
 <!-- > -->
 
-### Check compatibility with "Can I Use". 
+### Quick Aside: Check compatibility with "Can I Use". 
 
 https://caniuse.com
 
@@ -49,15 +63,15 @@ Note: Sounds like the 'smooth' option doesn't work in Safari!
 
 <!-- > -->
 
-### Polyfill
+### Quick Aside: Polyfill
 
-https://developer.mozilla.org/en-US/docs/Glossary/Polyfill
+[https://developer.mozilla.org/en-US/docs/Glossary/Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
 
 A pollyfill is a code that is used to add support for a feature that may not be supported in older browsers or for new features that haven't been implemented in all browsers. 
 
 Google: SmoothScroll Polyfill
 
-### Using SmoothScroll
+## Using SmoothScroll
 
 The code snippet below will hijack all anchor (`<a>` tags) preventing their default behavior. If the `href` in the anchor is an id it will scroll that element into view. 
 
@@ -72,7 +86,7 @@ The code above would scroll the element with the id contact into view: `<div id=
 The function looks for the class `external`. Any anchor that has the class name extrnal will act as normal: 
 
 ```html
-<a href="http://google.com">Search</a>
+<a class="external" href="http://google.com">Search</a>
 ```
 
 ```JS
@@ -107,19 +121,19 @@ body.addEventListener('click', function(e) {
 
 Look at the code snippet above. Notice it adds an event listener to the `<body>` tag. Really it wants to handle clicks on `<a>` tags. 
 
-This is the concept of event delegation. Events are passed to ancestor elements in a process called bubbling. Since the body is the root ancestor we can be sure that any event will bubble up and can be handled by the body. 
+This is the concept of **event delegation**. Events are passed to ancestor elements in a process called bubbling. Since the body is the root ancestor we can be sure that any event will bubble up and can be handled by the body. 
 
-Event adds efficiecny to your code because it allows you to use a single event handler for clicks on all elements in this example. 
+Events add efficiency to your code because it allows you to use a single event handler for clicks on all elements (in this example).
 
-## Waypoints 
+## Waypoints <!--15 min-->
 
 Waypoint.js is a library that creates events when an element is scrolled into view. 
 
-http://imakewebthings.com/waypoints/
+[http://imakewebthings.com/waypoints/](http://imakewebthings.com/waypoints/)
 
 Take a look at the guide:
 
-http://imakewebthings.com/waypoints/guides/getting-started/
+[http://imakewebthings.com/waypoints/guides/getting-started/](http://imakewebthings.com/waypoints/guides/getting-started/)
 
 A basic way point will execute a callback function when an element reaches the top of the page. 
 
@@ -129,15 +143,15 @@ To use Waypoints import the library:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 ```
 
-The link above loads Waypoints.js from a content delivery network or CDN. 
+The link above loads Waypoints.js from a **content delivery network or CDN.**
 
 ### CDN
 
-A content Delivery Network is a server that hosts files used by servers. The goal is host common files and make access fast and easy. 
+A Content Delivery Network is a server that hosts files used by servers. The goal is host common files and make access fast and easy. 
 
-Advantages: Browser cache files based on the domain/url. Multiple websites that make use of the same files from a CDN will show a performance imrpvement since they will share the files from the cache. 
+Advantages: Browser cache files based on the domain/url. Multiple websites that make use of the same files from a CDN will show a performance improvement since they will share the files from the cache. 
 
-https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+[https://www.cloudflare.com/learning/cdn/what-is-a-cdn/](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 
 ### Using Waypoints 
 
@@ -202,35 +216,44 @@ a.selected {
 }
 ```
 
-## Slide Show JS 
+<!-- > -->
+
+## 10 min Break
+
+<!-- > -->
+
+## Slide Show JS <!--30-40 min-->
 
 There are many JS slides, BootStrap includes one. here is one that I made that includes a tutorial on how to write the JS code yourself. 
 
-https://github.com/soggybag/js-tutorial-slide-show
+[https://github.com/soggybag/js-tutorial-slide-show](https://github.com/soggybag/js-tutorial-slide-show)
 
 You can follow the tutorial or just use the code. 
 
 
+<!-- > -->
+
+## Review Poll <!--10 min-->
+
+<!--https://docs.google.com/forms/d/1rFouIUeDfO8GeXWwWfZyNtMgFcF6YymMh5ASNQL4_40/edit-->
+
+Let's do a quick review of the concepts we learned today!
+
+[Library Review Poll](https://docs.google.com/forms/d/e/1FAIpQLSfZyT2cWckXBywlgfsb-l1aXOJoHOVyCPgecmm752XQqzsPPg/viewform?usp=sf_link)
 
 <!-- > -->
+
+<!--## Extra Challenge (if time permits)
+
+In groups of 3-4, review one of the libraries, and then create a short activity (tutorial, exercise, worksheet, etc.) to help your peers learn it! 
+
+- SmoothScroll
+- Waypoints
+- SlideShow-->
+
 
 ## After Class 
 
 Start the final project. See the assignment description for the final in the link below. 
 
 [Fianl Assignment](../assignments-08.md)
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-

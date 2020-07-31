@@ -73,12 +73,9 @@ Make a copy of the worksheet, and then fill it out on your own. We will review a
 
 ## Mock up with Grid <!--5 min-->
 
-Use Sketch, Adobbe XD, or other tool to Mock up your personal page. This time use a grid. 
+Use Figma to Mock up your personal page. This time use a grid. 
 
-Show the grid overlay in your design tool. 
-
-- Sketch: View > Canvas > Show Layout
-- Adobe XD: View > Show Layout Grid
+Show the grid overlay in Figma
 
 <!-- > -->
 
@@ -119,7 +116,7 @@ Show the grid overlay in your design tool.
 
 ## Lab <!--30 min-->
 
-Using your design tool (Sketch, XD etc.) redesign your personal site with grid. 
+Using Figma, redesign your personal site with grid. 
 
 - Msake a new artboard. Size it to match your desktop ~1420
 - Turn on the layout grid.
