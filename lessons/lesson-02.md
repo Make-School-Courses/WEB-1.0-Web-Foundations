@@ -62,9 +62,17 @@ Try it out! Use one of your own HTML files, or go copy/paste HTML from your favo
 
 ### What are attributes?
 
-Tags can be modified/enhanced using **attributes**. We use attributes to specify different properties of elements. This can be related to style, content, shape, and more!
+We use attributes to add meaning to elements marked up with tags. While a tag might mark something up as a time/date we might not know exactly when. Consider: 
 
-Without attributes, we would be left with the default styles of all elements, and the websites you know and use today would be bland, and everything left-aligned!
+`<time>Next Wednesday</time>`HTML
+
+vs 
+
+`<time datetime="2020-08-05">Next Wednesday</time>`HTML
+
+Or imagine you have a link that says "Contact" the actual address might be something more complex and less readble. Without the URL the link would be useless!
+
+`<a href="http://mysite.com/contact.html">Contact</a>`HTML
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
 
@@ -74,7 +82,7 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 
 <!-- > -->
 
-### Multiple Attributes
+**Multiple Attributes**
 
 Tags can have as many attributes as you care to include. 
 
@@ -83,7 +91,7 @@ Tags can have as many attributes as you care to include.
 <input type="text" name="first-name" id="input-name">
 ```
 
-Values are quoted even if they are numbers.
+Values are _always_ quoted even if they are numbers!
 
 The order doesn't matter.
 

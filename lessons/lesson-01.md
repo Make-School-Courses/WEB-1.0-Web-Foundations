@@ -272,6 +272,30 @@ Take a ten minute break and wrap a tag around everything you see.
 
 ## Lab
 
+An HTML document is defined with a few tags. It's not a valid HTML doc without these tags! 
+
+```HTML
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+    </body>
+</html>
+```
+
+The doctype is a special tag and doesn't follow the rules. It says what version/type of html you are writing. In this case it's HTML5. 
+
+The HTML tag says that this is an HTML document and everything in this tag is part of that document. You can only have one of these and it surrounds everything. 
+
+The head tag contains meta information, that is information about the document, that isn't part of the document itself, like the title. 
+
+The title tag is always in the head tag and it defines the name the browser will show in Book marks, or tabs, or menus for this document. 
+
+The body tag contains the content of the document. This everything you see in the browser window. The content of your page must go into the body tag! 
+
 Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
 
 Write a description for intensive project. Include the following information: 
