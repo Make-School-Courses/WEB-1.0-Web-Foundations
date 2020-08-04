@@ -13,7 +13,7 @@
 
 <!-- > -->
 
-## HTML and Homes <!--(5 min)-->
+## HTML is Strucure <!--(5 min)-->
 
 While HTML is just one piece of how websites are built, it is the _foundation_ upon which we build our websites. Without it, our websites would have no structure, or elements that we could style. Consider the following:
 
@@ -81,8 +81,18 @@ Bad:
 
 Translate the following tag combinations from english into HTML. When you're done, check your answers with a partner:
 
+Imagine the following blocks of text, your job is to make them up using tags: 
+
+Better get those flowers ASAP valentines day is around the corner!
+
+<!-- 
+
+<p>Better get those flowers <abbr>ASAP</abbr> <time>valentines day</time> is around the corner!</p>
+
+ -->
+
 1. Within a `div`, put an `h2` with the text "Hello World" and a `p` that says "Nice To Meet You"
-1. Within a `p`, put an `abbr` with the text `ACE`, then within the rest of the `p`, put the text "is a hardware store"
+1. Within a `p`, put an `abbr` with the text `HTML`, then within the rest of the `p`, put the text "is a hardware store"
 1. Within an `article`, put a `p` with the text "do not forget the " followed by a `mark` that says "flowers ", and ending with "tonight" before closing out the `p`
 
 <!--
@@ -139,7 +149,7 @@ A time or date uses the `time` tag.
 Or better
 <!-- .element: class="fragment" -->
 ```html
-<time datetime="2020-02-14">Valentines day! </time>
+<time datetime="2021-02-14">Valentines day! </time>
 ```
 <!-- .element: class="fragment" -->
 
