@@ -1,0 +1,25 @@
+- **[Syllabus](README.md)**
+- **Lessons**
+  - [Semantic HTML](Lessons/01-Semantic-HTML)
+  - [HTML Attributes](Lessons/02-HTML-Attributes)
+  - [CSS Intro](Lessons/03-CSS-Intro)
+  - [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model)
+  - [CSS Grid](Lessons/05-CSS-Grid)
+  - Review / Lab
+  - [Responsive Design](Lessons/07-Responsive-Design)
+  - [JavaScript Intro](Lessons/08-JS-Intro)
+  - [JavaScript in the DOM](Lessons/09-JS-in-the-DOM)
+  - [Fetch & Promises](Lessons/10-Fetch-Promises)
+  - [JavaScript Objects](Lessons/11-JS-Objects)
+  - Review / Lab
+  - Final Assessment
+  - Final Project Presentations
+
+- **Homework Assignments**
+  - [Homework 1]()
+  - [Homework 1]()
+  - [Homework 1]()
+  - [Homework 1]()
+  - [Homework 1]()
+  - [Homework 1]()
+
