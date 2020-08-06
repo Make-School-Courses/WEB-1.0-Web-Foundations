@@ -66,7 +66,7 @@ If you submit an assignment after the due date, your instructor will apply a lat
 - Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
 - Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
 
-The **absolute last day** to submit any assignment will be **Friday, July 17 at 11:59 PM**.
+The **absolute last day** to submit any assignment will be **Tuesday, October 6 at 11:59 PM**.
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
