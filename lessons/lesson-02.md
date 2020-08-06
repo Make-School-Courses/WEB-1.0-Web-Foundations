@@ -95,7 +95,22 @@ Values are _always_ quoted even if they are numbers!
 
 The order doesn't matter.
 
-Many tags have attributes specific to them. 
+Many tags have attributes specific to them.
+
+<!-- > -->
+
+Attributes are used by the browser to glean meaning from a tag. Attributes can also be used to store more information with a tag. For example you might want to make a link that displays the name of the product but also knows the PLU number and vendor id. 
+
+```HTML
+<a 
+  href="http://paypal.com" 
+  data-plu="102938" 
+  data-vend0r="0s9d8asj7j929635">New Fangled Thing</a>
+```
+
+The PLU and vendor id would not look great displayed on the page. Instead they are hidden in the attribute and available to the process that runs when the link is clicked. 
+
+These are developer defined attributes. You, the developer, can make them up. Developer attributes always begin with `data-` followed by any name.
 
 <!-- > -->
 
@@ -235,7 +250,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 <!-- > -->
 
-Radio buttons are groups of buttons where only one of the group can be selected at any time. 
+Radio buttons are groups of buttons where only one of the group can be selected at any time.
 
 `<input>` has a lot of possible types: 
 
