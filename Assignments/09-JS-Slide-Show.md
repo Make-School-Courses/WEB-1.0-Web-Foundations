@@ -1,4 +1,4 @@
-# FEW 1.1 - JS Slide Show Tutorial
+# WEB 1.0 - JS Slide Show Tutorial
 
 ## Description 
 
@@ -38,27 +38,29 @@ Beyond the list above this project looks at how to create JS code that can deplo
 
 ## Project requirements
 
-Follow the tutorial: https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz
+Follow the tutorial: [https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz](https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz)
 
 You can view a live version of the tutorial here: 
 
-https://github.com/soggybag/js-tutorial-slide-show
+[https://github.com/soggybag/js-tutorial-slide-show](https://github.com/soggybag/js-tutorial-slide-show)
 
 - You should watch all of the videos in the playlist. 
-- Follow the tutorials and create the slide show
+- Follow the tutorial videos and create the slide show
 - Note any questions you have about the concepts covered. 
 - Be prepared for a short low stakes quiz on the concepts covered in the following class. 
 
-### Deliverable
+## Deliverable
 
 - You should have completed the videos and have a functioning slideshow project from the tutorials. 
 - A list of questions on the concepts covered
 
-#### Stretch Goals
+Submit this as a zip file or GitHub repo to Gradescope!
+
+## Stretch Goals
 
 - See the GitHub repo for this tutorial for Stretch challenges: https://github.com/soggybag/js-tutorial-slide-show
 
-### Due date
+## Due date
 
-Class 7
+Class 11, Thu Sept 24
 
