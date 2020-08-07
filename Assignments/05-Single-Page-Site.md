@@ -14,22 +14,24 @@ Use the content that you created for your portfolio. You are going to style this
 
 ## Project requirements
 
-You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and take a look at the demo of the template. 
+You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and then the `Live Demo` buton, and take a look at the demo of the template. 
 
 **This template uses Bootstrap you are going to make your own version of it without Bootstrap.**
 
 This site has a few features: 
 
+- Nav bar at the top - These links should navigate to each of the 5 sections within this page.
 - The site is a single HTML page with 5 sections
   - Home - With a full width image and message or title in the center
   - Info - has three cards, each card has
-    - Image
-    - Text info
-    - CTA button
+        - Image
+        - Text info
+        - CTA button
   - Full width image and text
-  - Some content and image split 3/2 and 1/3
+  - Some content and image split 3/2 and/or 1/3
   - Contact form
-- Nav bar at the top - These links should navigate to each of the 5 sections within this page.
+
+**Your site must have the same features as outlined above!**
 
 Here are some wireframes images showing the general layout you are shooting for. 
 
@@ -38,13 +40,13 @@ Here are some wireframes images showing the general layout you are shooting for.
 - [Wireframe card flex](images/Wireframe-with-card-notes.png)
 - [Wireframe Alternating layout](images/Wireframe-with-alternating-layout.png)
 
-### Content should your site contain? 
+### What content should your site contain? 
 
 The subject and context of this site should be purely informational. Think of the site as mini lightning talk on a subject of your choice. 
 
 Use a topic/subject from your S&L class. For example Geology, Psychology, or Ethics. You can optionaly chose another topic if you like.
 
-(Try and get credit from your S&L class for this)
+(Try and get credit from your S&L class for this!)
 
 ### Example Sites 
 
@@ -63,10 +65,11 @@ All of these sites use this type of layout or some derivative.
 
 ### Deliverable
 
-Push your work to a GitHub repo and publish as a GitHubb Page on GitHub.
+Push your work to a GitHub repo, and then submit the repo to Gradescope!
 
 #### Stretch Goals
 
+- Publish as a [GitHub Pages site](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on GitHub.
 - Add one or more sections to your page. These can contain any information you like. 
 - Add an alternating layout (see the wire frame example)
 - Use your own photos
@@ -74,10 +77,15 @@ Push your work to a GitHub repo and publish as a GitHubb Page on GitHub.
 
 ### Due date
 
-Class 6
+Class 7, Thu Sept 10
 
 ## Assessing the assignment
 
-[Assignment Name Rubric](./assignment-03-rubric.md)
+| Expectations | Does not meet | Meets                       | Exceeds                           |
+|:-------------|:--------------|:----------------------------|:----------------------------------|
+| Completion | Your work is not complete | Your page is complete, and meets the description of the assignment | Besides meeting requirements in the base assignment you have tackled one or more of the stratch challenges outlined in the assignment. |
+| Work Ethic.  | < 3 comits.   | Commits show consistent work | commits show full 3 hours of work |
+| Code Quality | Your code is sloppy and lacks organization | Your code uses consistent indentation, spacing, and consistent coding style | Your code passes validation |
+| Design | Your design does not inspire you | Your design inspires you | Your design inspires others | 
 
 
