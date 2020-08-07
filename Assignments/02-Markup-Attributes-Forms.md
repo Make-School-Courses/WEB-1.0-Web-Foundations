@@ -1,4 +1,4 @@
-# FEW 1.1 - Markup, attributes, and forms
+# WEB 1.0 - Markup, attributes, and forms
 
 ## Description 
 
@@ -10,15 +10,19 @@ Forms take in user input and are an important piece of web development. You need
 
 ## Project requirements
 
-Fork, clone, or download this repo: 
+Download this repo: 
 
-https://github.com/soggybag/learn-markup-level-2
+[https://github.com/soggybag/learn-markup-level-2](https://github.com/soggybag/learn-markup-level-2)
 
-Follow the insrtructions in the readme. 
+Follow the instructions in the README. 
 
 ### Deliverable
 
-Add a link to your repo of completed challenges. 
+For your completed files, make sure to zip them all up together. You can do so by selecting them all, right-clickign (two-finger clicking) and then selecting _Compress Items_:
+
+![zip files](./images/zip_files.gif)
+
+You can then submit the zip file to Gradescope. Make sure you use the _Upload_ option when submitting!
 
 #### Stretch Goal 
 
@@ -26,7 +30,7 @@ Make up a new challenge and solution document and submit a pull request to the r
 
 ### Due date
 
-Class 3 - Tues, Jan 28
+Class 3 - Thu, Aug 27
 
 ## Assessing the assignment
 
