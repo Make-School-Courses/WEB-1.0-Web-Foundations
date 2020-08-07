@@ -20,6 +20,14 @@ Use `grid-areas` and `grid area` to arrange elements on a grid. Map your element
 
 Previously we've been submitting assignments using files or zip files. Starting from here and going forward, we will be utilizing [GitHub](github.com) to store our work. This will help in building up your portfolio by showing recruiters and other engineers that you're actively building projects. It also allows you to more easily collaborate with times, and save the history of building your projects.
 
+Why else should we use Git/GitHub? It helps prevent situations such as:
+
+- “Damn! I lost all of my work!” 
+- “Oh, no! The code I wrote yesterday was correct but I replaced it with a wrong code! How can I recover my previous code?”
+- How can I go back in time?! (when I go, how would I go back to the future?!!)
+
+Remember Git is a version control system (VCS) that helps you to save many ‘versions’ of your files as you’re writing or changing them. If you wanted to see or recover any of those ‘versions’, Git recovers it for you!
+
 If you need a refresher, revisit the [Git/GitHub section of the Environment Setup tutorial](https://www.makeschool.com/academy/track/standalone/make-school-environment-setup-dsi/git-github) to help get you started.
 
 ### Deliverable
@@ -36,7 +44,7 @@ Get feedback from your peers and incorporate it.
 
 ### Due date
 
-Due Class 6 - Thurs, Feb 6
+Due Class 5 - Thu, Sept 3
 
 # Assessing the assignment
 
