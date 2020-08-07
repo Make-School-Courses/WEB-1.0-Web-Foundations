@@ -1,4 +1,4 @@
-# FEW 1.1 - Single Page Site
+# WEB 1.0 - Single Page Site
 
 ## Description 
 
