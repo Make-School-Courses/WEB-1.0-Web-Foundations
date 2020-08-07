@@ -1,4 +1,4 @@
-# FEW 1.1 - Final Project
+# WEB 1.0 - Final Project
 
 ## Description 
 
@@ -6,31 +6,33 @@ Your final project will be a platform for you to combine and practice all of the
 
 ### Why this assignment?
 
-This assignment will give you a chance to revisit and solidify your understanding of what has covered this term. It will also allow you to **create a portfolio worthy project.**
+This assignment will give you a chance to revisit and solidify your understanding of what has been covered this term. It will also allow you to **create a portfolio worthy project.**
 
 ## Project requirements
 
 Your final project should take all of the ideas from class and put them together.
 
-Your final project should incorporate everything listed below. 
+**Your final project should incorporate everything listed below. **
 
 - HTML - Use semantic HTML
-- CSS - 
- - Typographic styles 
- - Flex Box 
- - CSS Grid
+- CSS 
+    - Typographic styles 
+    - Flex Box 
+    - CSS Grid
 - JavaScript 
- - Variables and Functions 
- - JS and DOM
- - Event Listeners
+    - Variables and Functions 
+    - JS and DOM
+    - Event Listeners
+
+**You also must publish your project as a [GitHub Pages site](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on GitHub.** Remember this is a portfolio worthy project, and we want to make sure you are able to show this off!
 
 This may sound like a lot at first but you can borrow ideas and code snippets from the class examples.
 
-## Content and Subject for Final
+## Content and Subject for Final Project
 
-The content and subject for your final should come from one of your S & L classes. Try and get credit for your work with your S & L instructor. You could even coordinate the idea with them.
+The content and subject for your final project should come from one of your S&L classes. Try and get credit for your work with your S&L instructor. You could even coordinate the idea with them.
 
-You'll need text and pictures. Text can come from your S & L reading and homework. You may also want to research the subject. 
+You'll need text and pictures. Text can come from your S&L reading and homework. You may also want to research the subject.
 
 Images you can take yourself or find through search. 
 
@@ -52,7 +54,7 @@ Animation on Scroll. This is an effect when elements on the page animate when th
 
 ## Layout
 
-Thikn of a single page site as a stack of boxes. Think of each box in this stack as it's own "page." Each of these sections can have their own layout. One section could be arranged as a grid, while another could use flex box. 
+Think of a single page site as a stack of boxes. Think of each box in this stack as it's own "page." Each of these sections can have their own layout. One section could be arranged as a grid, while another could use flex box. 
 
 **You should be using Flexbox for more of your layout.**
 
@@ -64,11 +66,11 @@ Here is the same image with some notes. The red and blue lines show the main axi
 
 ![Wire frame with flex notes ](images/Wireframe-with-flex-notes.png)
 
-### Deliverable
+## Deliverable
 
-A single web page published to GitHub Pages.
+A single web page published to GitHub Pages. You will submit the repo through Gradescope!
 
-### Due date
+## Due date
 
-Class 14 - Thurs, Mar 5
+Class 14 - Tue, Oct 6
 
