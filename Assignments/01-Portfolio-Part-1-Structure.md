@@ -1,8 +1,8 @@
-# FEW 1.1 - Semantic Markup
+# WEB 1.0 - Semantic Markup
 
 ## Description 
 
-Use Semantic markup to create a portfolio for yourself. Eventually you will style and publish your portfolio. In this assignment you will create the general content of the poartfolio and mark it up semantically.
+Use Semantic markup to create a portfolio for yourself. Eventually you will style and publish your portfolio. In this assignment you will create the general content of the portfolio and mark it up semantically.
 
 ### Why this assignment?
 
@@ -12,10 +12,9 @@ Semantic is deeper and more careful look at how you choose the tags you use and 
 
 ## Project requirements
 
-This assignmen must be hosted in it's own GitHub repo. Eventuially it will be hosted in that same repo.
+This assignment must be submitted through Gradescope.
 
-- Create a new repo
-- Create an index.html file in your repo
+- Create an `index.html` file
 - Write the content of your portfolio include the following: 
     - Name and Tag Line
     - List of your skills
@@ -28,8 +27,6 @@ This assignmen must be hosted in it's own GitHub repo. Eventuially it will be ho
         - GitHub
         - Other social media Instagram, FB, etc. 
 
-https://learntocodewith.me/posts/portfolio-tips/
-
 Mark up your content. Use the following tags. 
 
 - article, section
@@ -40,26 +37,25 @@ Mark up your content. Use the following tags.
 
 ### Deliverable
 
-A link to your repo on GitHub. 
+You must submit your `index.html` to Gradescope. Find the assignment in your list of assignments for the class. When submitting your assignment, select the `Upload` option, and add the `index.html` file for submitting.
 
 ### Due date
 
-Class 2 - Thurs, Jan 23
+Class 2 - Tue, Aug 25
 
 ## Assessing the assignment
 
-# FEW 1.1 - Semantic Markup - Rubric 
+# WEB 1.0 - Semantic Markup - Rubric 
 
 | Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
 |:-------|:------------------|:----------|:------------|
-| **Completion** | Your portfolio site is non-existent or doesn't include the elements described above | Your portfolio exists on GitHub and it contains all of the elements described above | The content of your posrtfolio is spell checked and reviewed. |
+| **Completion** | Your portfolio site is non-existent or doesn't include the elements described above | Your portfolio contains all of the elements described above | The content of your posrtfolio is spell checked and reviewed. |
 | **Quality** | Your markup lacks semantic relevance | Your markup was carefully chosen to add semantic relavance to the content| You've used the widest range of tags to add the greatest meaning to the content |
 | **Code Quality** | Your code written with an inconsistent style | Your code is written with a consistent style through out | Your code is reads well, is well organized, and well commented |
-| **Work Process** | < 3 comits.   | Commits show consistent work| commits show full 3 hours of work |
 
 ## Assessing the learning Objectives 
 
-# FEW 1.1 - Semantic Markup - Rubric 
+# WEB 1.0 - Semantic Markup - Rubric 
 
 | Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
 |:-------|:------------------|:----------|:------------|
