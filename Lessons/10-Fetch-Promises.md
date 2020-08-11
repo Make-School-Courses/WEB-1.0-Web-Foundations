@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Leson 9 - Network actions with JS
+# FEW 1.1 - Leson 10 - Network actions with JS
 
 <!-- > -->
 
