@@ -15,6 +15,15 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills - Rephrasing 
+
+- Use this activiey at the beginning and end of class. 
+- Students rephprase a concept covered in class in groups of 2 or 3 or 4
+
+ -->
+
 ### Why Is This Important?
 
 Responsive design is design that responds to it's environment. Giving your sites the ability to adapt to the environement is like giving them a super power!

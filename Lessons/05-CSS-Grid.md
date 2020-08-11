@@ -22,6 +22,18 @@ Here are a couple strategies you can use to create a grid.
 
 <!-- > -->
 
+<!-- 
+
+Success Skills Exercise - Pair Programming 
+
+- What is pair programming? 
+- Why is it important 
+- How do you pair program?
+- Pair in class today
+- Might be good to show a short video on the subject?
+
+ -->
+
 ### Why Is This Important?
 
 Grids are used to arrange content. Originally used with print publications like books, newspapers and magazines. Grids are even more important on the web. 

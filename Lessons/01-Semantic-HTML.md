@@ -13,6 +13,14 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills Exercise - WOOP (5 to 10 mins)
+
+https://drive.google.com/file/d/1vXiBzQ7AeHSMLJgvn3Ji-BMNvCayQIPH/view
+
+ -->
+
 ## HTML is Strucure <!--(5 min)-->
 
 While HTML is just one piece of how websites are built, it is the _foundation_ upon which we build our websites. Without it, our websites would have no structure, or elements that we could style. Consider the following:

@@ -13,6 +13,20 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills Exercise - Resources (5 to 10 mins)
+
+List of resources which are you using and which ones are you not useing: 
+
+- Google 
+- Stackoverflow 
+- Your Peers 
+- Blogs and Websites 
+- ...
+
+ -->
+
 ### Why you should know this
 
 The ability to generate well written and valid HTML is a requirement for any front end developer. You want to be solving bigger problems rather than tripping over HTML syntax. 

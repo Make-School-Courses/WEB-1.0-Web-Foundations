@@ -16,6 +16,17 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills Exercise - Code Review 
+
+- Students pair and code review 
+- Choose a small managable block of code not more than 40 lines 
+- What to look for 
+- How to give feedback.
+
+ -->
+
 ### Why you should know this
 
 The box model is at the **foundation of understanding layout with CSS**. It also shows up on front end interviews.

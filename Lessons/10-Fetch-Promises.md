@@ -10,6 +10,15 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills - 
+
+- Revist the project planning todos and and estimates here. 
+- Maybe add planning your day? 
+
+ -->
+
 ### Why learn this?
 
 Network and asynchronous operations are a big part of front end development in terms of how to send/recieve data in a timely manner that doesn't frustrate your users.

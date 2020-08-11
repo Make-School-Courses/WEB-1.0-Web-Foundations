@@ -13,6 +13,14 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills - 
+
+- 
+
+ -->
+
 ## Closure and Scope
 
 Pair up and work through the problems here:

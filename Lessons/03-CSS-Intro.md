@@ -19,6 +19,19 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills Exercise - Keyboard shortcuts and file management
+
+- Find the files that you are using in VS code.
+- Command O 
+- Command N
+- Command S
+- Command I
+- ...
+
+ -->
+
 ### Why you should know this
 
 CSS is powerful gives you full control of the appearance of everything you see on the screen. To be a front end engineer you need to be a master of CSS. 

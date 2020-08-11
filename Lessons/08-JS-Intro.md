@@ -7,6 +7,18 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills - Prioritization
+
+- Students should prioritize the inclass assignment 
+- Studnet shsould prioritize their current homework 
+- Write the steps needed to complete a task 
+- Identify the most important things on the list
+- Find the three most important/high value items on the list. 
+
+ -->
+
 ## Warmup <!--5 min-->
 
 What part of the website in [this video](https://drive.google.com/file/d/16z0okT3A1XZpxHP2b6iZYpc5e1eqZKc6/view?usp=sharing) is HTML, CSS, and JS?

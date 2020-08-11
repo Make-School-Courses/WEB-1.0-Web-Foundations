@@ -15,6 +15,20 @@
 
 <!-- > -->
 
+<!-- 
+
+Success Skills - project planning and estimation 
+
+- Using the Store tutorial 
+- Skim the tutorial and guesstimate what needs to be done. 
+  - How many pages are there? 
+  - What are the deliverables? 
+- Estimate how much time it will take to complete the tutorial
+- Make a schedule 
+
+ -->
+
+
 ### Why learn this? 
 
 We're tying two big concepts we've learned so far together in this lesson: styling with Flexbox and utilizing JavaScript. We'll dive a bit deeper into how to deal with various input types using JavaScript, and also what `NaN` is, and how to properly deal with it!
