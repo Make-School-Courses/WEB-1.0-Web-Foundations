@@ -4,6 +4,18 @@
 
 <!-- > -->
 
+## Warmup
+
+Breakout into groups of 4: 
+
+- share your name and where you are from
+- Why you wanted to come to Make School
+- What questions do you have about how to make websites? Get creative? We’ll be sure to address your questions during this class!  
+
+<!--Instructor Tip: post the last question in the class slack channel and have students share their answers on a threaded message.-->
+
+<!-- > -->
+
 ## Learning Objectives <!--(2 min)-->
 
 - Describe semantic HTML
@@ -272,6 +284,19 @@ Choose **one tag from each category** to present to your classmates. Include an 
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. Why should we use semantic HTML?
+1. Why is the below considered bad practice?
+
+```HTML
+<p><abbr>HTML</p></abbr> is the best!
+```
+
+<!-- > -->
+
 ## BREAK <!--(10 min)-->
 
 Take a ten minute break and wrap a tag around everything you see. 
@@ -280,87 +305,17 @@ Take a ten minute break and wrap a tag around everything you see.
 
 ## Lab
 
-An HTML document is defined with a few tags. It's not a valid HTML doc without these tags! 
+Let's get some practice with the first Homework! [Assignment 1](../assignments/01-Portfolio-Part-1-Structure.md) will be due at the beginning of next class. We'll submit it together during class.
 
-```HTML
-<!doctype html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-
-    </body>
-</html>
-```
-
-The doctype is a special tag and doesn't follow the rules. It says what version/type of html you are writing. In this case it's HTML5. 
-
-The HTML tag says that this is an HTML document and everything in this tag is part of that document. You can only have one of these and it surrounds everything. 
-
-The head tag contains meta information, that is information about the document, that isn't part of the document itself, like the title. 
-
-The title tag is always in the head tag and it defines the name the browser will show in Book marks, or tabs, or menus for this document. 
-
-The body tag contains the content of the document. This everything you see in the browser window. The content of your page must go into the body tag! 
-
-Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
-
-Write a description for intensive project. Include the following information: 
-
-- When you made it and a date
-- Title or name of the project
-- Why you made it, what is the rationale for creating this project. What problems does it solve? 
-- Short description of the process and tools used. 
-- Meta info, where is it hosted, where is the code, how to get started etc. 
-
-<!-- > -->
-
-- Markup your project description 
-- Use semantic markup, use tags:
-    - article
-    - headings
-    - Parargraphs
-    - List
-    - etc. 
-
-<!-- > -->
-
-## After Lab
-
-Questions?
-
-Pair up and markup the example text.
-
-https://github.com/soggybag/learn-semantic-markup
+Take some time right now to work on it, and submit one question you have about the homework to the slack channel!
 
 <!-- > -->
 
 ### Homework 
 
-[Assignment 1](../assignments/assignment-01.md) will be due at the beginning of next class. We'll submit it together during class.
+[Assignment 1](../assignments/01-Portfolio-Part-1-Structure.md) will be due at the beginning of next class. We'll submit it together during class.
 
-<!-- > -->
-
-### Wrap-Up 
-
-- What were the learning objectives? 
-- What is a learning Objective? 
-- How would you check your understanding of the learning objectives? 
-
-<!-- > -->
-
-### What are learning Objectives? 
-
-learning Objectives are the concepts and ideas that you need to know to claim mastery of a subject. When you have mastered a learning objective you will be able to explain it and put into practice. 
-
-<!-- > -->
-
-Test your knowledge by explaining the concept to someone else. 
-
-Some learning objects you will implement in code. 
-
-Others learning objects are ideas that exist in the world at larger or are overaching ideas. 
+Post your questions about the homework in the class slack channel! Questions are encouraged!!
 
 <!-- > -->
 

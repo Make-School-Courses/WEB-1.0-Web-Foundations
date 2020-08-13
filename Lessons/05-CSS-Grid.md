@@ -11,6 +11,16 @@ Here are a couple strategies you can use to create a grid.
 
 <!-- > -->
 
+## Warmup <!--8 min-->
+
+Breakout groups of 2 (8 min):
+
+- Partner will spend 2 minutes talking about something important to them. The listener must ask five question in a row to the speaker related to that important topic. Then switch.
+
+<!--This allows students to have deeper conversations and feel heard.-->
+
+<!-- > -->
+
 ## Learning Objectives <!--5 min-->
 
 1. Identify columns and rows
@@ -83,14 +93,6 @@ Make a copy of the worksheet, and then fill it out on your own. We will review a
 
 <!-- > -->
 
-## Mock up with Grid <!--5 min-->
-
-Use Figma to Mock up your personal page. This time use a grid. 
-
-Show the grid overlay in Figma
-
-<!-- > -->
-
 ## Identify Grids in the wild <!--15 min-->
 
 - Work with a group and identify grids in the sites below
@@ -128,9 +130,9 @@ Show the grid overlay in Figma
 
 ## Lab <!--30 min-->
 
-Using Figma, redesign your personal site with grid. 
+Using [Figma](figma.com), redesign your personal site with grid. 
 
-- Msake a new artboard. Size it to match your desktop ~1420
+- Make a new artboard. Size it to match your desktop ~1420
 - Turn on the layout grid.
 - Draw boxes on grid for each content item in your personal site.
   - Draw a box for each content item
@@ -235,6 +237,18 @@ Creates 6 300px tall rows.
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. How would you create a grid with 4 equal columns?
+1. How would you create a grid with the following pattern for rows:
+    1. First row is 500 px
+    1. Second row is 1fr
+    1. Third row is 100px
+
+<!-- > -->
+
 ## CSS Garden <!--rest of class-->
 
 Get practice with CSS Grids through [this beautiful garden tutorial](https://cssgridgarden.com/)!
@@ -245,7 +259,9 @@ Get practice with CSS Grids through [this beautiful garden tutorial](https://css
 
 ## Wrap Up <!--5 min-->
 
-- 
+Get started on [Homework 4](../Assignments/04-Portfolio-Part-3-Grid.md), due next class.
+
+After that, you will have all the tools needed to work on [Homework 5](../Assignments/05-Single-Page-Site.md). **Homework 5 is due on class 7 (one week from today)** - start on it early so you have time to complete it!
 
 <!-- > -->
 

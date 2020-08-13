@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Leson 10 - Network actions with JS
+# WEB 1.0 - Network actions with JS
 
 <!-- > -->
 
@@ -225,6 +225,16 @@ Draw a picture of how this works in JavaScript. Include:
 
 - CallStack 
 - Web API
+
+<!-- > -->
+
+## Check for understanding <!--7 min-->
+
+Write out the following on your own, then discuss with a partner in a breakout room. Finally, we'll discuss the questions as a class:
+
+- What is the difference between synchronous and asynchronous
+- What is a promise, and why do we use it?
+- In your own words, describe what a callback is
 
 <!-- > -->
 
@@ -600,6 +610,8 @@ CSS Styles
   - Style the images using CSS Grid
   - Set the grid Template Columns to a number of columns, 6 might be a good place to start
 
+<!-- > -->
+
 ## After Class 
 
-[Assignment 6](../assignments/assignment-06.md)
+Work on the the next assignment: [Slide Show](../Assignments/09-JS-Slide-Show.md)! **This will be due next class!**

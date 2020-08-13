@@ -7,6 +7,18 @@
 
 <!-- > -->
 
+## Warmup <!--5 min-->
+
+Breakout in groups of 2-3 (5 min): 
+
+- Find a website and together count how many boxes there are on the site.
+-  Take a guess: what does the code look like to structure those boxes?
+
+<!--Instructor Tip: post the last question in the class slack channel and have students share their answers on a threaded message. OR post directly into zoom chat and have students answer live.
+-->
+
+<!-- > -->
+
 ## Learning Objectives <!--2 min-->
 
 1. Describe the Box Model
@@ -57,7 +69,7 @@ Answer the questions on your own, and then we will discuss as a group!
 
 <!-- > -->
 
-## How is the box model calculated? <!--15 min-->
+## How is the box model calculated? <!--20 min-->
 
 - **Total element width** = width + left padding + right padding + left border + right border + left margin + right margin
 - **Total element height** = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
@@ -169,6 +181,16 @@ div {
 ```
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. How is the box model calculated?
+1. Describe the difference between margin and padding.
+1. What is the difference betwween inline and block?
+
+<!-- > -->
+
 ## Break <!--10 min-->
 
 Take a ten minute break. 
@@ -192,7 +214,7 @@ Answer the questions on your own, and then we will discuss as a group!
 
 <!-- > -->
 
-## Flexbox Game <!--30-45 min-->
+## Flexbox Game <!--40 min-->
 
 Let's get some practice with Flexbox by getting these frogs to land on their appropriate lilly pads!
 
@@ -234,9 +256,7 @@ Take these ideas and apply them to your personal web page.
 
 ## After Class 
 
-Complete your personal web site. 
-
-[Assignment 3](../assignments/assignment-03.md)
+Finish up the challenges from lab, and the flexbox tutorial.
 
 ### Resources 
 

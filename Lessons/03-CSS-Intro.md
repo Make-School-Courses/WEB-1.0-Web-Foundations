@@ -9,6 +9,12 @@
 
 <!-- > -->
 
+## Warmup
+
+Make a copy of this [warmup worksheet](https://docs.google.com/document/d/1b33gdfYCSBSj9xeebKScwH2cfBvZxER6TDK9KwmXWJk/edit#) and answer the questions. We'll review as a group.
+
+<!-- > -->
+
 ## Learning Objectives <!--(5 min)-->
 
 1. Describe CSS it's use and syntax
@@ -40,13 +46,7 @@ CSS is powerful gives you full control of the appearance of everything you see o
 
 ### Download the sample Files
 
-Take a look at the Android Phones & Tablets page. 
-
-https://www.android.com/phones-tablets/
-
 **Download the source code from our example here:** [https://github.com/soggybag/learn-markup-level-2](https://github.com/soggybag/learn-markup-level-2)
-
-<!-- > -->
 
 Open the example file: **challenge-01-solution.html** in your browser and your code editor. We will make changes to the source code and view the changes in the browser. 
 
@@ -229,6 +229,15 @@ CSS Diner - https://flukeout.github.io
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. When would you use a class selector vs. an id selector?
+1. What would the CSS selector look like for a rule that targets any image that is a descendent of an element with the class name `fluffy-cats`?
+
+<!-- > -->
+
 ## Break <!--(10 min)-->
 
 Take a 10 minute break
@@ -354,6 +363,15 @@ h1 {
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. Fill in the blanks: Properties and values are always separated by a ______. Property names in CSS are always ________-case, and each line ends with a _________
+1. What is the reationship between the base style and the `em` unit?
+
+<!-- > -->
+
 ## Activity <!--(30 min)-->
 
 Take a look at this:  https://www.android.com/phones-tablets/
@@ -394,9 +412,11 @@ Changing the font size on the body will change the size of the fonts relatively 
 
 <!-- > -->
 
-### Wrap Up (5 min)
+## Lab
 
-- Work on the [Single Page Project](../assignments/assignment-03.md)
+Start working on [Homework 3](../assignments/03-Portfolio-Part-2-Styles.md)! We'll go over it and use the remainder of class to work on it.
+
+Submit one question you have about the homework to the class slack channel!
 
 <!-- > -->
 

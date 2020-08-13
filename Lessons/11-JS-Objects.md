@@ -1,15 +1,9 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 10
+# WEB 1.0 - JS Objects
 
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
-
-<!-- > -->
-
-# Start Your Final Project
-
-[Assignment 8 - Final Project](../assignments/assignment-08.md)
 
 <!-- > -->
 
@@ -25,17 +19,17 @@ Success Skills -
 
 Pair up and work through the problems here:
 
-https://repl.it/classroom/invite/mDbLs3P
+[https://repl.it/classroom/invite/mDbLs3P](https://repl.it/classroom/invite/mDbLs3P)
 
 Read more about closures: 
 
-https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+[https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 
 <!-- > -->
 
 ## Final Project
 
-Read the description for the [Assignment 8 - Final Project](../assignments/assignment-08.md)
+Read the description for the [Final Project](../Assignments/10-Final-Project.md)
 
 ### Wireframe
 
@@ -43,7 +37,7 @@ Before you leave class today create a wireframe for your project. Since it will 
 
 ### Create a Repo for your final 
 
-Create Repo and Make first commit.
+Create a GitHub Repo and make your first commit.
 
 ### Assess yourself
 
@@ -61,24 +55,10 @@ Read the requiements for the final project ans ask youself:
 
 <!-- > -->
 
-## Objects 
+## JS Objects 
 
-https://repl.it/classroom/invite/mDbLs3P
+Let's go through this coding challenge on JS Objects and Closures: [https://repl.it/classroom/invite/mDbLs3P](https://repl.it/classroom/invite/mDbLs3P)
 
 ## After Class
 
-[Assignment 8 - Final Project](../assignments/assignment-08.md)
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
+Work on your [Final Project](../Assignments/10-Final-Project.md)

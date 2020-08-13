@@ -7,6 +7,19 @@
 
 <!-- > -->
 
+## Warmup
+
+Breakouts groups of 3:
+
+Check out [this image](https://more.carreracaldwell.com/?page_id=3828).
+
+- What could the code look like to allow the web page to adjust to different sizes? 
+- What are some considerations to keep in mind?
+
+We will cover this today!
+
+<!-- > -->
+
 ## Learning Objectives <!--3 min-->
 
 - Identify the differences between mobile and desktop
@@ -168,6 +181,12 @@ In a stylesheet target rules at media:
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Write down one question and one thing you learned from the previous topics(2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end any unanswered questions (3 min):
+
+<!-- > -->
+
 ## 10 min Break
 
 <!-- > -->
@@ -292,7 +311,13 @@ You may not use all of these. Start with the first media query (extra small scre
 
 <!-- > -->
 
-After getting the layout figured out work yopur way through your document from the "big" things to small things. Decide what styles need to change at each of the break points. 
+After getting the layout figured out work your way through your document from the "big" things to small things. Decide what styles need to change at each of the break points. 
+
+<!-- > -->
+
+## After class - Homework
+
+TBD
 
 <!-- > -->
 

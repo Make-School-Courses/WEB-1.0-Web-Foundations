@@ -7,6 +7,16 @@
 
 <!-- > -->
 
+## Warmup
+
+Breakout groups of 3 (12 min):
+
+- Solo, each person answers “what’s a hard experience you went through that helped you grow. 
+    - Answer by telling a story with a beginning, middle, and end.”
+- Next, pick a sharer, listener, and observer. The sharer tells their story, the listener listens and then reflects back the story in their own words. The Sharerer says if the story is accurate.
+
+<!-- > -->
+
 ## Learning Objectives <!--5 min-->
 
 - Creating design layout with Flexbox
@@ -190,6 +200,16 @@ Why is the target useful? Allows for DRY code.
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Write out the following on your own, then discuss with a partner to try and answer each other's questions, then we'll discuss as a class any remaining questions:
+
+- 3 things you learned today
+- 2 interesting ideas
+- 1 question on today's material
+
+<!-- > -->
+
 ## 10 min Break
 
 <!-- > -->
@@ -285,3 +305,8 @@ In markup it might look like this:
   </div>
 </main>
 ```
+<!-- > -->
+
+## After Class - Homework
+
+Continue to work on the the next assignment: [Shopping Cart](../Assignments/08-JS-Shopping-Cart.md)! **This will be due next class!**

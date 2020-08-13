@@ -4,6 +4,23 @@
 
 <!-- > -->
 
+## Submit Homework in Gradescope <!--5 min-->
+
+Take some time right now to submit your homework into gradescope if you haven't already!
+
+<!-- > -->
+
+## Warmup <!--7 min-->
+
+Breakout groups of 3, answer these questions:
+
+- Say hi to your partners!
+- What’s the difference between HTML and CSS? What’s an analogy of each?
+- What’s an HTML tag? Share an example.
+- If your partner doesn’t know support their learning until they understand!
+
+<!-- > -->
+
 ## Learning Objectives <!--(3 min)-->
 
 1. Describe Attributes 
@@ -467,15 +484,30 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+Answer the following questions on your own (2 min), then pair with another student and discuss in a breakout room (2 min). We'll discuss as a group at the end (3 min):
+
+1. What are 2 reasons you should do code reviews?
+1. What are some common attributes for the following elements, and what are those attributes used for?
+    1. `img`
+    1. `a`
+    1. `input`
+1. In addition to containing our `input` elements, a `form` is also used for what other purpose?
+
+<!-- > -->
+
 <!-- .slide: data-background="#087CB8" -->
 
 ## BREAK <!--[10 min]-->
 
 <!-- > -->
 
-### Homework
+## Lab
 
-Complete [assignment 2](../assignment-02.md)
+Start working on [Homework 2](../assignments/02-Markup-Attributes-Forms.md)! We'll go over it and use the remainder of class to work on it.
+
+Submit one question you have about the homework to the class slack channel!
 
 <!-- > -->
 
@@ -487,6 +519,8 @@ Complete [assignment 2](../assignment-02.md)
   - What are the attributes involved?
 1. What is an `<input>`? 
   - What types are there?
+
+Remember to submit one question you have about the homework to the class slack channel!
 
 <!-- > -->
 

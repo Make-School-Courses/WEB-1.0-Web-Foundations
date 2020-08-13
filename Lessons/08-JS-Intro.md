@@ -367,6 +367,17 @@ console.log( inputName.value ) // shows the value if input
 
 <!-- > -->
 
+## Check for understanding <!--7 min-->
+
+With a partner ask each other the following questions (each person answers 2 questions), then we'll discuss as a class
+
+1. How do JavaScript and Python differ in terms of programming languages?
+1. What's the difference between block and function scope?
+1. If you wanted to get an element with an ID of "favorite-snack", what would that line of JS look like?
+1. How would you get the value of an input element who has an ID of "correct-answer" in JS?
+
+<!-- > -->
+
 ## 10 min Break
 
 <!-- > -->
@@ -427,7 +438,7 @@ Here we would say the function is _anonymous_ since it doesn't have a name.
 
 ## Lab - Tip calculator <!--rest of class-->
 
-Start working on Assignment [Assignment 7](../assignments/assignment-07.md)
+Start working on Homework 7, [Tip Calculator](../Assignments/07-Tip-Calculator.md)
 
 Be sure to use the resources below. 
 
@@ -435,7 +446,7 @@ Be sure to use the resources below.
 
 ## After Class
 
-[Assignment 7](../assignments/assignment-07.md)
+Continue to work on the [Tip Calculator](../Assignments/07-Tip-Calculator.md) assignment!
 
 ## Resources 
 
