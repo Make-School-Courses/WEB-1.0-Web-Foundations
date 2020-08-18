@@ -133,11 +133,11 @@ https://repl.it/join/owsvoilk-mitchellhudson
 
 <p>Better get those flowers <abbr>ASAP</abbr> <time>valentines day</time> is around the corner!</p>
 
- -->
-
 1. Within a `div`, put an `h2` with the text "Hello World" and a `p` that says "Nice To Meet You"
 1. Within a `p`, put an `abbr` with the text `HTML`, then within the rest of the `p`, put the text "is a hardware store"
 1. Within an `article`, put a `p` with the text "do not forget the " followed by a `mark` that says "flowers ", and ending with "tonight" before closing out the `p`
+
+ -->
 
 <!--
 Question 1:
