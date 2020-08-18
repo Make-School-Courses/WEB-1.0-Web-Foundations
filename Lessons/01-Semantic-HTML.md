@@ -25,6 +25,26 @@ Breakout into groups of 4:
 
 <!-- > -->
 
+### What are Learning Objectives? 
+
+Learning objectives are the concepts and ideas that you need to know to claim mastery of a subject.
+
+Learning Objectives are often skills that are related to success at job interviews and on the job.
+
+<!-- > -->
+
+When you understand a learning objective you will be able to explain it and put it into practice. 
+
+<!-- > -->
+
+**There will be learning objectives for each class.** You should test your knowledge by explaining the concepts to someone else and implement the learning objectives in code when the learning objectives are code. Some objectives are larger overarching concepts, in these cases, you should identify the learning objective in your code, your project as a whole, or in the larger software ecosystem or the world at large. 
+
+<!-- > -->
+
+**If you are having trouble understanding a learning objective you need to take action.** Discuss the topic with another student, talk with a TA, bring questions to class, talk to an instructor during lab or office hours. 
+
+<!-- > -->
+
 <!-- 
 
 Success Skills Exercise - WOOP (5 to 10 mins)
