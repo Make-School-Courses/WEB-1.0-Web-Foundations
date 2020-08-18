@@ -30,11 +30,15 @@ Remember Git is a version control system (VCS) that helps you to save many ‘ve
 
 If you need a refresher, revisit the [Git/GitHub section of the Environment Setup tutorial](https://www.makeschool.com/academy/track/standalone/make-school-environment-setup-dsi/git-github) to help get you started.
 
+<!-- Add examples of grid based design -->
+
 ### Deliverable
 
 Your personal homepage - `index.html` and `index.css`. This version should use a grid based design and implement the grid with CSS Grid. 
 
 Create a Repo on GitHub called `Personal Page`, and add your `index.html` and `index.css` files to it. When you submit using Gradescope, select the `GitHub` option for submitting a project, and follow the steps from there.
+
+<!-- Add deliverable example -->
 
 ### Stretch Goals
 
