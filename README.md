@@ -36,11 +36,11 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  4 |  Tue, Sept 1  | [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model.md) | [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles) |
 |  5 |  Thu, Sept 3  | [CSS Grid](Lessons/05-CSS-Grid.md) |  |
 |  6 |  Tue, Sept 8  | Review / Lab | [Portfolio Part 3: CSS Grid](Assignments/04-Portfolio-Part-3-Grid) |
-|  7 |  Thu, Sept 10 | [Responsive Design](Lessons/07-Responsive-Design) | [Single Page Site](05-Single-Page-Site) |
-|  8 |  Tue, Sept 15 | [JavaScript Intro](Lessons/08-JS-Intro) | TBD |
-|  9 |  Thu, Sept 17 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM) | [Tip Calculator](07-Tip-Calculator) |
-| 10 |  Tue, Sept 22 | [Fetch & Promises](Lessons/10-Fetch-Promises) | [JS Shopping Cart](08-JS-Shopping-Cart) |
-| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects) | [JS Slide Show](09-JS-Slide-Show) |
+|  7 |  Thu, Sept 10 | [Responsive Design](Lessons/07-Responsive-Design.md) | [Single Page Site](05-Single-Page-Site) |
+|  8 |  Tue, Sept 15 | [JavaScript Intro](Lessons/08-JS-Intro.md) | TBD |
+|  9 |  Thu, Sept 17 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | [Tip Calculator](07-Tip-Calculator) |
+| 10 |  Tue, Sept 22 | [Fetch & Promises](Lessons/10-Fetch-Promises.md) | [JS Shopping Cart](08-JS-Shopping-Cart) |
+| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | [JS Slide Show](09-JS-Slide-Show) |
 | 12 |  Tue, Sept 29 | Review / Lab | |
 | 13 |  Thu, Oct 1   | Final Assessment | |
 | 14 |  Tue, Oct 6   | Final Project Presentations | [Final Project](10-Final-Project) |
