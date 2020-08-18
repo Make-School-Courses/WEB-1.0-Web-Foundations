@@ -31,10 +31,10 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 | Class |   Date    |                 Topics                  | Assignment Due |
 |:-----:|:---------:|:---------------------------------------:|:--------------:|
 |  1 |  Thu, Aug 20  | [Semantic HTML](Lessons/01-Semantic-HTML.md) | |
-|  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes) | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure) |
-|  3 |  Thu, Aug 27  | [CSS Intro](Lessons/03-CSS-Intro) | [Markup, Attributes, Forms](Assignments/02-Markup-Attributes-Forms) |
-|  4 |  Tue, Sept 1  | [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model) | [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles) |
-|  5 |  Thu, Sept 3  | [CSS Grid](Lessons/05-CSS-Grid) |  |
+|  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes.md) | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure) |
+|  3 |  Thu, Aug 27  | [CSS Intro](Lessons/03-CSS-Intro.md) | [Markup, Attributes, Forms](Assignments/02-Markup-Attributes-Forms) |
+|  4 |  Tue, Sept 1  | [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model.md) | [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles) |
+|  5 |  Thu, Sept 3  | [CSS Grid](Lessons/05-CSS-Grid.md) |  |
 |  6 |  Tue, Sept 8  | Review / Lab | [Portfolio Part 3: CSS Grid](Assignments/04-Portfolio-Part-3-Grid) |
 |  7 |  Thu, Sept 10 | [Responsive Design](Lessons/07-Responsive-Design) | [Single Page Site](05-Single-Page-Site) |
 |  8 |  Tue, Sept 15 | [JavaScript Intro](Lessons/08-JS-Intro) | TBD |
