@@ -125,6 +125,10 @@ Imagine the following blocks of text, your job is to make them up using tags:
 
 Better get those flowers ASAP valentines day is around the corner!
 
+Try this out on your own in code! Open this Repl and solve the problem there. 
+
+https://repl.it/join/owsvoilk-mitchellhudson
+
 <!-- 
 
 <p>Better get those flowers <abbr>ASAP</abbr> <time>valentines day</time> is around the corner!</p>
