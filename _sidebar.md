@@ -16,10 +16,12 @@
   - Final Project Presentations
 
 - **Homework Assignments**
-  - [Homework 1]()
-  - [Homework 1]()
-  - [Homework 1]()
-  - [Homework 1]()
-  - [Homework 1]()
-  - [Homework 1]()
-
+  - [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md)
+  - [Markup, Attributes, Forms](Assignments/02-Markup-Attributes-Forms.md)
+  - [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles.md)
+  - [Portfolio Part 3: CSS Grid](Assignments/04-Portfolio-Part-3-Grid.md)
+  - [Single Page Site](05-Single-Page-Site.md)
+  - [Tip Calculator](07-Tip-Calculator.md)
+  - [JS Shopping Cart](08-JS-Shopping-Cart.md)
+  - [JS Slide Show](09-JS-Slide-Show.md)
+  - [Final Project](10-Final-Project)

@@ -4,11 +4,13 @@
 
 Use Semantic markup to create a portfolio for yourself. Eventually you will style and publish your portfolio. In this assignment you will create the general content of the portfolio and mark it up semantically.
 
+Remember: Semantic HTML isn't about making a web page look good. That's what CSS is for (and we'll get to that later). Aim to design a page that is perfectly understandable to a visually impaired person, or a robot (such as a Google web crawler).
+
 ### Why this assignment?
 
 Markup is the foundation of all web projects. To be an expert web developer you should have strong understanding of HTML.
 
-Semantic is deeper and more careful look at how you choose the tags you use and what those tags say about the content they are applied to. Good sementics creates better SEO and stronger base foundation for your web applications.
+Semantic markup is a deeper and more careful look at how you choose the tags you use and what those tags say about the content they are applied to. Good sementics creates better SEO and stronger base foundation for your web applications.
 
 ## Project requirements
 
@@ -41,7 +43,7 @@ You must submit your `index.html` to Gradescope. Find the assignment in your lis
 
 ### Due date
 
-Class 2 - Tue, Aug 25
+Class 2 - Tue, Aug 25, 11:59 PM
 
 ## Assessing the assignment
 
