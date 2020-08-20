@@ -37,6 +37,10 @@ Mark up your content. Use the following tags.
 - h1-6, hgroup
 - ul, li
 
+### Example
+
+If you're looking for an example of what to create, [here](https://github.com/meredithcat/html-portfolio/blob/master/index.html) is a portfolio page that I made via an online tutorial (original credit to Aga )
+
 ### Deliverable
 
 You must submit your `index.html` to Gradescope. Find the assignment in your list of assignments for the class. When submitting your assignment, select the `Upload` option, and add the `index.html` file for submitting.
