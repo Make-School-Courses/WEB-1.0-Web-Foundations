@@ -31,11 +31,15 @@ This assignment must be submitted through Gradescope.
 
 Mark up your content. Use the following tags. 
 
-- article, section
-- nav, main
-- footer, header
-- h1-6, hgroup
-- ul, li
+- [article](https://www.w3schools.com/tags/tag_article.asp), [section](https://www.w3schools.com/tags/tag_section.asp)
+- [nav](https://www.w3schools.com/tags/tag_nav.asp), [main](https://www.w3schools.com/tags/tag_main.asp)
+- [footer](https://www.w3schools.com/tags/tag_footer.asp), [header](https://www.w3schools.com/tags/tag_header.asp)
+- [h1-6](https://www.w3schools.com/tags/tag_hn.asp)
+- [ul, li](https://www.w3schools.com/html/html_lists.asp)
+
+### Example
+
+[Here](https://github.com/meredithcat/html-portfolio/blob/master/index.html) is an example of a marked-up HTML page for a portfolio site. Yours does not need to include everything on this page - keep it simple! Please do not include any styles; we will get to those later. Only include HTML markup for this assignment.
 
 ### Deliverable
 
