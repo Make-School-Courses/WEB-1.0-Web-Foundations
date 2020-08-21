@@ -15,8 +15,9 @@ Take some time right now to submit your homework into gradescope if you haven't 
 Breakout groups of 3, answer these questions:
 
 - Say hi to your partners!
-- What’s the difference between HTML and CSS? What’s an analogy of each?
 - What’s an HTML tag? Share an example.
+- What is the purpose of HTML? 
+- What is semanitc HTML? 
 - If your partner doesn’t know support their learning until they understand!
 
 <!-- > -->
@@ -115,18 +116,16 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 
 **Multiple Attributes**
 
-Tags can have as many attributes as you care to include. 
+Tags can have as many attributes as you care to include.
 
 ```html
 <img src="alien.png" width="64" height="64">
 <input type="text" name="first-name" id="input-name">
 ```
 
-Values are _always_ quoted even if they are numbers!
-
-The order doesn't matter.
-
-Many tags have attributes specific to them.
+- Values are _always_ quoted even if they are numbers!
+- The order doesn't matter.
+- Many tags have attributes specific to them.
 
 <!-- > -->
 
@@ -139,9 +138,9 @@ Attributes are used by the browser to glean meaning from a tag. Attributes can a
   data-vend0r="0s9d8asj7j929635">New Fangled Thing</a>
 ```
 
-The PLU and vendor id would not look great displayed on the page. Instead they are hidden in the attribute and available to the process that runs when the link is clicked. 
+The PLU and vendor id would not look great displayed on the page. Instead they are hidden in the attribute and available to the process that runs when the link is clicked.
 
-These are developer defined attributes. You, the developer, can make them up. Developer attributes always begin with `data-` followed by any name.
+These are _developer defined_ attributes. You, the developer, can make them up. Developer attributes _always begin with_ `data-` followed by any name.
 
 <!-- > -->
 
@@ -530,3 +529,37 @@ Remember to submit one question you have about the homework to the class slack c
 1. https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 1. https://validator.w3.org
 
+## HTML and the DOM
+
+One of the most important features of HTML to understand is that it is a data structure. The tags that you write create elements that all have a relationship with the elements around them. 
+
+Consider: 
+
+```HTML
+<body>
+  <article>
+    <header>
+      <h1>Hello</h1>
+      <small><time date-time="2020-08-20">Today</time></small>
+    </header>
+    <p>What a nice day</p>
+    <footer>
+      <p>From: Mitchell</p>
+    </footer>
+  </article>
+</body>
+```
+
+Every element here has a relation with the others. There is a language for it! The vocabulary is important to understand and use because it allows you to communicate with other developers and gives you stronger mental model of what is going on in your code! 
+
+- Parent
+- Child
+- Sibling
+- Ancestor 
+- Descendent
+
+Apply these names to the code sample above. 
+
+### What is the DOM?
+
+DOM Stands for Document Object Model and it is the structure created by all of the elements your tags define. 
