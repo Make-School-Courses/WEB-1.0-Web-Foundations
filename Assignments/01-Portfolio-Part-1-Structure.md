@@ -4,11 +4,13 @@
 
 Use Semantic markup to create a portfolio for yourself. Eventually you will style and publish your portfolio. In this assignment you will create the general content of the portfolio and mark it up semantically.
 
+Remember: Semantic HTML isn't about making a web page look good. That's what CSS is for (and we'll get to that later). Aim to design a page that is perfectly understandable to a visually impaired person, or a robot (such as a Google web crawler).
+
 ### Why this assignment?
 
 Markup is the foundation of all web projects. To be an expert web developer you should have strong understanding of HTML.
 
-Semantic is deeper and more careful look at how you choose the tags you use and what those tags say about the content they are applied to. Good sementics creates better SEO and stronger base foundation for your web applications.
+Semantic markup is a deeper and more careful look at how you choose the tags you use and what those tags say about the content they are applied to. Good sementics creates better SEO and stronger base foundation for your web applications.
 
 ## Project requirements
 
@@ -29,11 +31,15 @@ This assignment must be submitted through Gradescope.
 
 Mark up your content. Use the following tags. 
 
-- article, section
-- nav, main
-- footer, header
-- h1-6, hgroup
-- ul, li
+- [article](https://www.w3schools.com/tags/tag_article.asp), [section](https://www.w3schools.com/tags/tag_section.asp)
+- [nav](https://www.w3schools.com/tags/tag_nav.asp), [main](https://www.w3schools.com/tags/tag_main.asp)
+- [footer](https://www.w3schools.com/tags/tag_footer.asp), [header](https://www.w3schools.com/tags/tag_header.asp)
+- [h1-6](https://www.w3schools.com/tags/tag_hn.asp)
+- [ul, li](https://www.w3schools.com/html/html_lists.asp)
+
+### Example
+
+[Here](https://github.com/meredithcat/html-portfolio/blob/master/index.html) is an example of a marked-up HTML page for a portfolio site. Yours does not need to include everything on this page - keep it simple! Please do not include any styles; we will get to those later. Only include HTML markup for this assignment.
 
 ### Deliverable
 
@@ -41,7 +47,7 @@ You must submit your `index.html` to Gradescope. Find the assignment in your lis
 
 ### Due date
 
-Class 2 - Tue, Aug 25
+Class 2 - Tue, Aug 25, 11:59 PM
 
 ## Assessing the assignment
 

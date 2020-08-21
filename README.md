@@ -1,5 +1,7 @@
 # WEB 1.0 Web Foundations
 
+<span class="refresh-instructions">This is a living document! Hold down the `SHIFT` key and press `Refresh` to get the latest version.</span>
+
 ## Course Description
 
 This course covers the foundations of HTML, CSS, and JavaScript which are the building blocks of any website. Students will master HTML and intermediate CSS allowing them to create a compelling website from scratch. JavaScript will be introduced and students will learn basic concepts and syntax needed to create interactive frontend applications. Understand the architecture of frontend applications, the role of each technology in creating modular applications, and professional best practices in frontend development.
@@ -28,51 +30,45 @@ By the end of the course, you will be able to ...
 
 All assignments are due **by midnight (11:59pm) on the day specified.**
 
-| Class |   Date    |                 Topics                  | Assignment Due |
-|:-----:|:---------:|:---------------------------------------:|:--------------:|
-|  1 |  Thu, Aug 20  | [Semantic HTML](Lessons/01-Semantic-HTML.md) | |
-|  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes.md) | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md) |
-|  3 |  Thu, Aug 27  | [CSS Intro](Lessons/03-CSS-Intro.md) | [Markup, Attributes, Forms](Assignments/02-Markup-Attributes-Forms.md) |
-|  4 |  Tue, Sept 1  | [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model.md) | [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles.md) |
-|  5 |  Thu, Sept 3  | [CSS Grid](Lessons/05-CSS-Grid.md) | - |
-|  6 |  Tue, Sept 8  | Review / Lab | [Portfolio Part 3: CSS Grid](Assignments/04-Portfolio-Part-3-Grid.md) |
-|  7 |  Thu, Sept 10 | [Responsive Design](Lessons/07-Responsive-Design.md) | [Single Page Site](05-Single-Page-Site.md) |
-|  8 |  Tue, Sept 15 | [JavaScript Intro](Lessons/08-JS-Intro.md) | TBD |
-|  9 |  Thu, Sept 17 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | [Tip Calculator](07-Tip-Calculator.md) |
-| 10 |  Tue, Sept 22 | [Fetch & Promises](Lessons/10-Fetch-Promises.md) | [JS Shopping Cart](08-JS-Shopping-Cart.md) |
-| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | [JS Slide Show](09-JS-Slide-Show.md) |
-| 12 |  Tue, Sept 29 | Review / Lab | |
-| 13 |  Thu, Oct 1   | Final Assessment | |
-| 14 |  Tue, Oct 6   | Final Project Presentations | [Final Project](10-Final-Project) |
+| Class |   Date    |                 Topics                  | Slides | Assignment Due |
+|:-----:|:---------:|:---------------------------------------:|:------:|:--------------:|
+|  1 |  Thu, Aug 20  | [Semantic HTML](Lessons/01-Semantic-HTML.md) | [Slides](https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing) | |
+|  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes.md) | - |  |
+|  3 |  Thu, Aug 27  | [CSS Intro](Lessons/03-CSS-Intro.md) | - | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md)<br>[Markup, Attributes, Forms](Assignments/02-Markup-Attributes-Forms.md) |
+|  4 |  Tue, Sept 1  | [CSS Box Model & Flexbox](Lessons/04-CSS-Box-Model.md) | - | [Portfolio Part 2: Styles](Assignments/03-Portfolio-Part-2-Styles.md) |
+|  5 |  Thu, Sept 3  | [CSS Grid](Lessons/05-CSS-Grid.md) | - | - |
+|  6 |  Tue, Sept 8  | Review / Lab | - | [Portfolio Part 3: CSS Grid](Assignments/04-Portfolio-Part-3-Grid.md) |
+|  7 |  Thu, Sept 10 | [Responsive Design](Lessons/07-Responsive-Design.md) | - | [Single Page Site](05-Single-Page-Site.md) |
+|  8 |  Tue, Sept 15 | [JavaScript Intro](Lessons/08-JS-Intro.md) | - | TBD |
+|  9 |  Thu, Sept 17 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Tip Calculator](07-Tip-Calculator.md) |
+| 10 |  Tue, Sept 22 | [Fetch & Promises](Lessons/10-Fetch-Promises.md) | - | [JS Shopping Cart](08-JS-Shopping-Cart.md) |
+| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [JS Slide Show](09-JS-Slide-Show.md) |
+| 12 |  Tue, Sept 29 | Review / Lab | - | |
+| 13 |  Thu, Oct 1   | Final Assessment | - | |
+| 14 |  Tue, Oct 6   | Final Project Presentations | - | [Final Project](10-Final-Project) |
+
 
 ## Evaluation
 
-**To pass this course, you must earn at least a 70% weighted average, according to the following breakdown**:
+**To pass this course, you must**: 
 
-- Assignments & Class Participation: 50%
-- Final Assessment: 30%
-- Final Project: 20%
+- Earn an average score of 2 on the [Course Learning Outcomes Rubric](https://make.sc/web1.0-rubric). Each section's score will be determined by your performance on that week's assignment. The last section's score will be determined by your adherence to deadlines & class participation.
+- Pass the Final Assessment.
+- Abide by the Attendance Policy.
 
-In order to pass this course, you must also:
+## Attendance Policy
 
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+Each student will be allowed **2 (two) unexcused absences** and **2 (two) excused absences** per course per term. An absence is excused if you reach out to your instructor prior to class to explain why you can't make it. If you exceed the total number of allowed absences, you will be withdrawn from the course.
 
 ## Late Assignment Policy
 
-If you submit an assignment after the due date, your instructor will apply a late penalty as follows:
+Every assignment submitted by the deadline will be allowed **one resubmission** after receiving feedback. Late assignments will be accepted, but if you submit an assignment past the deadline, you will not be allowed a resubmission.
 
-- Late assignments that are submitted **no later that 2 days (48 hours)** after the deadline will be given a **10% late penalty**.
-- Another **10% late penalty** will be applied for **every 2 days (48 hours)** that pass after the deadline. For example, an assignment that is submitted 5 days late will receive a 30% late penalty.
-- Assignments submitted **more than 7 days (1 week) late** will **not** be accepted.
-
-The **absolute last day** to submit any assignment will be **Tuesday, October 6 at 11:59 PM**.
-
-If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
+If you have an extenuating circumstance such as prolonged illness, please reach out to your instructor to request an extension.
 
 ## Class Recordings
 
-TBD
+Class recordings will be available in a shared Google Drive folder (location TBD) for students who are enrolled in the course. For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Academic Honesty Policy
 
