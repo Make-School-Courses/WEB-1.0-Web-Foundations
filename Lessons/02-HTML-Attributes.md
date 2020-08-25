@@ -1,6 +1,6 @@
 # FEW 1.1 - HTML Attributes
 
-➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/Slides/02-Forms-Links-Images/README.html ':ignore')
+➡️ [**Slides**](https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing ':ignore')
 
 <!-- > -->
 
