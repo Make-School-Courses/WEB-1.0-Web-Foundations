@@ -19,7 +19,7 @@
 				font-family: Times;
 				font-size: 16px;
 				color: #000;
-				padding: 10px;
+				padding: 0px;
 			}
 
 			code {
@@ -56,6 +56,7 @@
 			<hr>
 			<pre>
 #text-sample {
+	/* Font Properties */
 	font-family: <select id="fontFamily">
 		<optgroup label="Serif">
 			<option>Times</option>
@@ -89,7 +90,7 @@
 		<option>normal</option>
 		<option>bold</option>
 		<option>lighter</option>
-	</select>
+	</select>;
 	letter-spacing: <input id="letterSpacing" type="number" data-unit="px" value="0">px;
 	line-height: <input id="lineHeight" type="number" data-unit="px" value="18">px;
 	text-decoration: <select id="textDecoration">
@@ -99,13 +100,25 @@
 		<option>underline</option>
 		<option>underline overline</option>
 		<option>underline overline line-through</option>
-	</select>
+	</select>;
 	text-decoration-style: <select id="textDecorationStyle">
 		<option>none</option>
 		<option>solid</option>
 		<option>wavy</option>
 		<option>double</option>
-	</select>
+	</select>;
+	text-decoration-color: color: <input id="textDecorationColor" type="color">;
+	font-align: <select id="textAlign">
+		<option>left</option>
+		<option>right</option>
+		<option>center</option>
+		<option>justify</option>
+	</select>;
+
+	/* Box Properties */
+	background-color: <input id="backgroundColor" type="color">;
+	margin: <input id="margin" type="number" data-unit="px" value="0">px;
+	padding: <input id="padding" type="number" data-unit="px" value="0">px;
 }
 			</pre>
 		</div>
