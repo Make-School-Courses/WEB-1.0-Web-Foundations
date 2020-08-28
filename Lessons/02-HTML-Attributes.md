@@ -17,7 +17,7 @@ Breakout groups of 3, answer these questions:
 - Say hi to your partners!
 - What’s an HTML tag? Share an example.
 - What is the purpose of HTML? 
-- What is semanitc HTML? 
+- What is semantic HTML? 
 - If your partner doesn’t know support their learning until they understand!
 
 <!-- > -->
@@ -28,26 +28,15 @@ Breakout groups of 3, answer these questions:
 1. Use HTML tags and their attributes
 1. Use HTML forms and form elements
 1. Use the validator to write better HTML
+1. Describe a tree structure
 
 <!-- > -->
-
-<!-- 
-
-Success Skills Exercise - Resources (5 to 10 mins)
-
-List of resources which are you using and which ones are you not useing: 
-
-- Google 
-- Stackoverflow 
-- Your Peers 
-- Blogs and Websites 
-- ...
-
- -->
 
 ### Why you should know this
 
 The ability to generate well written and valid HTML is a requirement for any front end developer. You want to be solving bigger problems rather than tripping over HTML syntax. 
+
+While writing HTML is considered an easy task, and many developers don't pay much attention to it, using semantic concepts can set you apart making you a better developer with a deeper understanding, writing better quality code. 
 
 <!-- > -->
 
@@ -73,6 +62,9 @@ As review you should look closely for semantic use of HTML elements. Especially 
     - section, article, header, footer
 - semantic organization, and communication
     - h1-6, p, strong, em, etc.
+- Look for syntax errors, for example missing closing tags or closing tags missing the /
+- Look at style, does the indentation help readability. 
+- Look for spelling mistakes like `<haeder>` or `<boyd>`
 
 With a partner, define how you would use each of these above HTML elements. What other elements could you use, and how would you use them?
 
@@ -124,8 +116,16 @@ Tags can have as many attributes as you care to include.
 ```
 
 - Values are _always_ quoted even if they are numbers!
-- The order doesn't matter.
+  - `src="alien.png"` 
+  - `width="64"` 
+  - `height="64"`
+- The order doesn't matter. (these are all the same)
+  - `<img src="alien.png" width="64" height="64">`
+  - `<img width="64" height="64" src="alien.png">`
+  - `<img height="64" width="64" src="alien.png" >`
 - Many tags have attributes specific to them.
+  - `<img src="alien.png" width="64" height="64" alt="Alien">` Uses height, width, src, and alt
+  - `<input type="text" name="first-name" id="input-name">` Doesn't use height, width, or alt
 
 <!-- > -->
 
@@ -135,7 +135,7 @@ Attributes are used by the browser to glean meaning from a tag. Attributes can a
 <a 
   href="http://paypal.com" 
   data-plu="102938" 
-  data-vend0r="0s9d8asj7j929635">New Fangled Thing</a>
+  data-vendor="0s9d8asj7j929635">New Fangled Thing</a>
 ```
 
 The PLU and vendor id would not look great displayed on the page. Instead they are hidden in the attribute and available to the process that runs when the link is clicked.
@@ -539,8 +539,8 @@ Consider:
 <body>
   <article>
     <header>
-      <h1>Hello</h1>
-      <small><time date-time="2020-08-20">Today</time></small>
+      <h1>Hello!</h1>
+      <small>Sent:<time date-time="2020-08-20">Today</time></small>
     </header>
     <p>What a nice day</p>
     <footer>
