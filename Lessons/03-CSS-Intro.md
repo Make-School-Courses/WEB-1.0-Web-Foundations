@@ -48,7 +48,7 @@ CSS is powerful gives you full control of the appearance of everything you see o
 
 **Download the source code from our example here:** [https://github.com/soggybag/learn-markup-level-2](https://github.com/soggybag/learn-markup-level-2)
 
-Open the example file: **challenge-01-solution.html** in your browser and your code editor. We will make changes to the source code and view the changes in the browser. 
+Open the example file: **challenge-01-solution.html** in your browser and your code editor. We will make changes to the source code and view the changes in the browser.
 
 <!-- > -->
 
