@@ -10,20 +10,19 @@ Style your work. Be sure to use at least the following styles:
 - font-size
 - font-weight
 - color
-- background-color 
-- 
+- background-color
 
 ### Why this assignment?
 
-
+You need to practice. The more opportunities you can get to practice your craft the more you will learn. Applying the concepts to your own work is an important step. 
 
 ## Goals
 
-
+Apply the CSS properties and selectors from the challenge examples to your portfolio html project. 
 
 ### Deliverable
 
-
+Your portfolio project on GitHub. 
 
 ### Due date
 
