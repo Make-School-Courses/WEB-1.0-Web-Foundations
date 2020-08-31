@@ -1,4 +1,4 @@
-# WEB 1.0 - CSS Challenges part 2
+# WEB 1.0 - CSS Portfolio styles 
 
 ## Description 
 
@@ -11,29 +11,24 @@ Style your work. Be sure to use at least the following styles:
 - font-weight
 - color
 - background-color
+- flex
 
 ### Why this assignment?
 
 You need to practice. The more opportunities you can get to practice your craft the more you will learn. Applying the concepts to your own work is an important step. 
 
-## Goals
-
-Apply the CSS properties and selectors from the challenge examples to your portfolio html project. 
-
 ### Deliverable
 
-Your portfolio project on GitHub. 
+Your completed challenges submitted to GradeScope
 
 ### Due date
 
-
+- Tue, Sept 8
 
 ## Assessing the assignment
 
-**Portfolio**
-
 | Aspect | Does not meet | Meets | Exceeds |
 |:-------|:--------------|:------|:--------|
-| **Completion** | Your web site doesn't look complete | Your web site looks complete | Your web site explores ideas and concepts outside of the project description |
+| **Completion** | You haven't used all each of the listed CSS properties at least once. | You've managed to use all of the listed CSS properties at least once each. | You've used all of the list CSS properties where appropriate and found some new properties and used those also! |
 | **Styles** | Your site is not styled | Everything appears to be styled | Your design inspires others. People comment on how great it looks! | 
 | **Code Quality** | Your code is sloppy and lacks organization | Your code uses consistent indentation, spacing, and consistent coding style | Your code passes validation |
