@@ -35,9 +35,9 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  1 |  Thu, Aug 20  | [Semantic HTML](Lessons/01-Semantic-HTML.md) | [Slides](https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing) | |
 |  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes.md) | [Slides](https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing) |  |
 |  3 |  Thu, Aug 27  | Forms & the DOM | [Slides](https://docs.google.com/presentation/d/1EW68FKT3KHE9dgr4Y1J9inthdw2aGLL8eEn1Phxbgdo/edit?usp=sharing) | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md)<br>-AND-<br>[Learn Semantic Markup](https://github.com/soggybag/learn-semantic-markup) |
-|  4 |  Tue, Sept 1  | [CSS Intro](Lessons/03-CSS-Intro.md) | [Slides](https://docs.google.com/presentation/d/1BlnHQLA6dixDPMYDbO__L39tRPoG7fx-HNjzZJr3B4I/edit?usp=sharing) | [CSS Challenges Part 1](Assignments/041-CSS-Challenges.md) |
-|  5 |  Thu, Sept 3  | [CSS Box Model](Lessons/04-CSS-Box-Model.md) | - | [CSS Challenges Part 2](Assignments/042-CSS-Challenges-part-2.md) <br>-AND-<br> [Style Your Portfolio](Assignments/043-CSS-Portfolio.md)|
-|  6 |  Tue, Sept 8  | [Flexbox](Lessons/05-CSS-Grid.md) | - |  |
+|  4 |  Tue, Sept 1  | [CSS Intro](Lessons/03-CSS-Intro.md) | [Slides](https://docs.google.com/presentation/d/1BlnHQLA6dixDPMYDbO__L39tRPoG7fx-HNjzZJr3B4I/edit?usp=sharing) | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
+|  5 |  Thu, Sept 3  | [CSS Box Model](Lessons/04-CSS-Box-Model.md) | - | [CSS Challenges Part 1](Assignments/041-CSS-Challenges.md) |
+|  6 |  Tue, Sept 8  | [Flexbox](Lessons/05-CSS-Grid.md) | - | [CSS Challenges Part 2](Assignments/042-CSS-Challenges-part-2.md) <br>-AND-<br> [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
 |  7 |  Thu, Sept 10 | Review / Lab | - | [Single Page Site](05-Single-Page-Site.md) |
 |  8 |  Tue, Sept 15 | [Responsive Design](Lessons/07-Responsive-Design.md) | - | TBD |
 |  9 |  Thu, Sept 17 | [JavaScript Intro](Lessons/08-JS-Intro.md) | - | [Tip Calculator](07-Tip-Calculator.md) |
