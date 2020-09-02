@@ -100,6 +100,8 @@ The best way to learn more about the box model is to practice with it!
 
 **Download [this HTML file](https://github.com/Make-School-Courses/WEB-1.0/blob/master/box-model.html), and open it in your browser**
 
+Or view it [here](https://make-school-courses.github.io/WEB-1.0-Web-Foundations/#/box-model.html)
+
 Take a few minutes to play around with it, and see how the box/content changes depending on how you change the inputs. You can always edit the text/content of the box by editing the `#content` element in the HTML file.
 
 **Next, take 10 min and try to fill in the blanks to match the following pictures using the box model tool. At the end we'll share as a class to see who got the closest!**
