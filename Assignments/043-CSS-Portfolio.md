@@ -46,8 +46,10 @@ If you're not sure how to apply these refer to the challenges in class and borro
 
 ## Stretch Challenges 
 
-If you've styled your work following the guide above take it further by trying thesde challenges: 
+If you've styled your work following the guide above take it further by trying these challenges: 
 
+- Validate your code with the HTML Validator: https://validator.w3.org
+- Validate your CSS with: https://jigsaw.w3.org/css-validator/
 - Add some images (if you haven't already)
 - Show your work to someone else for feedback. Make changes based on what they suggest.
 - Publish your portfolio to GitHub Pages. https://pages.github.com
@@ -56,6 +58,11 @@ If you've styled your work following the guide above take it further by trying t
 	- Give each section an id with a name, for example: `<section id="about-me">`
 	- Create a link like this: `<a href="#about-me">About</a>`
 - Try implementing a custom font: https://fonts.google.com
+	- Follow this guide: https://developers.google.com/fonts/docs/getting_started
+- If you haven't try using two different fonts. One for headings and the other for everything else. 
+	- Apply the main font to the body: `body { font-family: Arial; }`
+	- Apply another font to the headings: `h1, h2, h3 { font-family: Gerogia; }`
+	- Combine this idea with Googles and explore some font pairs here: https://www.pagecloud.com/blog/best-google-fonts-pairings
 
 ### Deliverable
 
