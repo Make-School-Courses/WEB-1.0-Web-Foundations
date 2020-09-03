@@ -6,11 +6,11 @@ The goal of this assignment is to get started working with styles. You should be
 
 ### Why this assignment?
 
-CSS is how the web is styled! Everything you see on the web and much of what you see on mobile is styled with CSS. Better looking projects are adopted by more users and it's more satisfying as a deverloper to make something beautiful. 
+CSS is how the web is styled! Everything you see on the web and much of what you see on mobile is styled with CSS. Better looking projects are adopted by more users and it's more satisfying as a developer to make something beautiful. 
 
 ## Goals
 
-Your goal is to style your portfolio page. You will do this by adding a a style sheet and writing CSS.
+Your goal is to style your portfolio page. You will do this by adding a style sheet and writing CSS.
 
 Keep in mind that CSS is applied to elements on the page through selectors. Selectors target elements on the page either by an identifier: 
 
@@ -18,29 +18,29 @@ Keep in mind that CSS is applied to elements on the page through selectors. Sele
 - class name 
 - id name 
 
-Or by the DOM structure using selectors: descendent (`section h1`) or child (`section > h1`). Review your selectors here: [CSS Diner](https://flukeout.github.io). You don't have to know all of these now, if you can master the first 9 you're doing great! Look for opportunities to use selectors shown in the CSS diner game in your own work. 
+Or by the DOM structure using selectors: descendent (`section h1`) or child (`section > h1`). Review your selectors here: [CSS Diner](https://flukeout.github.io). You don't have to know all of these now, if you can master the first 9 you're doing great! Look for opportunities to use selectors shown in the CSS diner game in your work. 
 
 ### Personal portfolio site
 
-Use the CSS covered in class to style your portfolio page. Create a `styles.css` file to put your styles in. For now you only need to worrry about things covered in class, feel free to look up and explore new styles.
+Use the CSS covered in class to style your portfolio page. Create a `styles.css` file to put your styles in. For now, you only need to worry about things covered in class, feel free to look up and explore new styles.
 
 Make use of at least these style properties: 
 
 - Typography
-    - font-family
-    - font-size
-    - font-weight
-		- line-height
-    - color
+	- font-family
+	- font-size
+	- font-weight
+	- line-height
+	- color
 - layout
-    - flex
-    - margin
-    - padding
+	- flex
+	- margin
+	- padding
 - background
-    - background-color
-    - border-color
-    - border-width
-    - border-style
+	- background-color
+	- border-color
+	- border-width
+	- border-style
 
 If you're not sure how to apply these refer to the challenges in class and borrow ideas.
 
@@ -49,7 +49,10 @@ If you're not sure how to apply these refer to the challenges in class and borro
 If you've styled your work following the guide above take it further by trying these challenges: 
 
 - Validate your code with the HTML Validator: https://validator.w3.org
-- Validate your CSS with: https://jigsaw.w3.org/css-validator/
+- Validate your CSS with https://jigsaw.w3.org/css-validator/
+- Format and comment your code. 
+	- Adding comments is profesional best practice and will help you better understand the code you wrote. 
+	- Formatting your code improves your code craft and quality, and makes it easier to read.
 - Add some images (if you haven't already)
 - Show your work to someone else for feedback. Make changes based on what they suggest.
 - Publish your portfolio to GitHub Pages. https://pages.github.com
@@ -59,7 +62,7 @@ If you've styled your work following the guide above take it further by trying t
 	- Create a link like this: `<a href="#about-me">About</a>`
 - Try implementing a custom font: https://fonts.google.com
 	- Follow this guide: https://developers.google.com/fonts/docs/getting_started
-- If you haven't try using two different fonts. One for headings and the other for everything else. 
+- If you haven't, try using two different fonts. One for headings and the other for everything else. 
 	- Apply the main font to the body: `body { font-family: Arial; }`
 	- Apply another font to the headings: `h1, h2, h3 { font-family: Gerogia; }`
 	- Combine this idea with Googles and explore some font pairs here: https://www.pagecloud.com/blog/best-google-fonts-pairings
@@ -90,3 +93,4 @@ Tue, Sept 8
 |:-------|:--------------|:------|:--------|
 | **Completion** | Did not complete | Completed all 32 problems | - |
 | **Selectors** | Can't use basic selectors (problems 1-9) from memory | Can use selectors 1-9 from memory | Can remember and use selectors 10 and beyond |-->
+
