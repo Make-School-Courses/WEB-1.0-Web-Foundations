@@ -2,7 +2,7 @@
 
 ## Description 
 
-The goal of this assignment is to get started working with styles.
+The goal of this assignment is to get started working with styles. You should be applying styles to your work and solving problems along the way. 
 
 ### Why this assignment?
 
@@ -10,23 +10,29 @@ CSS is how the web is styled! Everything you see on the web and much of what you
 
 ## Goals
 
-### Practice Selectors
+Your goal is to style your portfolio page. You will do this by adding a a style sheet and writing CSS.
 
-Finish [CSS Diner](https://flukeout.github.io) if you haven't already.
+Keep in mind that CSS is applied to elements on the page through selectors. Selectors target elements on the page either by an identifier: 
 
-These selectors are really important. You can always return this game and practice selectors if you forget them. 
+- tag name
+- class name 
+- id name 
 
-This game is fun and comprehensive. 
+Or by the DOM structure using selectors: descendent (`section h1`) or child (`section > h1`). Review your selectors here: [CSS Diner](https://flukeout.github.io). You don't have to know all of these now, if you can master the first 9 you're doing great!
 
 ### Personal portfolio site
 
-Use the CSS covered in class to style your portfolio page. Create an `index.css` file to put your styles in. For now you only need to worrry about things covered in class you can try other ideas and do more if you like!
+Use the CSS covered in class to style your portfolio page. Create a `styles.css` file to put your styles in. For now you only need to worrry about things covered in class, feel free to look up and explore new styles.
 
-- Type
+Make use of at least these style properties: 
+
+- Typography
+    - font-family
     - font-size
     - font-weight
     - color
 - layout
+    - flex
     - margin
     - padding
 - background
@@ -34,6 +40,8 @@ Use the CSS covered in class to style your portfolio page. Create an `index.css`
     - border-color
     - border-width
     - border-style
+
+If you're not sure how to apply these refer to the challenges in class and borrow ideas. 
 
 ### Deliverable
 
