@@ -4,6 +4,25 @@
 		<title>Box Model</title>
 		<style>
 
+			.box {
+				/*  */
+			}
+
+			test {
+				padding: 10mm; /* All sides */
+				padding: 10% 20%; /* top/bottom left/right */
+				padding: 1em 2em 0.5em 0.25em; /* t r b l */
+
+
+				color: rgb(255, 0, 0);
+				color: rgba();
+				color: hsl();
+				color: hsla();
+				color: #229;
+				color: #ff0000;
+				color: #29292966;
+			}
+
 			body {
 				tab-size: 2;
 				font-size: 20px;
@@ -61,6 +80,12 @@
 		</style>
 	</head>
 	<body>
+
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+
 		<div class="container">
 			<div id="box-zone">
 				<div class="box">
@@ -71,6 +96,7 @@
 			<div class="code-zone"> 
 				<pre>
 .box {
+	font-size: <input id="fontSize" value="16" type="number" data-unit="px">px;
 	color: <input id="color" value="#f00" type="color">;
 	background-color: <input id="backgroundColor" value="#f00" type="color">;
 	width: <input id="width" value="" type="number" data-unit="px">px;
@@ -124,6 +150,7 @@
 					box.style[id] = 'unset'
 				}
 			}
+
 		</script>
 
 	</body>
