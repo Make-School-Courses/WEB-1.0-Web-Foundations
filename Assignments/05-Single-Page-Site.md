@@ -8,9 +8,7 @@ Make your own single page web site. You won't use Bootstrap or other framework. 
 
 The best way to learn about CSS is to start applying it on your own projects. Writing CSS on your own is an important step in the process of learning the language. 
 
-This project will use common layout and arrangement that could be used in a lots of projects. 
-
-Use the content that you created for your portfolio. You are going to style this using the ideas from class. 
+This single page format is a common sty;e for creating web pages. It's a good place to start applying your skills.
 
 ## Project requirements
 
@@ -33,7 +31,9 @@ This site has a few features:
 
 **Your site must have the same features as outlined above!**
 
-Here are some wireframes images showing the general layout you are shooting for. 
+Here are some wireframes images showing the general layout you are shooting for. You'll use flex box for the layout. The images below show wire frmes that describe the general layout you are striving to achieve. 
+
+These images have some notes on where flex is applied and which way the axis and cross axis are. 
 
 - [Wireframe](images/Wireframe.png)
 - [Wireframe with flex notes](images/Wireframe-with-flex-notes.png)
@@ -44,13 +44,17 @@ Here are some wireframes images showing the general layout you are shooting for.
 
 The subject and context of this site should be purely informational. Think of the site as mini lightning talk on a subject of your choice. 
 
-Use a topic/subject from your S&L class. For example Geology, Psychology, or Ethics. You can optionaly chose another topic if you like.
+Use a topic/subject from your S&L class. For example Geology, Psychology, or Ethics. You can optionaly chose another topic if you like. (Try and get credit from your S&L class for this!)
 
-(Try and get credit from your S&L class for this!)
+Plan the content for your site like you might write an essay. The text content doesn't have to be long. 
+
+You must include images. Images appear in any box with x. 
+
+Your navbar should include links that navigate to each of the sections of your site. 
 
 ### Example Sites 
 
-All of these sites use this type of layout or some derivative. 
+All of these sites use this type of layout or some derivative. Draw inspiration from these for your work. 
 
 - https://thespitfire.webflow.io
 - https://makeui.design
