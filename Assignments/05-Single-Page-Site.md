@@ -12,7 +12,7 @@ This single page format is a common sty;e for creating web pages. It's a good pl
 
 ## Project requirements
 
-You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and then the `Live Demo` buton, and take a look at the demo of the template. 
+You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/assets/files/free-css-templates/preview/page196/conquer/). Click the link and then the `Live Demo` buton, and take a look at the demo of the template. 
 
 **This template uses Bootstrap you are going to make your own version of it without Bootstrap.**
 
