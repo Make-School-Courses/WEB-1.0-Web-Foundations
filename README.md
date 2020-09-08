@@ -39,10 +39,10 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  5 |  Thu, Sept 3  | [CSS Box Model](Lessons/04-CSS-Box-Model.md) |  [Slides](https://docs.google.com/presentation/d/1krVRtqA_yxW-O98bUWBguIEucS1zMSUp-hMGGHaEzM4/edit?usp=sharing) | [CSS Challenges Part 1](Assignments/041-CSS-Challenges.md) |
 |  6 |  Tue, Sept 8  | [Flexbox](Lessons/05-CSS-Grid.md) | - | [CSS Challenges Part 2](Assignments/042-CSS-Challenges-part-2.md) <br>-AND-<br> [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
 |  7 |  Thu, Sept 10 | Review / Lab | - |  |
-|  8 |  Tue, Sept 15 | [Responsive Design](Lessons/07-Responsive-Design.md) | - | [Single Page Site](05-Single-Page-Site.md) |
+|  8 |  Tue, Sept 15 | [Responsive Design](Lessons/07-Responsive-Design.md) | - | [Single Page Site](Assignments/05-Single-Page-Site.md) |
 |  9 |  Thu, Sept 17 | [JavaScript Intro](Lessons/08-JS-Intro.md) | - | TBD |
-| 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Tip Calculator](07-Tip-Calculator.md) |
-| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [JS Shopping Cart](08-JS-Shopping-Cart.md) |
+| 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [JS Shopping Cart](Assignments/08-JS-Shopping-Cart.md) |
 | 12 |  Tue, Sept 29 | Review / Lab | - | [JS Slide Show](09-JS-Slide-Show.md) |
 | 13 |  Thu, Oct 1   | Final Assessment | - | |
 | 14 |  Tue, Oct 6   | Final Project Presentations | - | [Final Project](10-Final-Project) |
