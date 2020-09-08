@@ -35,10 +35,10 @@ Here are some wireframes images showing the general layout you are shooting for.
 
 These images have some notes on where flex is applied and which way the axis and cross axis are. 
 
-- [Wireframe](images/Wireframe.png)
-- [Wireframe with flex notes](images/Wireframe-with-flex-notes.png)
-- [Wireframe card flex](images/Wireframe-with-card-notes.png)
-- [Wireframe Alternating layout](images/Wireframe-with-alternating-layout.png)
+- [Wireframe](/WEB-1.0-Web-Foundations/Assignments/images/Wireframe.png)
+- [Wireframe with flex notes](/WEB-1.0-Web-Foundations/Assignments/images/Wireframe-with-flex-notes.png)
+- [Wireframe card flex](/WEB-1.0-Web-Foundations/Assignments/images/Wireframe-with-card-notes.png)
+- [Wireframe Alternating layout](/WEB-1.0-Web-Foundations/Assignments/images/Wireframe-with-alternating-layout.png)
 
 ### What content should your site contain? 
 
