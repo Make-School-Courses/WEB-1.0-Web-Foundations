@@ -52,6 +52,10 @@ You must include images. Images appear in any box with x.
 
 Your navbar should include links that navigate to each of the sections of your site. 
 
+### Starter Code
+
+You may want to use the starter code [here](https://github.com/Make-School-Labs/single-page-starter) to begin your single-page site.
+
 ### Example Sites 
 
 All of these sites use this type of layout or some derivative. Draw inspiration from these for your work. 
