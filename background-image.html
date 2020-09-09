@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Flexbox</title>
+	<title>Background Image</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&display=swap"
 		rel="stylesheet">
 	<style>
@@ -109,28 +109,37 @@
 
 		<div class="code-zone">
 <pre><code><span class="selector"></span> .demo {
-	display: <select id="display">
-		<option>block</option>
-		<option>flex</option>
+	background-color: <input type="color" id="backgroundColor">;
+	background-image: <select id="backgroundImage">
+		<option></option>
+		<option>url(images/cat.png)</option>
+		<option>url(images/pattern.jpg)</option>
 	</select>;
-	justify-content: <select id="justifyContent">
-		<option>flex-start</option>
-		<option>flex-end</option>
+	background-size: <select id="backgroundSize">
+		<option>auto</option>
+		<option>cover</option>
+		<option>contain</option>
+		<option>40px</option>
+		<option>100px</option>
+		<option>50%</option>
+		<option>100%</option>
+	</select>;
+	background-repeat: <select id="backgroundRepeat">
+		<option>repeat-x</option>
+		<option>repeat-y</option>
+		<option>repeat</option>
+		<option>no-repeat</option>
+	</select>;
+	background-position: <select id="backgroundPosition">
+		<option>left top</option>
+		<option>left center</option>
+		<option>left bottom</option>
+		<option>right top</option>
+		<option>right center</option>
+		<option>right bottom</option>
+		<option>center top</option>
 		<option>center</option>
-		<option>space-around</option>
-		<option>space-between</option>
-		<option>space-evenly</option>
-	</select>;
-	align-items: <select id="alignItems">
-		<option>flex-start</option>
-		<option>flex-end</option>
-		<option>center</option>
-		<option>basline</option>
-		<option>stretch</option>
-	</select>;
-	flex-direction: <select id="flex-direction">
-		<option>row</option>
-		<option>column</option>
+		<option>center bottom</option>
 	</select>;
 }</code></pre>
 	<p>
