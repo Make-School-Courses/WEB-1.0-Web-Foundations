@@ -47,9 +47,9 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  7 |  Thu, Sept 10 | Review / Lab | [Slides](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) |  |
 |  8 |  Tue, Sept 15 | JavaScript Intro | [Slides](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
 |  9 |  Thu, Sept 17 | [JavaScript Syntax](Lessons/08-JS-Intro.md) | - |  |
-| 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8)<br>[Tip Calculator](Assignments/07-Tip-Calculator.md) |
-| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [JS Shopping Cart](Assignments/08-JS-Shopping-Cart.md) |
-| 12 |  Tue, Sept 29 | Review / Lab | - | [JS Slide Show](09-JS-Slide-Show.md) |
+| 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8)) |
+| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 12 |  Tue, Sept 29 | Review / Lab | - | [JS Slide Show](Assignments/09-JS-Slide-Show.md) |
 | 13 |  Thu, Oct 1   | Final Assessment | - | |
 | 14 |  Tue, Oct 6   | Final Project Presentations | - | [Final Project](Assignments/10-Final-Project.md) |
 
@@ -74,7 +74,7 @@ If you have an extenuating circumstance such as prolonged illness, please reach 
 
 ## Class Recordings
 
-Class recordings will be available in a shared Google Drive folder (location TBD) for students who are enrolled in the course. For privacy reasons, please do not share the recordings outside of the Make School student body.
+Class recordings will be available [here](https://docs.google.com/document/d/12ACry7MDrAS3UJzid6zDeoP-AqAc3z1rIWIFRKEecnE/edit#). For privacy reasons, please do not share the recordings outside of the Make School student body.
 
 ## Academic Honesty Policy
 
