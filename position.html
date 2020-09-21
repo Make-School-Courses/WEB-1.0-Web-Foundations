@@ -105,20 +105,10 @@
 <body>
 	<div class="container">
 
-		<div class="demo">
-			<div id="parent">
-				Parent
-				<div id="child">Child</div>
-			</div>
-		</div>
+		<div class="demo"></div>
 
 		<div class="code-zone">
 <pre><code><span class="selector"></span> .demo {
-	position: <select id="position">
-		<option>auto</option>
-		<option>relative</option>
-		<option>absolute</option>
-	</select>;
 	display: <select id="display">
 		<option>block</option>
 		<option>flex</option>
@@ -142,39 +132,7 @@
 		<option>row</option>
 		<option>column</option>
 	</select>;
-}
-#parent {
-	background-color: #888;
-position: <select id="position">
-	<option>auto</option>
-	<option>relative</option>
-	<option>absolute</option>
-</select>;
-display: <select id="display">
-	<option>block</option>
-	<option>flex</option>
-</select>;
-justify-content: <select id="justifyContent">
-	<option>flex-start</option>
-	<option>flex-end</option>
-	<option>center</option>
-	<option>space-around</option>
-	<option>space-between</option>
-	<option>space-evenly</option>
-</select>;
-align-items: <select id="alignItems">
-	<option>flex-start</option>
-	<option>flex-end</option>
-	<option>center</option>
-	<option>basline</option>
-	<option>stretch</option>
-</select>;
-flex-direction: <select id="flex-direction">
-	<option>row</option>
-	<option>column</option>
-</select>;
-}
-</code></pre>
+}</code></pre>
 	<p>
 		<button id="add-box">Add Box</button>
 	</p>

@@ -72,5 +72,6 @@ A single web page published to GitHub Pages. You will submit the repo through Gr
 
 ## Due date
 
-Class 14 - Tue, Oct 6
+
+
 
