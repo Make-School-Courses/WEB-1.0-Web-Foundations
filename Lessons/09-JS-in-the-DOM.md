@@ -25,20 +25,6 @@ Breakout groups of 3 (12 min):
 
 <!-- > -->
 
-<!-- 
-
-Success Skills - project planning and estimation 
-
-- Using the Store tutorial 
-- Skim the tutorial and guesstimate what needs to be done. 
-  - How many pages are there? 
-  - What are the deliverables? 
-- Estimate how much time it will take to complete the tutorial
-- Make a schedule 
-
- -->
-
-
 ### Why learn this? 
 
 We're tying two big concepts we've learned so far together in this lesson: styling with Flexbox and utilizing JavaScript. We'll dive a bit deeper into how to deal with various input types using JavaScript, and also what `NaN` is, and how to properly deal with it!
@@ -46,6 +32,206 @@ We're tying two big concepts we've learned so far together in this lesson: styli
 Why do this? We need to make sure our code is handling/expecting the right types, or else we will get errors and the data will get messy!
 
 **Question:** Why do we need to ensure variables are the same type?
+
+<!-- > -->
+
+
+# WEB 1.0 - JS and the DOM
+
+## Description 
+
+JavaScript is used in a wide variety of applications none is greater than creating web pages. Understanding how JavaScript interacts with HTML and CSS is key to make amazing websites and experienes. 
+
+### What is the DOM?
+
+The DOM or Document, Object, Model is the structure defined by your HTML code. 
+
+The HTML code your write creates a document that is structured and organized. This means your code can access elements based on the structure, or influence or control elements based on the their position in the DOM and their relation to other elements. 
+
+Every element is an Object. An Object in computer terms is a collection of functions and variables. 
+
+Imagine you have a web page that looks like this: 
+
+```HTML
+<html>
+  <head>
+    <title>Hello</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Foo bar</p>
+  </body>
+</html>
+```
+
+We could also describe the structure here in print like this: 
+
+- html
+  - head
+    - title
+  - body
+    - h1
+    - p
+
+Imagine the diagram as an inverted tree. Here are a few pictures: 
+
+- http://watershedcreative.com/naked/html-tree.html
+- https://eloquentjavascript.net/1st_edition/chapter12.html
+
+Here the nest lists show the structure. From the diagrams above we can talk about the elements and describe them based on their position in the tree. 
+
+For example, we could say that html is the root of the tree, and head and body were it's children. 
+
+You could say that h1 and p were siblings, they share the same parent. 
+
+You could also say that h1 and p were children of body and html was their ancestor. 
+
+You can also work your way around the DOM using code. This is something you'll do often in one form or another. You'll need to do this when you write code that needs to change the content or style of a DOM element. For example when someone clicks a button you might want to make an element visible by changing it's style, and display a message by changing the text inside side the tag (innerHTML.) You might do this to create an animated dialog box.
+
+Here is an example:
+
+```JS
+const h1 = document.querySelector('h1') // selects the h1 tag
+h1.innerHTML = 'JS FTW!' // Changes the text content of the tag
+```
+
+In the above example the first line finds an h1 tag using `document.querySelector()`. You provide a description of the element you're looking for, I used the tag name, and querySelector returns first tag that matches that description. 
+
+Here we stored the tag in a variable with a descriptive name for convenience. 
+
+On the second line you set the innerHTML property of the tag. We used the dot syntax. Use dot syntax to access the property of an object. `h1` (the `<h1>Hello World</h1>` in the DOM tree) is an object with properties that describe it. One of these properties is `innerHTML` this property sets the text content between the opening and closing tags.
+
+Let's review. DOM is the Document, Object, Model. It's a tree structure where each element in the tree is an Object. All of these objects have properties that we can access using JS. 
+
+What if we turned this into an anaolgy. Imagine your web page is an apple tree. It might look like this. 
+
+- root
+  - trunk
+    - branch
+      - leaf
+      - apple
+
+You could get a reference to the apple with: 
+
+`const apple = document.querySelector('apple')`
+
+The apple is an object with properties. You can access all of it's properties with dot syntax. For example: 
+
+- `apple.hasWorm` might return true or false. 
+- `apple.color` might return red or green
+
+You can set properties with dot notation also. 
+
+- `apple.color = 'golden'` changes the color of the apple to golden
+
+Properties are variables that belong to an object. You'll always access these with dot syntax/notation. 
+
+What about methods? Methods are functions that belong to an object. Let's imagine these with the tree analogy. 
+
+The leaf might have a method `photosynthesize`. To call/invoke the method you'll need a reference to the leaf. 
+
+`const leaf = document.querySelector('leaf')`
+
+This would a get reference to the first leaf found in the DOM. 
+
+Then you could call a method on your leaf like this: 
+
+- `leaf.photosynthesize()` Calls the photosynthesize method of leaf. 
+- `leaf.fall()` maybe leaves have a fall method you could call that also. 
+
+Let's do this with real code. 
+
+## Tip Calculator
+
+Create a new HTML document and add the following code to it. Be sure to also include the default HTML code and add what's below to the body. 
+
+```HTML
+<main>
+  <h1>Tip Calc</h1>
+  <div id="display">0.00</div>
+  <input id="bill" value="10.00" type="number">
+  <input id="tip" value="15" type="number">
+</main>
+```
+
+The code above would be good for a tip calculator app. It has a name, a place to display the tip amount, and two inputs that allow us to input the bill amount and tip percentage. 
+
+What's missing is the logic to gather the numbers, make the calculation, and display the results. To do this we need JavaScript. 
+
+### Where to put JavaScript
+
+The JavaScript you write can go in one of two places.
+
+You can write JavaScript inside the `<script>` tag in the same way you write CSS in the `<style>` tag. Here's an example:
+
+```HTML
+<script>
+  // JavaScript code written here! 
+  console.log('Hello World')
+</script>
+```
+
+JavaScript can also be written in a file named with the .js file extension. You can link these files to your html documents with the script tag like this: 
+
+`script.js`
+```JS
+// javaScript Code written here! 
+console.log('Hello World')
+```
+
+In your html document write: 
+
+```HTML
+<script src="script.js"></script>
+```
+
+#### Where to put the script tag?
+
+It's important that you place the script tag at the bottom of the body tag, below the rest of your HTML code. 
+
+Here is an example: 
+
+```HTML 
+<!DOCTYPE html
+<html>
+  <head></head>
+  <body>
+
+
+    <!-- script at the bottom -->
+    <script></script>
+  </body>
+</html>
+```
+
+**Why?** You want your code to run after the content of the document loads. Placing the code at the bottom ensures this happens. 
+
+### document.querySelector()
+
+In order to work with DOM elements you need a reference to that element. The browser API provides the `document.querySelector()` method. You cand use this to select an element the JavaScript similar to how you select elements with CSS. 
+
+We decided that we needed a reference to the div#display, input#bill, and input#tip. 
+
+```JavaScript
+const display = document.querySelector('#display')
+const billInput = document.querySelector('#bill')
+const tipInput = document.querySelector('#tip')
+```
+
+Each of these variables now contain references to their repsective DOM element. These are objects and so have properties and methods. 
+
+Try these experiements: 
+
+```JavaScript
+const display = document.querySelector('#display')
+const billInput = document.querySelector('#bill')
+const tipInput = document.querySelector('#tip')
+
+console.log(display.innerHTML) // prints the text inside the tags
+console.log(bill.value) // prints the value entered into the input
+
+bill.value = 
+```
 
 <!-- > -->
 
