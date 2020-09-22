@@ -400,7 +400,9 @@ Publish your tip calculator to GitHub pages.
 
 ## After Class 
 
-Complete the challenges above. 
+Complete the challenges above.
+
+- [Tip Calculator Assignment](../Assignments/07-Tip-Calculator.md)
 
 
 
