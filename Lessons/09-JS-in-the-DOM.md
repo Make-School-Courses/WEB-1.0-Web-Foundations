@@ -388,12 +388,19 @@ Display the total plus the tip. Currently you calculate display the tip amount. 
 
 - Create a new html element to hold the total. Use the display element as a model
 - Create a variable reference to this new element. 
-- calculate the total in the calculateTip function. This should be billValue + tipAmount
+- calculate the total in the calculateTip function. This should be `billValue + tipAmount`
 
+**Challenge 4**
 
+Publish your tip calculator to GitHub pages. 
 
+- Follow this guide: https://pages.github.com
+- Your html file is named: index.html
+- Your index.html file should be in the root directory of your project repo. 
 
+## After Class 
 
+Complete the challenges above. 
 
 
 

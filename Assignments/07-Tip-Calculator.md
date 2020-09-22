@@ -22,7 +22,7 @@ Play with this, calculate a few tips. What happens? How are the values calculate
 1. Create CSS styles that will determine how the user interface is presented and what it looks like
 1. Write JavaScript to define the functionality and logic that makes the tip calculator calculate and display tips. 
 
-In order to accomplish this task, we have broken it up into 6 challenges. **Follow the challenges below to build your tip calculator.**
+In order to accomplish this task, I have broken it up into 6 challenges. **Follow the challenges below to build your tip calculator.**
 
 **NOTE:** _You should plan on doing a minimum of 1 Git commit for each challenge!_ This will help you keep track of each milestone, and gives you a way to revert in case you need to!
 
@@ -30,39 +30,44 @@ In order to accomplish this task, we have broken it up into 6 challenges. **Foll
 
 **Create the markup for the tip calculator.**
 
-- Create an HTML file 
+- Create an HTML file
+    - Name this file index.html
+    - It should be in the root of your project folder
 - Write the base HTML document tags 
 - Add tags and HTML markup for calculator elements
     - Bill - element: `<input>`
     - Tip - element: `<input>`
     - Number of people - element: `<input>`
-    - Display tip - element: ???
-    - Display total - element: ???
-
-The two display elements can be almost any element. Since you won't be inputing a value, an `input` is probably not appropriate. You could use the following: `<div>`, `<p>`, or `<h#>`
+    - Display tip - element: could be `<h1-6>`, `<p>`, `<span>`, `<div>`, or `<output>` you decide!
+    - Display total - element: `<h1-6>`, `<p>`, `<span>`, `<div>`, or `<output>` you decide!
 
 ### Challenge 2
 
-**You'll need to add attributes to the tags.** The inputs could use a `type`. Each of the tags in the list above needs to have an `id`. 
+**You'll need to add attributes to the tags.** 
+
+The inputs should have `type="number"`. 
+
+All of the tags that need to be accessed by your JavaScript code should have an id. Remember all id values should be unique! 
 
 When writing the `id` names you'll be repeating these names in your JS code so it would be a good idea to have a naming convention. Discuss your naming covention with another student. 
 
-- Input tags get a `type` attribute that could be "number" or "text"
-- All of the tags need an `id` name
+Kabob case is a good choice for id names: `kabob-case`. All characters are lowercase and hyphen (-) is used at word breaks. 
 
-You could use `kabob-case` for all id names, which looks like the following: 
-
-- input-bill
-- input-tip
-- input-people
-- display-tip
-- display-total
+- `input-bill`
+- `input-tip`
+- `input-people`
+- `display-tip`
+- `display-total`
 
 ### Challenge 3
 
 **Add a script tag to the bottom of the body.** This should be below all of the other tags but inside the body element. 
 
-`<script></script>`
+```html
+<script>
+  // Your code here...
+</script>
+```
 
 You'll write your code here. 
 
@@ -70,38 +75,44 @@ You'll write your code here.
 
 **Define variables for each of the elements.** You'll be creating references to DOM elements and storing them in variables in this step. You should have a naming convention. 
 
-Get the reference to the DOM element using `document.getElementById('id-name')`
+Get the reference to the DOM element using `document.querySelecotr('#id-name')`
 
-Use a naming convention for these variables, as you'll need to keep track of them. Explain your naming convention to another studfent. 
+Use a naming convention for these variables, as you'll need to keep track of them. Explain your naming convention to another student. 
 
-For example, you could use `camelCase` for these variable names: 
+Use `camelCase` for these variable names. In camelcase names begin with a lower case letter and use upper case letters at word bbreaks. 
 
 ```js
-const inputBill = document.getElementById('input-bill')
+const billInput = document.querySelector('#bill')
 ...
 ```
 
+- `billInput`
+- `tipInput`
+- `peopleInput`
+- `displayTip`
+- `displayTotal`
+
 ### Challenge 5
 
-**Add listeners to each of the input fields.** These listeners should listen for the `change` event. A `change` event occurs when the value of an input changes. So as a user enters text or numbers, as each new character is entered, the handler for this event is executed. 
+**Add listeners to each of the input fields.** These listeners should listen for the `input` event. A `input` event occurs when data input is detected at an input element. As a user enters text or numbers, as each new character is entered, the handler for this event is executed. 
 
-```js 
-inputBill.addEventListener('change', function(e) {
-  
+```JS
+billInput.addEventListener('input', function(e) {
+  ...
 })
 ```
 
 or 
 
-```js 
-inputBill.addEventListener('change', handleBill)
+```JS
+billInput.addEventListener('change', handleBill)
 
 function handleBill(e) {
 
 }
 ```
 
-When a change occurs you'll want to calculate the new tip amount and bill total. To do this you will need to get the values for the following:
+When an input occurs you'll want to calculate the new tip amount and bill total. To do this you will need to get the values for the following:
 
 - tip percentage
 - bill amount
@@ -110,10 +121,10 @@ When a change occurs you'll want to calculate the new tip amount and bill total.
 To get the value entered in an input use `input.value`. For example:
 
 ```js 
-const const percent = inputTip.value
+const percent = tipInput.value
 ```
 
-When you get a value like this from an input it will always be a string, even if the value input was a number. JS provides a couple functions that convert strings to numbers: 
+When you get a value like this from an input it will always be a string, even if the input type is number. JS provides a couple functions that convert strings to numbers: 
 
 - `parseFloat(value)` - for decimal values like the bill
 - `parseInt(value)` - for whole numbers like number of people
@@ -121,7 +132,7 @@ When you get a value like this from an input it will always be a string, even if
 For example: 
 
 ```js 
-const const percent = parseInt(inputTip.value)
+const const percent = parseInt(tipInput.value)
 ```
 
 You need to get the bill, tip, and number of people to calculate the tip. Calculate the tip using something like the following: 
@@ -139,14 +150,19 @@ Last, display the tip and the total. You can do this by setting the `innerHTML` 
 displayTip.innerHTML = tip
 ```
 
-## Stretch Challenges
+## More Challenges
 
 If you've got everything else working here are some optional stretch challenges you can try:
 
-1. Get your calculator live on Github Pages
-1. Style your calculator. Add some CSS to improve the font styles and the layout.
-1. Add +/- buttons beside the tip and number of people fields. Notice how these work in the Google Tip Calculator. 
-1. We should prevent people from entering non numeric values since this will break the calculator. 
+1. Get your calculator live on Github Pages. Follow the guide here: https://pages.github.com
+1. Style your calculator. Add some CSS to improve the font styles and the layout. 
+
+## More challenging problems 
+
+Here are some more challenging problems: 
+
+1. Add +/- buttons beside the tip % and number of people fields. Notice how these work in the [Google Tip Calculator](https://www.google.com/search?q=tip+calculator&oq=tip).
+1. Prevent people from entering non numeric values since this will break the calculator.
 1. Make the tip display an input that calculates the tip % from the dollar amount input here.
 
 ### Deliverable
@@ -155,4 +171,4 @@ Your Completed Tip Calculator should be on GitHub. Submit your GitHub repo to Gr
 
 ### Due date
 
-Class 9 - Thurs, Sept 17
+Thurs, Sept 29
