@@ -12,8 +12,8 @@
 Breakout groups of 3 (12 min):
 
 - Solo, each person answers “what’s a hard experience you went through that helped you grow. 
-    - Answer by telling a story with a beginning, middle, and end.”
-- Next, pick a sharer, listener, and observer. The sharer tells their story, the listener listens and then reflects back the story in their own words. The Sharerer says if the story is accurate.
+ - Answer by telling a story with a beginning, middle, and end.”
+- Next, pick a sharer, listener, and observer. The sharer tells their story, the listener listens and then reflects the story in their own words. The Sharer says if the story is accurate.
 
 <!-- > -->
 
@@ -27,7 +27,7 @@ Breakout groups of 3 (12 min):
 
 ### Why learn this? 
 
-We're tying two big concepts we've learned so far together in this lesson: styling with Flexbox and utilizing JavaScript. We'll dive a bit deeper into how to deal with various input types using JavaScript, and also what `NaN` is, and how to properly deal with it!
+We're trying two big concepts we've learned so far together in this lesson: styling with Flexbox and utilizing JavaScript. We'll dive a bit deeper into how to deal with various input types using JavaScript, and also what `NaN` is, and how to properly deal with it!
 
 Why do this? We need to make sure our code is handling/expecting the right types, or else we will get errors and the data will get messy!
 
@@ -40,13 +40,13 @@ Why do this? We need to make sure our code is handling/expecting the right types
 
 ## Description 
 
-JavaScript is used in a wide variety of applications none is greater than creating web pages. Understanding how JavaScript interacts with HTML and CSS is key to make amazing websites and experienes. 
+JavaScript is used in a wide variety of applications none is greater than creating web pages. Understanding how JavaScript interacts with HTML and CSS is key to make amazing websites and experiences. 
 
 ### What is the DOM?
 
 The DOM or Document, Object, Model is the structure defined by your HTML code. 
 
-The HTML code your write creates a document that is structured and organized. This means your code can access elements based on the structure, or influence or control elements based on the their position in the DOM and their relation to other elements. 
+The HTML code your write creates a document that is structured and organized. This means your code can access elements based on the structure or influence or control elements based on their position in the DOM and their relation to other elements. 
 
 Every element is an Object. An Object in computer terms is a collection of functions and variables. 
 
@@ -68,10 +68,10 @@ We could also describe the structure here in print like this:
 
 - html
   - head
-    - title
+  - title
   - body
-    - h1
-    - p
+  - h1
+  - p
 
 Imagine the diagram as an inverted tree. Here are a few pictures: 
 
@@ -80,13 +80,13 @@ Imagine the diagram as an inverted tree. Here are a few pictures:
 
 Here the nest lists show the structure. From the diagrams above we can talk about the elements and describe them based on their position in the tree. 
 
-For example, we could say that html is the root of the tree, and head and body were it's children. 
+For example, we could say that HTML is the root of the tree, and the head and body were its children. 
 
 You could say that h1 and p were siblings, they share the same parent. 
 
-You could also say that h1 and p were children of body and html was their ancestor. 
+You could also say that h1 and p were children of body and HTML was their ancestor. 
 
-You can also work your way around the DOM using code. This is something you'll do often in one form or another. You'll need to do this when you write code that needs to change the content or style of a DOM element. For example when someone clicks a button you might want to make an element visible by changing it's style, and display a message by changing the text inside side the tag (innerHTML.) You might do this to create an animated dialog box.
+You can also work your way around the DOM using code. This is something you'll do often in one form or another. You'll need to do this when you write code that needs to change the content or style of a DOM element. For example, when someone clicks a button you might want to make an element visible by changing its style, and display a message by changing the text inside side the tag (innerHTML.) You might do this to create an animated dialog box.
 
 Here is an example:
 
@@ -95,27 +95,27 @@ const h1 = document.querySelector('h1') // selects the h1 tag
 h1.innerHTML = 'JS FTW!' // Changes the text content of the tag
 ```
 
-In the above example the first line finds an h1 tag using `document.querySelector()`. You provide a description of the element you're looking for, I used the tag name, and querySelector returns first tag that matches that description. 
+In the above example, the first line finds an h1 tag using `document.querySelector()`. You describe the element you're looking for, I used the tag name, and querySelector returns the first tag that matches that description. 
 
 Here we stored the tag in a variable with a descriptive name for convenience. 
 
-On the second line you set the innerHTML property of the tag. We used the dot syntax. Use dot syntax to access the property of an object. `h1` (the `<h1>Hello World</h1>` in the DOM tree) is an object with properties that describe it. One of these properties is `innerHTML` this property sets the text content between the opening and closing tags.
+On the second line, you set the innerHTML property of the tag. We used the dot syntax. Use dot syntax to access the property of an object. `h1` (the `<h1>Hello World</h1>` in the DOM tree) is an object with properties that describe it. One of these properties is `innerHTML` this property sets the text content between the opening and closing tags.
 
 Let's review. DOM is the Document, Object, Model. It's a tree structure where each element in the tree is an Object. All of these objects have properties that we can access using JS. 
 
-What if we turned this into an anaolgy. Imagine your web page is an apple tree. It might look like this. 
+What if we turned this into an analogy. Imagine your web page is an apple tree. It might look like this. 
 
 - root
   - trunk
-    - branch
-      - leaf
-      - apple
+  - branch
+  - leaf
+  - apple
 
 You could get a reference to the apple with: 
 
 `const apple = document.querySelector('apple')`
 
-The apple is an object with properties. You can access all of it's properties with dot syntax. For example: 
+An apple is an object with properties. You can access all of its properties with dot syntax. For example: 
 
 - `apple.hasWorm` might return true or false. 
 - `apple.color` might return red or green
@@ -132,7 +132,7 @@ The leaf might have a method `photosynthesize`. To call/invoke the method you'll
 
 `const leaf = document.querySelector('leaf')`
 
-This would a get reference to the first leaf found in the DOM. 
+This would get a reference to the first leaf found in the DOM. 
 
 Then you could call a method on your leaf like this: 
 
@@ -171,7 +171,7 @@ You can write JavaScript inside the `<script>` tag in the same way you write CSS
 </script>
 ```
 
-JavaScript can also be written in a file named with the .js file extension. You can link these files to your html documents with the script tag like this: 
+JavaScript can also be written in a file named with the .js file extension. You can link these files to your HTML documents with the script tag like this: 
 
 `script.js`
 ```JS
@@ -179,7 +179,7 @@ JavaScript can also be written in a file named with the .js file extension. You 
 console.log('Hello World')
 ```
 
-In your html document write: 
+In your HTML document write: 
 
 ```HTML
 <script src="script.js"></script>
@@ -187,19 +187,19 @@ In your html document write:
 
 #### Where to put the script tag?
 
-It's important that you place the script tag at the bottom of the body tag, below the rest of your HTML code. 
+You must place the script tag at the bottom of the body tag, below the rest of your HTML code. 
 
 Here is an example: 
 
 ```HTML 
-<!DOCTYPE html
+<!DOCTYPE html>
 <html>
   <head></head>
   <body>
 
 
-    <!-- script at the bottom -->
-    <script></script>
+  <!-- script at the bottom -->
+  <script></script>
   </body>
 </html>
 ```
@@ -208,7 +208,7 @@ Here is an example:
 
 ### document.querySelector()
 
-In order to work with DOM elements you need a reference to that element. The browser API provides the `document.querySelector()` method. You cand use this to select an element the JavaScript similar to how you select elements with CSS. 
+To work with DOM elements you need a reference to that element. The browser API provides the `document.querySelector()` method. You cand use this to select an element the JavaScript similar to how you select elements with CSS. 
 
 We decided that we needed a reference to the div#display, input#bill, and input#tip. 
 
@@ -218,9 +218,9 @@ const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
 ```
 
-Each of these variables now contain references to their repsective DOM element. These are objects and so have properties and methods. 
+Each of these variables now contains references to their respective DOM element. These are objects and so have properties and methods. 
 
-Try these experiements: 
+Try these experiments: 
 
 ```JS
 const display = document.querySelector('#display')
@@ -237,20 +237,20 @@ billInput.value = 999.88 // Set the value to 999.88
 
 People will be calculating tips all the time it won't something that happens once and stops. You'll want to put the code into a function. This way you can call/invoke the function when needed. 
 
-Put this below the code above. 
+Put this below in the code above. 
 
 ```JS
 function calculateTip() {
-	
+ 
 }
 ```
 
-To calculate the tip you'll need to get the value from each of the input elements. The references you defined above point to the html elements. You'll use dot notation and the value property to get the value entered. 
+To calculate the tip you'll need to get the value from each of the input elements. The references you defined above point to the HTML elements. You'll use dot notation and the value property to get the value entered. 
 
 ```JS
 function calculateTip() {
-	const billValue = billInput.value 
-	const tipValue = tipInput.value
+  const billValue = billInput.value 
+  const tipValue = tipInput.value
 }
 ```
 
@@ -258,10 +258,10 @@ Now calculate the tip.
 
 ```JS
 function calculateTip() {
-	const billValue = billInput.value
-	const tipValue = tipInput.value
+  const billValue = billInput.value
+  const tipValue = tipInput.value
 
-	const tipAmount = billValue * tipValue / 100
+  const tipAmount = billValue * tipValue / 100
 }
 ```
 
@@ -269,16 +269,16 @@ Last show the tip in the display element. To do this use dot notation again and 
 
 ```JS
 function calculateTip() {
-	const billValue = billInput.value
-	const tipValue = tipInput.value
+  const billValue = billInput.value
+  const tipValue = tipInput.value
 
-	const tipAmount = billValue * tipValue / 100
+  const tipAmount = billValue * tipValue / 100
 
   display.innerHTML = tipAmount
 }
 ```
 
-With this in place you need to call the function you just wrote. As it is the function is defined but hasn't been called/invoked that is the code inside the block has not be run. 
+With this in place, you need to call the function you just wrote. As it is the function is defined but hasn't been called/invoked that is the code inside the block has not to be run. 
 
 Run the code like this: 
 
@@ -288,21 +288,21 @@ calculateTip()
 
 The code above runs the code one time when the page loads. It should calculate the tip from the default values in the tip and bill inputs. 
 
-Entering new values will not update the display. To do this you need to listen for changes at the input elements. For this you need to use some event listeners. 
+Entering new values will not update the display. To do this you need to listen for changes at the input elements. For this, you need to use some event listeners. 
 
 ## Events 
 
-JavaScript is an event driven language. Things that happen in your programs generate events. Your code can listen to these events and make decision and take actions. 
+JavaScript is an event-driven language. Things that happen in your programs generate events. Your code can listen to these events and make the decision and take action. 
 
-Think about events like the events in your life. What happens in your life? alarm goes off, it's your birthday, friday night etc. 
+Think about events like the events in your life. What happens in your life? the alarm goes off, it's your birthday, Friday night, etc. 
 
 In JS you listen for an event and register an action that is run when the event occurs. 
 
 - Event: The alarm goes off - Action: get up take a shower!
 - Event: It's your birthday - Action: throw a party!
-- Event: It's friday night - Action: Go out! 
+- Event: It's Friday night - Action: Go out! 
 
-In JavaScript we register to listen for event with an object. For example, you might listen to for a click event on a button, or you might listen for text input on a text input. 
+In JavaScript, we register to listen for the event with an object. For example, you might listen to for a click event on a button, or you might listen for text input on text input. 
 
 There are many different types of events that can occur, here are a few:
 
@@ -310,9 +310,9 @@ There are many different types of events that can occur, here are a few:
 - keydown - Occurs when a key pressed on the keyboard
 - input - occurs when text is input into a text field
 
-To listen for an event you'll use `addEventListener(eventName, handlerFunction)`.  
+To listen for an event you'll use `addEventListener(eventName, handlerFunction)`. 
 
-In the tip calculator you'll use events to "listen" for user input at the billInput and tipInput. 
+In the tip calculator, you'll use events to "listen" for user input at the billInput and tipInput. 
 
 Add the code below: 
 
@@ -321,74 +321,172 @@ billInput.addEventListener('input', calculateTip)
 tipInput.addEventListener('input', calculateTip)
 ```
 
-The code above adds listeners to the `billInput` and `tipInput`. The 'input' event occurs when text is input into a field and should occur each time you type into the field. The listener should handle the event by calling/invoking the `calculateTip` function. 
+The code above adds listeners to the `billInput` and `tipInput`. The 'input' event occurs when text is input into a field and should occur each time you type into the field. The listener should handle the event by calling/invoking the `calculateTip` function.
 
-<!-- > -->
+## Formatting the output
+
+The numbers are looking good most of the time. Sometimes you's run into values like: 
+
+- 1.7820000000000003
+- 2.0196
+- 2.2
+- 2
+
+When you'd rather have: 
+
+- 1.78
+- 2.02
+- 2.20
+- 2.00
+
+To do this use the Number.toFixed() method. The tofixed() method rounds a number off to a fixed number of decimals. 
+
+It also converts the number to a string do you should always use this as the last step before displaying the value!
+
+```JS 
+const x = 9.123456
+x.toFixed(1) // 9.1
+x.toFixed(2) // 9.12
+```
+
+You can use it when you show the tip amount in the display element. 
+
+```JS
+...
+display.innerHTML = tipAmount.toFixed(2)
+...
+```
+
+## Challenges
+
+Once you get the basic tip calculator working try these problems to test your skills. 
+
+**Challenge 1**
+
+Style your Tip Calculator. 
+
+- Use Flex to arrange the element in rows and columns
+- Set the font styles, use font-size, and font-family
+- Set the color and background-color
+- Style the inputs. Use padding and border
+
+**Challenge 2**
+
+Add another input for the number of people. Use this to split the bill. 
+
+- Add a new input in your html
+- Add a new variable to get a reference to the new input
+- Add an event listener to the new input element to update the calculate tip function when the value changes
+- In the calculateTip function get the value from the number of people input and use it divide the tip amount
+
+Bill: 20, Tip: 15%, People: 2
+Tip amount: 1.50
+
+**Challenge 3**
+
+Display the total plus the tip. Currently you calculate display the tip amount. For this challenge also show the total bill plus the tip. 
+
+- Create a new html element to hold the total. Use the display element as a model
+- Create a variable reference to this new element. 
+- calculate the total in the calculateTip function. This should be `billValue + tipAmount`
+
+**Challenge 4**
+
+Publish your tip calculator to GitHub pages. 
+
+- Follow this guide: https://pages.github.com
+- Your html file is named: index.html
+- Your index.html file should be in the root directory of your project repo. 
+
+## After Class 
+
+Complete the challenges above.
+
+- [Tip Calculator Assignment](../Assignments/07-Tip-Calculator.md)
+
+
+
+
+
+
+
+<!-- 
 
 ## Solving problems and the tip calculator
 
-The tip calculator presents some programming problems. Think of this as a interview question. 
+The tip calculator presents some programming problems. Think of this as an interview question. 
 
-<!-- > -->
+
 
 Assumptions: name and list the assumptions? 
 
-<!-- > -->
+
 
 1. bill: number
 1. tip: number
 1. people: number
 
-<!-- > -->
 
-## Numbers, Strings, and NaN <!--40 min-->
 
-Any value from an `<input>` will be a string even if the value is a number, even if the type  of the input is number.
+## Numbers, Strings, and NaN
+
+Any value from an `<input>` will be a string even if the value is a number, even if the type of the input is number.
+
+```HTML
+<input id="test" type="number" value="999">
+<script>
+ const input = document.querySelector('#test')
+ console.log(input.value) // "999" <- String!
+</script>
+```
 
 Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number. 
 
 If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
 ```javascript 
+<<<<<<< HEAD
 const bill = parseFloat(billInput.value)
 const people = parseInt(peopleINput.value)
+=======
+const bill = parsFloat(billInput.value)
+const tip = parseInt(tipInput.value)
+>>>>>>> 398fa56bf2e32291ce7e395b1d6bb2e24c169d69
 ```
+
+Now `bill` and `tip` are numbers or they are `NaN`. How can we test if they are Not Number? 
 
 To test if a value is `NaN` use `isNaN(value)`.
 
-```javascript
-const badNumber
-isNaN('123') // true - Not a number!
-isNaN(123)   // false - a Number!
-```
 
-<!-- > -->
 
-Let's put that all together into something useful: 
-
-```html
-<input id="input-bill">
-```
+Let's put that to use. 
 
 ```javascript 
-const inputBill = document.getElementById('input-bill')
+function calculateTip() {
+ // parse the bill and the tip
+ const billValue = parseFloat(billInput.value)
+ const tipValue = parseInt(tipInput.value)
 
-let bill = 0
+ // Check if they are NaN
+ if (isNaN(billValue)) {
+ // Do something here if the bill is not a number
+ console.log('Bill is not a number')
+ }
 
-inputBill.addEventListener('input', handleBill)
+ if (isNaN(tipValue)) {
+ // do something here is the tip is not a number
+ console.log('Tip is not a number')
+ }
 
-function handleBill(e) {
-  const newBill = parseFloat(e.target.value)
 
-  if (!isNaN(newBill)) {
-    bill = newBill
-  } else {
-    e.target.value = bill
-  }
+ const tipAmount = billValue * tipValue / 100
+
+ display.innerHTML = tipAmount
 }
 ```
 
-<!-- > -->
+
 
 ### Scope 
 
@@ -407,7 +505,6 @@ In your own words, describe the following scopes, and how they all differ:
 - lexical scope
 
 
-<!-- v -->
 
 Recall the prior example code:
 
@@ -423,13 +520,13 @@ let bill = 0
 inputBill.addEventListener('input', handleBill)
 
 function handleBill(e) {
-  const newBill = parseFloat(e.target.value)
+ const newBill = parseFloat(e.target.value)
 
-  if (!isNaN(newBill)) {
-    bill = newBill
-  } else {
-    e.target.value = bill
-  }
+ if (!isNaN(newBill)) {
+ bill = newBill
+ } else {
+ e.target.value = bill
+ }
 }
 ```
 
@@ -445,20 +542,20 @@ The sample code above uses the following variables:
 
 ```javascript
 function calculateTip() {
-  const tip = bill * tipPercent / 100
-  const total = bill + tip
-  const perPerson = total / people
+ const tip = bill * tipPercent / 100
+ const total = bill + tip
+ const perPerson = total / people
 
-  displayTip.innerHTML = tip.toFixed(2)
-  displayTotal.innerHTML = total.toFixed(2)
-  displayEach.innerHTML = perPerson.toFixed(2)
+ displayTip.innerHTML = tip.toFixed(2)
+ displayTotal.innerHTML = total.toFixed(2)
+ displayEach.innerHTML = perPerson.toFixed(2)
 }
 ```
 
 - Question: what is happening here? discuss this with your group? 
-  - What variables are used and what is their scope? 
+ - What variables are used and what is their scope? 
 
-<!-- > -->
+
 
 ### Event Object
 
@@ -466,7 +563,7 @@ What is `e`? This is an object that describes the event. Handler functions alway
 
 Event Objects have many properties that are useful. 
 
-<!-- > -->
+
 
 ### event.target
 
@@ -474,9 +571,9 @@ Event Objects have many properties that are useful.
 
 Why is the target useful? Allows for DRY code. 
 
-<!-- > -->
 
-## Check for understanding <!--7 min-->
+
+## Check for understanding 
 
 Write out the following on your own, then discuss with a partner to try and answer each other's questions, then we'll discuss as a class any remaining questions:
 
@@ -484,13 +581,13 @@ Write out the following on your own, then discuss with a partner to try and answ
 - 2 interesting ideas
 - 1 question on today's material
 
-<!-- > -->
+
 
 ## 10 min Break
 
-<!-- > -->
 
-## Styling the Tip Calculator <!--Rest of Class-->
+
+## Styling the Tip Calculator 
 
 Flexbox is probably the best choice for making the tip calculator. 
 
@@ -536,53 +633,53 @@ In markup it might look like this:
 
 ```HTML
 <main class="main">
-  <div class="output left-side">
-    <div class="display">Tip:<span id="display-tip"></span></div>
-    <div class="display">Total:<span id="display-total"></span></div>
-    <div class="display"">Each:<span id="display-each"></span></div>
-  </div>
+ <div class="output left-side">
+ <div class="display">Tip:<span id="display-tip"></span></div>
+ <div class="display">Total:<span id="display-total"></span></div>
+ <div class="display"">Each:<span id="display-each"></span></div>
+ </div>
 
-  <div class="input right-side">
-    <div class="input-container">
-      <span class="label">Bill Amount</span>
-      <div class="input-with-buttons">
-        <button>-</button>
-        <input 
-          id="input-bill" 
-          value="10"
-          type="number">
-        <button>+</button>
-    </div>
+ <div class="input right-side">
+ <div class="input-container">
+ <span class="label">Bill Amount</span>
+ <div class="input-with-buttons">
+ <button>-</button>
+ <input 
+ id="input-bill" 
+ value="10"
+ type="number">
+ <button>+</button>
+ </div>
 
-    <div class="input-container">
-      <span class="label">Tip %</span>
-      <div class="input-with-buttons">
-        <button>-</button>
-        <input 
-          id="input-tip" 
-          type="number" 
-          name="tip-percent" 
-          value="15">
-        <button>+</button>
-      </div>
-    </div>
+ <div class="input-container">
+ <span class="label">Tip %</span>
+ <div class="input-with-buttons">
+ <button>-</button>
+ <input 
+ id="input-tip" 
+ type="number" 
+ name="tip-percent" 
+ value="15">
+ <button>+</button>
+ </div>
+ </div>
 
-    <div class="input-container">
-      <span class="label">Number of People</span>
-      <div class="input-with-buttons">
-        <button>-</button>
-        <input 
-          id="input-people" 
-          type="number" 
-          value="1">
-        <button>+</button>
-      </div>
-    </div>
-  </div>
+ <div class="input-container">
+ <span class="label">Number of People</span>
+ <div class="input-with-buttons">
+ <button>-</button>
+ <input 
+ id="input-people" 
+ type="number" 
+ value="1">
+ <button>+</button>
+ </div>
+ </div>
+ </div>
 </main>
 ```
-<!-- > -->
+
 
 ## After Class - Homework
 
-Continue to work on the the next assignment: [Shopping Cart](../Assignments/08-JS-Shopping-Cart.md)! **This will be due next class!**
+Continue to work on the the next assignment: [Shopping Cart](../Assignments/08-JS-Shopping-Cart.md)! **This will be due next class!** -->
