@@ -233,6 +233,63 @@ console.log(billInput.value) // prints the value entered into the input
 billInput.value = 999.88 // Set the value to 999.88
 ```
 
+## Calculating the tip
+
+People will be calculating tips all the time it won't something that happens once and stops. You'll want to put the code into a function. This way you can call/invoke the function when needed. 
+
+Put this below the code above. 
+
+```JS
+function calculateTip() {
+	
+}
+```
+
+To calculate the tip you'll need to get the value from each of the input elements. The references you defined above point to the html elements. You'll use dot notation and the value property to get the value entered. 
+
+```JS
+function calculateTip() {
+	const billValue = billInput.value 
+	const tipValue = tipInput.value
+}
+```
+
+Now calculate the tip. 
+
+```JS
+function calculateTip() {
+	const billValue = billInput.value
+	const tipValue = tipInput.value
+
+	const tipAmount = billValue * tipValue / 100
+}
+```
+
+Last show the tip in the display element. To do this use dot notation again and set the innerHTML property to change the text displayed by element. 
+
+```JS
+function calculateTip() {
+	const billValue = billInput.value
+	const tipValue = tipInput.value
+
+	const tipAmount = billValue * tipValue / 100
+
+  display.innerHTML = tipAmount
+}
+```
+
+With this in place you need to call the function you just wrote. As it is the function is defined but hasn't been called/invoked that is the code inside the block has not be run. 
+
+Run the code like this: 
+
+```JS
+calculateTip()
+```
+
+The code above runs the code one time when the page loads. It should calculate the tip from the default values in the tip and bill inputs. 
+
+Entering new values will not update the display. To do this you need to listen for changes at the input elements. For this you need to use some event listeners. 
+
 ## Events 
 
 JavaScript is an event driven language. Things that happen in your programs generate events. Your code can listen to these events and make decision and take actions. 
@@ -253,13 +310,22 @@ There are many different types of events that can occur, here are a few:
 - keydown - Occurs when a key pressed on the keyboard
 - input - occurs when text is input into a text field
 
+To listen for an event you'll use `addEventListener(eventName, handlerFunction)`.  
 
+In the tip calculator you'll use events to "listen" for user input at the billInput and tipInput. 
 
+Add the code below: 
 
+```JS
+billInput.addEventListener('input', calculateTip)
+tipInput.addEventListener('input', calculateTip)
+```
+
+The code above adds listeners to the `billInput` and `tipInput`. The 'input' event occurs when text is input into a field and should occur each time you type into the field. The listener should handle the event by calling/invoking the `calculateTip` function. 
 
 <!-- > -->
 
-## Solving problems and the tip calculator <!--3 min-->
+## Solving problems and the tip calculator
 
 The tip calculator presents some programming problems. Think of this as a interview question. 
 
