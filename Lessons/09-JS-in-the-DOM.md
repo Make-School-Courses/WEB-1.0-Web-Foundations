@@ -228,10 +228,34 @@ const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
 
 console.log(display.innerHTML) // prints the text inside the tags
-console.log(bill.value) // prints the value entered into the input
+console.log(billInput.value) // prints the value entered into the input
 
-bill.value = 
+billInput.value = 999.88 // Set the value to 999.88
 ```
+
+## Events 
+
+JavaScript is an event driven language. Things that happen in your programs generate events. Your code can listen to these events and make decision and take actions. 
+
+Think about events like the events in your life. What happens in your life? alarm goes off, it's your birthday, friday night etc. 
+
+In JS you listen for an event and register an action that is run when the event occurs. 
+
+- Event: The alarm goes off - Action: get up take a shower!
+- Event: It's your birthday - Action: throw a party!
+- Event: It's friday night - Action: Go out! 
+
+In JavaScript we register to listen for event with an object. For example, you might listen to for a click event on a button, or you might listen for text input on a text input. 
+
+There are many different types of events that can occur, here are a few:
+
+- click - Occurs when an element is clicked
+- keydown - Occurs when a key pressed on the keyboard
+- input - occurs when text is input into a text field
+
+
+
+
 
 <!-- > -->
 
@@ -245,9 +269,9 @@ Assumptions: name and list the assumptions?
 
 <!-- > -->
 
-1. bill: float/number
-1. tip: float/int/number
-1. people: int/number
+1. bill: number
+1. tip: number
+1. people: number
 
 <!-- > -->
 
@@ -260,8 +284,8 @@ Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number.
 If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
 ```javascript 
-const bill = parsFloat(inputBill.value)
-const people = parseInt(inputPeople.value)
+const bill = parsFloat(billInput.value)
+const people = parseInt(peopleINput.value)
 ```
 
 To test if a value is `NaN` use `isNaN(value)`.
