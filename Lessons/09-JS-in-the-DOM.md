@@ -212,7 +212,7 @@ In order to work with DOM elements you need a reference to that element. The bro
 
 We decided that we needed a reference to the div#display, input#bill, and input#tip. 
 
-```JavaScript
+```JS
 const display = document.querySelector('#display')
 const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
@@ -222,7 +222,7 @@ Each of these variables now contain references to their repsective DOM element. 
 
 Try these experiements: 
 
-```JavaScript
+```JS
 const display = document.querySelector('#display')
 const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
@@ -350,7 +350,7 @@ Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number.
 If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
 ```javascript 
-const bill = parsFloat(billInput.value)
+const bill = parseFloat(billInput.value)
 const people = parseInt(peopleINput.value)
 ```
 
