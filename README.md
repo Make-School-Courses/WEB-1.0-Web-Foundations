@@ -49,9 +49,9 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  9 |  Thu, Sept 17 | [JavaScript Syntax](Lessons/08-JS-Intro.md) | - |  |
 | 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | - | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8)) |
 | 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
-| 12 |  Tue, Sept 29 | Review / Lab | - | [JS Slide Show](Assignments/09-JS-Slide-Show.md) |
-| 13 |  Thu, Oct 1   | Final Assessment | - | |
-| 14 |  Tue, Oct 6   | Final Project Presentations | - | [Final Project](Assignments/10-Final-Project.md) |
+| 12 |  Tue, Sept 29 | Review / Lab | - | - |
+| 13 |  Thu, Oct 1   | - | - | - |
+| 14 |  Tue, Oct 6   | Final Assessment | - | You will write code in class be prepared! |
 
 
 ## Evaluation
