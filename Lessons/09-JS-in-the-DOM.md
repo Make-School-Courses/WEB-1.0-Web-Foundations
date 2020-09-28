@@ -323,6 +323,10 @@ tipInput.addEventListener('input', calculateTip)
 
 The code above adds listeners to the `billInput` and `tipInput`. The 'input' event occurs when text is input into a field and should occur each time you type into the field. The listener should handle the event by calling/invoking the `calculateTip` function.
 
+## Calculating the tip
+
+
+
 ## Formatting the output
 
 The numbers are looking good most of the time. Sometimes you's run into values like: 
