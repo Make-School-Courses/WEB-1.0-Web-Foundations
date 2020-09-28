@@ -445,13 +445,8 @@ Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number.
 If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
 ```javascript 
-<<<<<<< HEAD
-const bill = parseFloat(billInput.value)
-const people = parseInt(peopleINput.value)
-=======
 const bill = parsFloat(billInput.value)
 const tip = parseInt(tipInput.value)
->>>>>>> 398fa56bf2e32291ce7e395b1d6bb2e24c169d69
 ```
 
 Now `bill` and `tip` are numbers or they are `NaN`. How can we test if they are Not Number? 
