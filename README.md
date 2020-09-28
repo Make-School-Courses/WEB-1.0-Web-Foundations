@@ -51,7 +51,7 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 | 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | - | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
 | 12 |  Tue, Sept 29 | Review / Lab | - | - |
 | 13 |  Thu, Oct 1   | - | - | - |
-| 14 |  Tue, Oct 6   | Final Assessment | - | You will write code in class be prepared! |
+| 14 |  Tue, Oct 6   | Final Assessment | - | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
 
 
 ## Evaluation
