@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an open-ended assignment for you to practice the skills we've learned so far in order to make a custom calculator application.
+This is an open-ended assignment for you to practice the skills you've learned so far in order to make a custom calculator application.
 
 ## Why this assignment?
 
@@ -16,7 +16,8 @@ Your site must have the following features:
 
 - Include base HTML code (doctype, html, head, body tags)
 - Use Flex Box for positioning the calculator elements
-- CSS styles - Use at least 6 styles to make your calculator look presentable
+- CSS styles - Use at least 6 styles to make your calculator look presentable. for example: 
+  - font-size, font-family, margin, padding, border, color, background-color etc.
 - Uses form with at least 3 inputs
   - One of those inputs must be a [select dropdown](https://www.w3schools.com/tags/tag_select.asp)
 - Uses all of the inputs to calculate the result
@@ -27,9 +28,17 @@ Your site must have the following features:
 If you need an idea for a project, here are a few:
 
 - **Geometric Shapes Volume Calculator** - Calculate the volume of a cone, sphere, or cylinder by inputting their dimensions! You can use the formulas [here](https://byjus.com/volume-formulas/) to get you started.
+  - You might use the select menu to choose the shape. 
+  - Inputs might be length, width, height, diameter, etc. 
 - **Trip Calculator** - How long will it take to get from a starting point to a destination, based on your mode of transportation, time of day, etc?
+  - You might use the select menu to choose miles or kilometers
+  - Inputs might be distance in miles, miles per gallon, ...
 - **Pet Calculator** - How many cats/dogs should you own, based on things like your floor space, number of family members, & amount of free time?
+  - You could the select menu to choose a pet type. 
+  - inputs might be number of pets, free time, available area, ...
 - **Pokemon Calculator** - How much damage will a particular Pokemon move do, based on the Pokemon types, strength, defense, etc? If you want, check out this [Bulbapedia article](https://bulbapedia.bulbagarden.net/wiki/Damage) on calculating damage.
+  - Use the selecto menu to choose the Pokemon, or the type.
+  - Inputs might be: attack, defense, HP, power
 
 ## Starter Code
 
@@ -38,6 +47,16 @@ No starter code for this one! However, if you are having trouble getting started
 ### Deliverable
 
 Push your work to a GitHub repo, and then submit the repo to Gradescope!
+
+### Stretch Goals
+
+After completing the homework to the description above try these stretch challenges: 
+
+- Publish your work to GitHub Pages
+- Create a README for your repo
+- Document your code with comments
+- Set some CSS styles via JS based on the calculation
+  - For example: choosing a type (air, fire, water, etc.) might change the background color.
 
 ### Due date
 
