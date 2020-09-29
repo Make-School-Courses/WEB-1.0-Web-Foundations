@@ -20,7 +20,7 @@ Your site must have the following features:
 - Uses form with at least 3 inputs
   - One of those inputs must be a [select dropdown](https://www.w3schools.com/tags/tag_select.asp)
 - Uses all of the inputs to calculate the result
-- Result is calculated whenever an input is modified
+- Result is calculated whenever an input field is modified
 
 ## Project Ideas
 
