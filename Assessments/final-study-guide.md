@@ -1,6 +1,6 @@
 # Final Assessment Study Guide
 
-The final assessment for this course will be **Project Based**, which means you will be asked to complete a short project during the allotted time. For an example of what this may look like, check out the [Diagnostic Assessment](https://github.com/Make-School-Labs/web-assessment) project.
+The final assessment for this course will be **Project Based**, which means you will be asked to complete a short project during the allotted time. For an example of what this may look like, check out the course's [Diagnostic Assessment](https://github.com/Make-School-Labs/web-assessment).
 
 This assessment will be **Open Note**, which means you will be able to consult any notes, past projects, online resources, etc. However, you **may not** consult with any other person, either a classmate or otherwise.
 
