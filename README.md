@@ -49,9 +49,9 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  9 |  Thu, Sept 17 | [JavaScript Syntax](Lessons/08-JS-Intro.md) | [Slides](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) |  |
 | 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | [Slides](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8) Parts 1-6 |
 | 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | [Slides](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
-| 12 |  Tue, Sept 29 | Review / Lab | [Slides](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
-| 13 |  Thu, Oct 1   | - | - | - |
-| 14 |  Tue, Oct 6   | Final Assessment | - | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
+| 12 |  Tue, Sept 29 | Review / Lab | [Slides](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8) Parts 1-12 |
+| 13 |  Thu, Oct 1   | Review / Lab | [Slides](https://docs.google.com/presentation/d/1mwEcyFUCwQ11XfWJIw9NdwLxatnVwKtKBVH_uVlrjws/edit?usp=sharing) |  |
+| 14 |  Tue, Oct 6   | [Final Assessment](Assessments/final-study-guide.md) | - | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
 
 
 ## Evaluation

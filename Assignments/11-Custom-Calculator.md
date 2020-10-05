@@ -66,6 +66,6 @@ Class 14, Tue Oct 6
 
 | Expectations | Does not meet | Meets | Exceeds |
 |:-------------|:--------------|:------|:--------|
-| Completion | Your work is not complete | Your page is complete, and meets the description of the assignment | Besides meeting requirements in the base assignment you have tackled one or more of the stratch challenges outlined in the assignment. |
-| Code Quality | Your code is sloppy and lacks organization | Your code uses consistent indentation, spacing, and consistent coding style | Your code passes validation |
+| Completion | Your work is not complete, doesn't meet the description provided above. | Your page is complete, and meets the description of the assignment | Besides meeting requirements in the base assignment you have tackled one or more of the stretch challenges outlined in the assignment and or adds new features of your own invention not described above. |
+| Code Quality | Your code is sloppy and lacks organization. Naming of variables and functions is unintuitive. Formatting is inconsistent. | Your code uses consistent indentation, spacing, and consistent coding style. Names are well chosen and self documenting. | Your code passes validation, runs without errors or warnings. |
 | Design | Your design does not inspire you | Your design inspires you | Your design inspires others | 
