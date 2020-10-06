@@ -58,7 +58,7 @@ Add a heading h1 with the text:
 
 Create five inputs each **with an associated label**.
 
-The three labels should be labeled:
+The five labels should be labeled:
 
 1. Font Size 
 2. Font Family
