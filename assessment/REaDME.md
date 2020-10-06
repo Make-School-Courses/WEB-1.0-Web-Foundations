@@ -163,14 +163,32 @@ const inputSize = document.querySelector('#input-size')
 // The element that displays the value 
 const showSize = document.querySelector('#show-size')
 // Repeat this for the input and "show" elements
-``` 
+```
 
 Next you need to add an event listener that will listen for input events. In the handler function for the event set the style of the display to change the styles of the #display element. Then set the innerHTML of the #show elements to show the value in the code sample.
+
+```JS
+inputSize.addEventListener('input', handleInput)
+```
+
+Define a handler that sets style properties on the display element and displays those values in the code sample: 
+
+```JS
+function handleInput() {
+	// get the font size:
+	const fontSize = inputSize.value
+	// Set the style 
+	display.style.fontSize = fontSize
+	// Show the size
+	showSize.innerHTML = fontSize
+}
+```
 
 ## Stretch Goals 
 
 - Add more styles. 
 	- Imporve the look of the page over all. 
+		- The font styles especial for the code example could use some work.
 	- Place all of the content in the center.
 - Add more properties 
 	- Add another select that sets the font-weight values can be: bold, bolder, normal, and lighter. 
