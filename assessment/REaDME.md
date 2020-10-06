@@ -193,7 +193,7 @@ You need to repeat the process for the other properties:
 
 You also need to set the text of the #display element to the text that is entered into the textarea #enter-text. Take the value and set it as the innerHTML. 
 
-When you're done you should be able to enter the: font-size, color, font-family, and background-color and the values entered should change the appearance of the headline element, and show the CSS code that might be used to create this headline. 
+When you're done you should be able to enter the: font-size, color, font-family, and background-color and the values entered should change the appearance of the headline element, and show the CSS code that might be used to create this headline.
 
 ## Stretch Goals 
 
