@@ -176,7 +176,7 @@ Define a handler that sets style properties on the display element and displays 
 ```JS
 function handleInput() {
 	// get the font size:
-	const fontSize = inputSize.value
+	const fontSize = inputSize.value + 'px'
 	// Set the style 
 	display.style.fontSize = fontSize
 	// Show the size
