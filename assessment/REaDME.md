@@ -165,5 +165,14 @@ const showSize = document.querySelector('#show-size')
 // Repeat this for the input and "show" elements
 ``` 
 
-Next you need to add an event listener that will listen for input events. In the handler function for the event set the style of the display to change the styles of the #display element. Then set the innerHTML of the #show elements to show the value in the code sample. 
+Next you need to add an event listener that will listen for input events. In the handler function for the event set the style of the display to change the styles of the #display element. Then set the innerHTML of the #show elements to show the value in the code sample.
 
+## Stretch Goals 
+
+- Add more styles. 
+	- Imporve the look of the page over all. 
+	- Place all of the content in the center.
+- Add more properties 
+	- Add another select that sets the font-weight values can be: bold, bolder, normal, and lighter. 
+	- Add another select that sets the font-style values can be: normal, italic, oblique. 
+	- Add an input type number. Use this for the letter-spacing property.
