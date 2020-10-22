@@ -36,21 +36,23 @@ By the end of the course, you will be able to ...
 
 All assignments are due **by midnight (11:59pm) on the day specified.**
 
-| Class |   Date    |                 Topics                  | Assignment Due |
-|:-----:|:---------:|:---------------------------------------:|:--------------:|
-|  1 | Wed, Oct 21  | [Semantic HTML] | - |
-|  2 | Tue, Aug 25  | [HTML Attributes] | [Learn Semantic Markup](https://github.com/soggybag/learn-semantic-markup) |
-|  3 | Thu, Aug 27  | [Forms & the DOM] | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md) |
-|  4 | Tue, Sept 1  | [CSS Intro] | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
-|  5 | Thu, Sept 3  | [CSS Box Model] | [CSS Challenges](Assignments/041-CSS-Challenges.md) |
-|  6 | Tue, Sept 8  | [Flexbox] | [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
-|  7 | Thu, Sept 10 | [Review / Lab](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) |  |
-|  8 | Tue, Sept 15 | [JavaScript Intro](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
-|  9 | Thu, Sept 17 | [JavaScript Syntax](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) |  |
-| 10 | Tue, Sept 22 | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | - |
-| 11 | Thu, Sept 24 | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
-| 12 | Tue, Sept 29 | [Review / Lab](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
-| 14 | Tue, Oct 6   | [Final Assessment](Assessments/final-study-guide.md) | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
+| Class |   Date   |                 Topics                  | Assignment Due | Assessment |
+|:-----:|:--------:|:---------------------------------------:|:--------------:|:----------:|
+|  1 | Thu, Oct 22 | [Semantic HTML] | - |
+|  2 | Tue, Oct 27 | [HTML Attributes] | [Learn Semantic Markup](https://github.com/soggybag/learn-semantic-markup) |
+|  3 | Thu, Oct 29 | [Forms & the DOM] | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md) |
+|  - | Tue, Nov 3  | **Vote! - Civic Responsibility Break** | |
+|  4 | Thu, Nov 5  | [CSS Intro] | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
+|  5 | Tue, Nov 10 | [CSS Box Model] | [CSS Challenges](Assignments/041-CSS-Challenges.md) |
+|  6 | Thu, Nov 12 | [Flexbox] | [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
+|  7 | Tue, Nov 17 | [Review / Lab](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) | - |
+|  8 | Thu, Nov 19 | [JavaScript Intro](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
+|  9 | Tue, Nov 24 | [JavaScript Syntax](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) | - |
+|  - | Thu, Nov 26 | **Holiday- Thanksgiving** | |
+| 10 | Thu, Dec 1  | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | TBD |
+| 11 | Thu, Dec 3  | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 12 | Tue, Dec 8  | [Review / Lab](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
+| 14 | Tue, Dec 10 | [Final Assessment](Assessments/final-study-guide.md) | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
 
 [Semantic HTML]: https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing
 [HTML Attributes]: https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing
