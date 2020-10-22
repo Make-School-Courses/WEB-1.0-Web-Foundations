@@ -37,9 +37,13 @@ Mark up your content. Use the following tags.
 - [h1-6](https://www.w3schools.com/tags/tag_hn.asp)
 - [ul, li](https://www.w3schools.com/html/html_lists.asp)
 
-### Example
+### Videos
 
-[Here](https://github.com/meredithcat/html-portfolio/blob/master/index.html) is an example of a marked-up HTML page for a portfolio site. Yours does not need to include everything on this page - keep it simple! Please do not include any styles; we will get to those later. Only include HTML markup for this assignment.
+To help you complete this assignment, the following videos will walk you through creating a basic portfolio and adding semantic HTML tags:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/wTxHYtNVrEw"></iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/BoSkgteRoKg"></iframe>
 
 ### Deliverable
 
@@ -47,26 +51,15 @@ You must submit your `index.html` to Gradescope. Find the assignment in your lis
 
 ### Due date
 
-Class 2 - Tue, Aug 25, 11:59 PM
+Class 2
 
 ## Assessing the assignment
 
-# WEB 1.0 - Semantic Markup - Rubric 
+Your assignment will be graded according to the following rubric:
 
-| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
-|:-------|:------------------|:----------|:------------|
-| **Completion** | Your portfolio site is non-existent or doesn't include the elements described above | Your portfolio contains all of the elements described above | The content of your posrtfolio is spell checked and reviewed. |
-| **Quality** | Your markup lacks semantic relevance | Your markup was carefully chosen to add semantic relavance to the content| You've used the widest range of tags to add the greatest meaning to the content |
-| **Code Quality** | Your code written with an inconsistent style | Your code is written with a consistent style through out | Your code is reads well, is well organized, and well commented |
-
-## Assessing the learning Objectives 
-
-# WEB 1.0 - Semantic Markup - Rubric 
-
-| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
-|:-------|:------------------|:----------|:------------|
-| **Semantic markup** | Can not describe semantic markup | Can describe semantic markup | Completed stretch challenges |
-| **Using HTML** | Can not markup documents with common tags without reference | Can markup documents with common tags without reference | Can easily predict and identify tags that best describe content |
-| **Code Quality** | Can not write HTML from memory with the correct syntax | Can write HTML from memory with no reference | - |
-
-
+| Score | Rating | Program Correctness | Code Quality |
+| :---: | :----: | :---------: | :----------: |
+| **1** | **Needs Improvement** | Required sections of submission are largely missing or not functional. | Code is messy and hard to follow. Indentation is not properly used. |
+| **2** | **Basic** | Most of the content is present, but some may be missing or use tags incorrectly. | Some of the code is messy and hard to follow. Code includes TODOs. |
+| **3** | **Proficient** | All of the page content is present and demonstrates clear mastery of the concepts presented. | Code is clear and easy to follow. Submitted code does not include TODOs. |
+| **4** | **Advanced** | Stretch challenges are complete and demonstrate an advanced understanding of the concepts presented. | N/A |

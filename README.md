@@ -16,7 +16,7 @@ None
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 14 sessions
+**Course Delivery**: online | 7 weeks | 13 sessions
 
 **Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
@@ -36,23 +36,28 @@ By the end of the course, you will be able to ...
 
 All assignments are due **by midnight (11:59pm) on the day specified.**
 
-| Class |   Date    |                 Topics                  | Slides | Assignment Due |
-|:-----:|:---------:|:---------------------------------------:|:------:|:--------------:|
-|  1 |  Thu, Aug 20  | [Semantic HTML](Lessons/01-Semantic-HTML.md) | [Slides](https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing) | |
-|  2 |  Tue, Aug 25  | [HTML Attributes](Lessons/02-HTML-Attributes.md) | [Slides](https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing) |  |
-|  3 |  Thu, Aug 27  | Forms & the DOM | [Slides](https://docs.google.com/presentation/d/1EW68FKT3KHE9dgr4Y1J9inthdw2aGLL8eEn1Phxbgdo/edit?usp=sharing) | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md)<br>-AND-<br>[Learn Semantic Markup](https://github.com/soggybag/learn-semantic-markup) |
-|  4 |  Tue, Sept 1  | [CSS Intro](Lessons/03-CSS-Intro.md) | [Slides](https://docs.google.com/presentation/d/1BlnHQLA6dixDPMYDbO__L39tRPoG7fx-HNjzZJr3B4I/edit?usp=sharing) | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
-|  5 |  Thu, Sept 3  | [CSS Box Model](Lessons/04-CSS-Box-Model.md) |  [Slides](https://docs.google.com/presentation/d/1krVRtqA_yxW-O98bUWBguIEucS1zMSUp-hMGGHaEzM4/edit?usp=sharing) | [CSS Challenges Part 1](Assignments/041-CSS-Challenges.md) |
-|  6 |  Tue, Sept 8  | [Flexbox](Lessons/05-CSS-Grid.md) | [Slides](https://docs.google.com/presentation/d/1PNIxUwJSdJf7aw-h9LYec0DKgNpjB-4ZmAtMVBPNAnk/edit?usp=sharing) | [CSS Challenges Part 2](Assignments/042-CSS-Challenges-part-2.md) <br>-AND-<br> [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
-|  7 |  Thu, Sept 10 | Review / Lab | [Slides](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) |  |
-|  8 |  Tue, Sept 15 | JavaScript Intro | [Slides](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
-|  9 |  Thu, Sept 17 | [JavaScript Syntax](Lessons/08-JS-Intro.md) | [Slides](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) |  |
-| 10 |  Tue, Sept 22 | [JavaScript in the DOM](Lessons/09-JS-in-the-DOM.md) | [Slides](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8) Parts 1-6 |
-| 11 |  Thu, Sept 24 | [JavaScript Objects](Lessons/11-JS-Objects.md) | [Slides](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
-| 12 |  Tue, Sept 29 | Review / Lab | [Slides](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | [Mood Shop Tutorial](https://www.makeschool.com/academy/track/ecommerce-tutorial-wd8) Parts 1-12 |
-| 13 |  Thu, Oct 1   | Review / Lab | [Slides](https://docs.google.com/presentation/d/1mwEcyFUCwQ11XfWJIw9NdwLxatnVwKtKBVH_uVlrjws/edit?usp=sharing) |  |
-| 14 |  Tue, Oct 6   | [Final Assessment](Assessments/final-study-guide.md) | - | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
+| Class |   Date    |                 Topics                  | Assignment Due |
+|:-----:|:---------:|:---------------------------------------:|:--------------:|
+|  1 | Wed, Oct 21  | [Semantic HTML] | - |
+|  2 | Tue, Aug 25  | [HTML Attributes] | [Learn Semantic Markup](https://github.com/soggybag/learn-semantic-markup) |
+|  3 | Thu, Aug 27  | [Forms & the DOM] | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md) |
+|  4 | Tue, Sept 1  | [CSS Intro] | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
+|  5 | Thu, Sept 3  | [CSS Box Model] | [CSS Challenges](Assignments/041-CSS-Challenges.md) |
+|  6 | Tue, Sept 8  | [Flexbox] | [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
+|  7 | Thu, Sept 10 | [Review / Lab](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) |  |
+|  8 | Tue, Sept 15 | [JavaScript Intro](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
+|  9 | Thu, Sept 17 | [JavaScript Syntax](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) |  |
+| 10 | Tue, Sept 22 | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | - |
+| 11 | Thu, Sept 24 | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 12 | Tue, Sept 29 | [Review / Lab](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
+| 14 | Tue, Oct 6   | [Final Assessment](Assessments/final-study-guide.md) | [Custom Calculator](Assignments/11-Custom-Calculator.md) |
 
+[Semantic HTML]: https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing
+[HTML Attributes]: https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing
+[Forms & the DOM]: https://docs.google.com/presentation/d/1EW68FKT3KHE9dgr4Y1J9inthdw2aGLL8eEn1Phxbgdo/edit?usp=sharing
+[CSS Intro]: https://docs.google.com/presentation/d/1BlnHQLA6dixDPMYDbO__L39tRPoG7fx-HNjzZJr3B4I/edit?usp=sharing
+[CSS Box Model]: https://docs.google.com/presentation/d/1krVRtqA_yxW-O98bUWBguIEucS1zMSUp-hMGGHaEzM4/edit?usp=sharing
+[Flexbox]: https://docs.google.com/presentation/d/1PNIxUwJSdJf7aw-h9LYec0DKgNpjB-4ZmAtMVBPNAnk/edit?usp=sharing
 
 ## Evaluation
 
