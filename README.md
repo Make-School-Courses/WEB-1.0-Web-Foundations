@@ -43,7 +43,7 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  3 | Thu, Oct 29 | [Forms & the DOM] | [Portfolio Part 1: Semantic Markup](Assignments/01-Portfolio-Part-1-Structure.md) |
 |  - | Tue, Nov 3  | **Vote! - Civic Responsibility Break** | - |
 |  4 | Thu, Nov 5  | [CSS Intro] | [Learn Markup Level 2](https://github.com/soggybag/learn-markup-level-2) |
-|  5 | Tue, Nov 10 | [CSS Box Model] | [CSS Challenges](Assignments/041-CSS-Challenges.md) | **Quiz 1** |
+|  5 | Tue, Nov 10 | [CSS Box Model] | [CSS Challenges](Assignments/041-CSS-Challenges.md) | [**Quiz 1**](Assessments/quiz-1-study-guide.md) |
 |  6 | Thu, Nov 12 | [Flexbox] | [Style Your Portfolio](Assignments/043-CSS-Portfolio.md) |
 |  7 | Tue, Nov 17 | [Review / Lab](https://docs.google.com/presentation/d/16Ws8URFLGMT6GjJ9siyyUzlCilzNsqyMtX57Ta-JMaw/edit?usp=sharing) | - |
 |  8 | Thu, Nov 19 | [JavaScript Intro](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
