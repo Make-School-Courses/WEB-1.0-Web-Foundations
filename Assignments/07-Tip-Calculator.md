@@ -132,7 +132,7 @@ When you get a value like this from an input it will always be a string, even if
 For example: 
 
 ```js 
-const const percent = parseInt(tipInput.value)
+const percent = parseInt(tipInput.value)
 ```
 
 You need to get the bill, tip, and number of people to calculate the tip. Calculate the tip using something like the following: 
