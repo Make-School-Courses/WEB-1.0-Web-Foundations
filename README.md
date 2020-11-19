@@ -49,8 +49,8 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 |  8 | Thu, Nov 19 | [JavaScript Intro](https://docs.google.com/presentation/d/1rrh3R_CEa4w7i2bPMPdFiiolAehjUC84Ok8e08xIE4A/edit?usp=sharing) | [Single Page Site](Assignments/05-Single-Page-Site.md) |
 |  9 | Tue, Nov 24 | [JavaScript Syntax](https://docs.google.com/presentation/d/1RSvgb_k1FI09G3l4-h2o8kcvfSOyS4Hc8lhCUD-aFwU/edit) | - | [**Quiz 2**](Assessments/quiz-2-study-guide.md) |
 |  - | Thu, Nov 26 | **Holiday - Thanksgiving** | - |
-| 10 | Tue, Dec 1  | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | TBD |
-| 11 | Thu, Dec 3  | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 10 | Tue, Dec 1  | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
+| 11 | Thu, Dec 3  | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | TBD |
 | 12 | Tue, Dec 8  | [Review / Lab](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
 | 13 | Thu, Dec 10 | Lab Day | [Custom Calculator](Assignments/11-Custom-Calculator.md) | **Quiz 3** |
 
