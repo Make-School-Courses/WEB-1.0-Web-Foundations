@@ -52,7 +52,7 @@ All assignments are due **by midnight (11:59pm) on the day specified.**
 | 10 | Tue, Dec 1  | [JavaScript in the DOM](https://docs.google.com/presentation/d/1lIuqqUQsM2eiXSa-aQVe4ZVlRZ5pDrZoDSTo_JCARlY/edit) | - |
 | 11 | Thu, Dec 3  | [JavaScript Objects](https://docs.google.com/presentation/d/13IvjmIzSDkCUEH0uxd7er7e3ZxFZY206a0fNwxst7bs/edit?usp=sharing) | [Tip Calculator](Assignments/07-Tip-Calculator.md) |
 | 12 | Tue, Dec 8  | [Review / Lab](https://docs.google.com/presentation/d/1IJqx1-w7Q-DyRFiXIRHMlGoJ1GZXXateZOK7aAxyzCQ/edit?usp=sharing) | - |
-| 13 | Thu, Dec 10 | Lab Day | [Custom Calculator](Assignments/11-Custom-Calculator.md) | **Quiz 3** |
+| 13 | Thu, Dec 10 | Lab Day | [Custom Calculator](Assignments/11-Custom-Calculator.md) | [**Quiz 3**](Assessments/quiz-3-study-guide.md) |
 
 [Semantic HTML]: https://docs.google.com/presentation/d/1N4lM8Iwa5VEeeCLw-5QyJgsUkyMakVOLWw8Nx-DGrGI/edit?usp=sharing
 [HTML Attributes]: https://docs.google.com/presentation/d/1Cb60k46G3NmK7qyoiGpHzo8FMGRcvrk97XgLfmQn78Y/edit?usp=sharing
